@@ -29,7 +29,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2 mb-8">
           <div className="flex items-center">
             <Image
-              alt="Abhijt Ramesh"
+              alt="Shashank Priyadarshi"
               height={24}
               width={24}
               src="/avatar.jpg"

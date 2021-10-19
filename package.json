@@ -1,16 +1,16 @@
 {
-  "name": "abhijitramesh.me",
+  "name": "iamsh4shank.me",
   "description": "My personal website.",
   "version": "0.0.0",
   "author": {
-    "name": "Abhijit Ramesh",
-    "email": "abhijitramesh2k@gmail.com",
-    "url": "https://abhijitrames.me"
+    "name": "Shashank Priyadarshi",
+    "email": "s.priyadarshi629@gmail.com",
+    "url": "https://iamsh4shank.me"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abhijitramesh/abhijitramesh.github.io"
+    "url": "git+https://github.com/iamsh4shank/iamsh4shank.github.io"
   },
   "scripts": {
     "build": "next build",
