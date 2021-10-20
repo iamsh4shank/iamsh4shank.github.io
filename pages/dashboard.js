@@ -28,12 +28,7 @@ export default function Projects() {
           <p className="text-gray-600 dark:text-gray-400 mb-4">
             This is personal dashboard, I use this to track
             various metrics across platforms like GitHub, Twitter and
-            more. Want to build your own? Check out my&nbsp;
-            <Link href="/blog/fetching-data-with-swr">
-              <a className="text-gray-900 dark:text-gray-100 underline">
-                blog series.
-              </a>
-            </Link>
+            more.
           </p>
         </div>
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full">
@@ -77,6 +72,7 @@ export default function Projects() {
           icon="emotion"
         />
              {isShowingFullProjects ? (
+               <>
                <div>
         <ProjectCard
           title="Imfusion"
@@ -100,6 +96,26 @@ export default function Projects() {
         />
         <Divider />
         </div>
+        <button
+        type="button"
+        className="flex items-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 dark:text-gray-100"
+        onClick={() => showFullProject(false)}
+      >
+        See Less 
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        width="22" 
+        height="22" 
+        viewBox="0 0 24 24" 
+        fill="none" 
+        stroke="currentColor" >
+          <path 
+          stroke-width={2} 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          d="M18 15l-6-6-6 6"/>
+          </svg>
+      </button>
+      </>
       ) : (
         <button
           type="button"
@@ -107,20 +123,17 @@ export default function Projects() {
           onClick={() => showFullProject(true)}
         >
           See More
-          <svg
-            className="h-4 w-4 ml-1"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" 
+          width="22" height="22" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor">
+            <path 
+            stroke-width={2}
+            stroke-linecap="round" 
+            stroke-linejoin="round"
+            d="M6 9l6 6 6-6"/>
+            </svg>
         </button>
       )}
       </div>

@@ -14,12 +14,12 @@
   ],
   "redirects": [
     {
-      "source": "/LeeRobinson.pdf",
-      "destination": "/robinson-resume-2019.pdf"
+      "source": "/docs/cv.pdf",
+      "destination": "https://iamsh4shank.github.io/docs/cv.pdf"
     },
     {
-      "source": "/projects",
-      "destination": "/about"
+      "source": "/docs/resume.pdf",
+      "destination": "https://iamsh4shank.github.io/docs/resume.pdf"
     },
     {
       "source": "/blog/now-env-variables-size-limit",

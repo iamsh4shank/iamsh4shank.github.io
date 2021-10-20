@@ -13,21 +13,21 @@ export default function Home({ videos }) {
       <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
-            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
+            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-3 text-black dark:text-white">
               Shashank Priyadarshi
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
               Member and Mentor {''}
               <a href="https://amfoss.in"><span className="font-semibold" >@amFOSS</span></a>
             </h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-16">
+            <p className="text-gray-600 dark:text-gray-400 mb-8">
               A developer, exploring Deep Learning and computer vision. 
               Ask me about Open-Source, Android, Python, or Machine Learning. 
-              <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+              <div className="mb-0 prose leading-2 text-gray-600 dark:text-gray-400">
           <p>
             Checkout my CV&nbsp;
             <a
-              href="https://iamsh4shank.github.io/"
+              href="https://iamsh4shank.github.io/docs/cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -35,26 +35,6 @@ export default function Home({ videos }) {
             </a>
           </p>
           </div>
-              <div className="mt-3">
-                <div className="flex flex-row">
-                  <div className="col-auto">
-            
-            <a href="https://github.com/iamsh4shank"><img src="https://img.icons8.com/color-glass/344/github.png" height = "7px" width="22px"/></a>
-            </div>
-            <div className="col-auto ml-3">
-            <a href="https://www.gitlab.com/iamsh4shank"><img src="https://seeklogo.com/images/G/gitlab-logo-757620E430-seeklogo.com.png" height = "7px" width="22px"/></a>
-            </div>
-            <div className="col-auto ml-3">
-            <a href="https://www.linkedin.com/in/iamsh4shank/"><img src="https://seeklogo.com/images/L/linkedin-in-icon-logo-2E34704F04-seeklogo.com.png" height = "7px" width="22px"/></a>
-            </div>
-            <div className="col-auto ml-3">
-            <a href="mailto:s.priyadarshi629@gmail.com"><img src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" height = "7px" width="22px"/></a>
-            </div>
-            <div className="col-auto ml-3">
-            <a href="https://www.twitter.com/iamsh4shank"><img src="https://seeklogo.com/images/T/twitter-2012-positive-logo-916EDF1309-seeklogo.com.png" height = "7px" width="22px"/></a>
-            </div>
-            </div>
-        </div>
             </p>
           </div>
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">

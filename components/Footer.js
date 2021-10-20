@@ -24,16 +24,17 @@ export default function Footer() {
           <Link href="/blog">
             <a className="text-gray-500 hover:text-gray-600 transition">Blog</a>
           </Link>
-          <Link href="/dashboard">
-            <a className="text-gray-500 hover:text-gray-600 transition">Dashboard</a>
+          <Link href="/uses">
+            <a className="text-gray-500 hover:text-gray-600 transition">Uses</a>
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
-        <Link href="/uses">
-            <a className="text-gray-500 hover:text-gray-600 transition">Uses</a>
-          </Link>
+
           <ExternalLink href="https://www.linkedin.com/in/iamsh4shank/">
             Linkedin
+          </ExternalLink>
+          <ExternalLink href="https://gitlab.com/iamsh4shank">
+            GitLab
           </ExternalLink>
           <ExternalLink href="https://github.com/iamsh4shank">GitHub</ExternalLink>
         </div>
