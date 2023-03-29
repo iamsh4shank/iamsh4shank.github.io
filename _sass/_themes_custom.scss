@@ -1,0 +1,66 @@
+/*******************************************************************************
+ * ADDED: Custom colors
+ ******************************************************************************/
+
+// Day theme colors
+$purple-color:        #B509AC !default;                        // orange 900 material.io
+$light-purple-color:  lighten($purple-color, 25%);                       // orange 500 material.io
+// $light-burnt-orange-color:    lighten($burnt-orange-color, 10%);
+
+// Night theme colors
+$cyan-color:          #2698BA !default;
+$dark-cyan-color:      darken($cyan-color, 10%); 
+$card-grey-color:              #212121 !default;
+
+
+/*******************************************************************************
+ * ADDED: Custom theme
+ ******************************************************************************/
+
+ :root {
+  --global-bg-color: #{$white-color};
+  --global-code-bg-color: #{$code-bg-color-light};
+  --global-text-color: #{$black-color};
+  --global-text-color-light: #{$grey-color};
+  --global-theme-color: #{$purple-color};
+  --global-hover-color: #{$light-purple-color};
+  --global-footer-bg-color: #{$grey-color-light};
+  --global-footer-text-color: #{$grey-color-dark};
+  --global-footer-link-color: #{$black-color};
+  --global-distill-app-color: #{$grey-color};
+  --global-divider-color: #{$purple-color};
+  --global-card-bg-color: #{$white-color};
+
+  .fa-sun {
+    display : none;
+  }
+  .fa-moon {
+    padding-left: 10px;
+    padding-top: 12px;
+    display : block;
+  }
+}
+
+html[data-theme='dark'] {
+  --global-bg-color: #{$grey-color-exdark};
+  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-text-color: #{$grey-color-light};
+  --global-text-color-light: #{$grey-color};
+  --global-theme-color: #{$cyan-color};
+  --global-hover-color: #{$dark-cyan-color};
+  --global-footer-bg-color: #{$grey-color-dark1};
+  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-link-color: #{$white-color};
+  --global-distill-app-color: #{$grey-color-light};
+  --global-divider-color: #{$cyan-color};
+  --global-card-bg-color: #{$card-grey-color};
+
+  .fa-sun {
+    padding-left: 10px;
+    padding-top: 12px;
+    display : block;
+  }
+  .fa-moon {
+    display : none;
+  }
+}

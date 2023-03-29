@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Imfusion | Shashank  Priyadarshi</title>
+    <meta name="author" content="Shashank  Priyadarshi">
+    <meta name="description" content="An Open Source image fusion desktop app which supports image fusion using Discrete wavelet transformation.">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/android-chrome-512x512.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/projects/Imfusion/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Shashank </span>Priyadarshi</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li>
+
+              <!-- CV -->
+              <li class="nav-item ">
+                <a class="nav-link" href="https://iamsh4shank.github.io/docs/cv.pdf" rel="external nofollow noopener" target="_blank">cv
+                </a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">repositories</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Imfusion</h1>
+            <p class="post-description"></p>
+          </header>
+
+          <article>
+            <h1 id="imfusion">Imfusion</h1>
+
+<p>An Open Source image fusion desktop app. It supports image fusion using Discrete wavelet transformation.</p>
+
+<h3 id="what-is-image-fusion">What is Image Fusion</h3>
+
+<p>Image fusion combines the information of two or more images which are of the same time ans same scene to generate more detailed image than the individual images. For example,combining two photos of the same scene with each photo having different things on focus, if in first photo one or more objects are in focus and in second image other objects.The MRI and the CT scans are based on this. The CT scan just reveals the bone structure and hard tissues and the MRI reveals the soft tissues of brain which is used to detect disease affecting the skull base.Since these both scans provide different information individually each of them are not as useful as they are when they combined. The full potential of these scans can be used when the important features of each scan can be fused using image fusion which generates a better result containing of best features of both the scan.</p>
+
+<table>
+<tr>
+    <td>
+        <img height="150" src="https://raw.githubusercontent.com/iamsh4shank/Imfusion/main/screenshots/medical1.png"><br><center><b>CT scan</b></center>
+    </td>
+    <td>
+        <img height="150" src="https://raw.githubusercontent.com/iamsh4shank/Imfusion/main/screenshots/medical2.png"><br><center><b>MRI scan </b></center>
+    </td> 
+    <td>
+        <img height="150" src="https://raw.githubusercontent.com/iamsh4shank/Imfusion/main/screenshots/out1956.jpg"><br><center><b>Fused Image</b></center>
+    </td>
+</tr>
+</table>
+
+<h3 id="what-is-discrete-wavelet-transformation">What is Discrete Wavelet Transformation</h3>
+
+<p>Wavelet is a component which is used to divide a function into various scale components. Each scale can be studied to provide some deeper information regarding the actual information. The DWT is based on sub-band which yields fast computation for transformation. It has so many applications in Digital Image processing like image compression, fusion, recognition, denoising, etc. Wavelets are powerful tool and they are now being adopted for vast number of applications. Extracting more information from the image is an important task which we can do to get maximum from an image. It is used to improve resolution of the images, here first the images are decomposed into its sub-images using various coefficients and with different frequency. After processing and applying the desired operation we again reconstruct the image to get more plentiful information.</p>
+
+<table>
+
+<tr>
+    <td>
+<img height="250" src="https://github.com/iamsh4shank/Imfusion/blob/main/screenshots/fusionAlgo.png?raw=true"><br><center><b>Fusion workflow</b></center>
+    </td>
+</tr>
+</table>
+
+<h3 id="tech-stack-and-libraries-used--">Tech stack and libraries used -</h3>
+<ul>
+  <li>PyQt5</li>
+  <li>Python3</li>
+  <li>Pywt</li>
+  <li>Matplotlib</li>
+  <li>Cv2</li>
+  <li>NumPy</li>
+</ul>
+
+<h3 id="how-to-build">How to build</h3>
+<p>For builidng this you need to run <code class="language-plaintext highlighter-rouge">python3 imfusion_main.py</code>. This will open a desktop app which will provide you to select various features like <code class="language-plaintext highlighter-rouge">image restoration</code>, <code class="language-plaintext highlighter-rouge">image mixing</code>, <code class="language-plaintext highlighter-rouge">face morphing</code> and then ask you to insert the image in which it will work on. Make sure you installed all the required libraries. You can install the libraries by running requirements.txt - <code class="language-plaintext highlighter-rouge">pip3 install -r requirements.txt</code>.</p>
+
+<h3 id="screenshots">Screenshots</h3>
+
+<table>
+    <tr>
+          <td>
+<img height="400" width="500" src="https://github.com/robustTechie/Imfusion/blob/main/screenshots/Screenshot%20from%202020-12-24%2014-02-38.png?raw=true"><br><center><b>Desktop app</b></center>
+</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <img height="150" src="https://github.com/robustTechie/Imfusion/blob/main/screenshots/s2.png?raw=true"><br><center><b>Faulty Image 1</b></center>
+        </td>
+        <td>
+            <img height="150" src="https://github.com/robustTechie/Imfusion/blob/main/screenshots/s1.png?raw=true"><br><center><b>Faulty Image 2</b></center>
+        </td>
+        <td>
+            <img height="150" src="https://raw.githubusercontent.com/iamsh4shank/Imfusion/main/screenshots/Screenshot%20from%202020-12-21%2002-23-39.png"><br><center><b>Fused image</b></center>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <img height="150" src="https://github.com/robustTechie/Imfusion/blob/main/screenshots/person1.png?raw=true"><br><center><b>Image 1</b></center>
+        </td>
+        <td>
+            <img height="150" src="https://github.com/robustTechie/Imfusion/blob/main/screenshots/person2.png?raw=true"><br><center><b>Image 2</b></center>
+        </td>
+        <td>
+            <img height="150" src="https://github.com/iamsh4shank/Imfusion/blob/main/screenshots/Screenshot%20from%202020-12-21%2002-15-37.png?raw=true"><br><center><b>Fused image</b></center>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <img height="150" src="https://github.com/robustTechie/Imfusion/blob/main/screenshots/Screenshot%20from%202020-12-22%2015-13-02.png?raw=true"><br><center><b>Face 1</b></center>
+        </td>
+        <td>
+            <img height="150" src="https://github.com/robustTechie/Imfusion/blob/main/screenshots/Screenshot%20from%202020-12-22%2015-13-10.png?raw=true"><br><center><b>Face 2</b></center>
+        </td>
+        <td>
+            <img height="150" src="https://github.com/robustTechie/Imfusion/blob/main/demo/out1762.jpg?raw=true"><br><center><b>Fused image</b></center>
+        </td> 
+    </tr>
+</table>
+
+<h3 id="todo">Todo</h3>
+<ul>
+  <li>Add change operation support</li>
+  <li>Add other algorithm support like DCT and PCA</li>
+</ul>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Shashank  Priyadarshi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
