@@ -6,4 +6,4 @@ inline: false
 related_posts: false
 ---
 
-After writing so any engineering entrance exams :P finally landed to Amrita School of Engineering for my majors in Computer Science engineering with specilization in AI.
+Joined Amrita School of Engineering for my Bachelors in Computer Science engineering with specilization in AI.

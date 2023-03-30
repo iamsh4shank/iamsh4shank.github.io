@@ -171,6 +171,11 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+table tbody {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
+}
 table td,
 table th {
   color: var(--global-text-color);

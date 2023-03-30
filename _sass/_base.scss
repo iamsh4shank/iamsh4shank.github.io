@@ -24,6 +24,11 @@ hr {
 }
 
 table {
+  tbody {
+    display:block;
+    max-height:400px;
+    overflow-y:auto; 
+  }
 
   td,
   th {
