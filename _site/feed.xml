@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-30T04:20:22+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-30T11:50:11+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">The year with new learnings: 2021</title><link href="http://localhost:4000/blog/2021/year-review_2021/" rel="alternate" type="text/html" title="The year with new learnings: 2021" /><published>2021-12-19T21:29:00+05:30</published><updated>2021-12-19T21:29:00+05:30</updated><id>http://localhost:4000/blog/2021/year-review_2021</id><content type="html" xml:base="http://localhost:4000/blog/2021/year-review_2021/"><![CDATA[<p>Heyo everyone, so I hope you know me, if not so go and check my <a href="https://iamsh4shank.github.io/">profile</a> :D 
 Ok, so I wanted to write a <strong>YEAR</strong> in <strong>REVIEW</strong>, just to review my work of 2021. So honestly before 
 writing I didn’t have any idea on how to write a year in review so I checked a few online resources to 
@@ -9,6 +9,10 @@ to give any suggestions.</p>
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review/year_review-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review/year_review-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review/year_review-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -78,6 +82,10 @@ discussions, and other stuff to keep me motivated and busy throughout this year,
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review/todo-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review/todo-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review/todo-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/year-review/todo.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -138,6 +146,10 @@ reading a book for learning web dev, or how to cook, how to invest money, or how
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review/year_travel-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review/year_travel-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review/year_travel-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/year-review/year_travel.jpg" class="img-fluid rounded z-depth-1" width="500" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -159,6 +171,10 @@ be more regular, be more a team guy, a lot of stuff are there which I am plannin
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_cover-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_cover-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_cover-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part5_nn_dl/part5_cover.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -179,6 +195,10 @@ be more regular, be more a team guy, a lot of stuff are there which I am plannin
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_11-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_11-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_11-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -206,6 +226,10 @@ Inference = What we want to know</p>
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_12-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_12-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_12-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part5_nn_dl/part5_12.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -224,6 +248,10 @@ Matrix - [What we know]</p>
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_13-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_13-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_13-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part5_nn_dl/part5_13.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -241,6 +269,10 @@ Matrix - [What we know]</p>
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_14-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_14-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_14-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -304,6 +336,10 @@ for iteration in range(40):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_15-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_15-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_15-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part5_nn_dl/part5_15.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -319,6 +355,10 @@ for iteration in range(40):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_16-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_16-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_16-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -345,6 +385,10 @@ for iteration in range(40):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_17-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_17-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_17-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part5_nn_dl/part5_17.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -363,6 +407,10 @@ The main thing why we want a two-layered network is because there is no direct c
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_1-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -390,6 +438,10 @@ So as we discussed most of the stuff like over the layer we move in the same way
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_2-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -439,6 +491,10 @@ for iteration in range(60):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_i-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_i-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_i-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part4_nn_dl/part4_i.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -456,6 +512,10 @@ for iteration in range(60):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/nn_part2_8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/nn_part2_8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/nn_part2_8-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -482,6 +542,10 @@ for iteration in range(60):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_i1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_i1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_i1-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -545,6 +609,10 @@ for i in range(len(weights)):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_i2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_i2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_i2-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part4_nn_dl/part4_i2.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -562,6 +630,10 @@ for i in range(len(weights)):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/nn_part2_9-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/nn_part2_9-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/nn_part2_9-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -617,6 +689,10 @@ print("Weight Deltas:" + str(weight_deltas))
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/nn_part2_10-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/nn_part2_10-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/nn_part2_10-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -698,6 +774,10 @@ for i in range(len(weights)):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_6-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part4_nn_dl/part4_6.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -714,6 +794,10 @@ for i in range(len(weights)):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_3-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -732,6 +816,10 @@ for i in range(len(weights)):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_4-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part4_nn_dl/part4_4.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -748,6 +836,10 @@ for i in range(len(weights)):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_5-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -767,6 +859,10 @@ for i in range(len(weights)):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_8-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -799,6 +895,10 @@ for i in range(len(weights)):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_1-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part3_nn_dl/3_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -826,6 +926,10 @@ for i in range(len(weights)):
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_3-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part3_nn_dl/3_3.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -847,6 +951,10 @@ for i in range(len(weights)):
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_4-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -883,6 +991,10 @@ then all of a sudden weight changes directions! When input is negative, moving w
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_6-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -938,6 +1050,10 @@ then all of a sudden weight changes directions! When input is negative, moving w
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_5-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part3_nn_dl/3_5.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -973,6 +1089,10 @@ then all of a sudden weight changes directions! When input is negative, moving w
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2.jpeg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1000,6 +1120,10 @@ DL is the subset of ML, it uses ANN which resembles with the human brain. It has
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1015,6 +1139,10 @@ DL is the subset of ML, it uses ANN which resembles with the human brain. It has
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1033,6 +1161,10 @@ DL is the subset of ML, it uses ANN which resembles with the human brain. It has
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1065,6 +1197,10 @@ Here we have a fixed number of knobs or parameters. Based on these parameters it
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1084,6 +1220,10 @@ It is similar to supervised parametric learning but here we adjust the fixed kno
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1097,6 +1237,10 @@ It is similar to supervised parametric learning but here we adjust the fixed kno
         <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_6-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1121,6 +1265,10 @@ It uses a flexible number of parameters, and the number of parameters often grow
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1149,6 +1297,10 @@ It uses a flexible number of parameters, and the number of parameters often grow
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1203,6 +1355,10 @@ print(pred)
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1223,6 +1379,10 @@ print(pred)
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1239,6 +1399,10 @@ print(pred)
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1283,6 +1447,10 @@ print(pred)
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner.jpeg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1304,6 +1472,10 @@ Then it would be very hard for us to carry out this conversion. So now we’ll u
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1322,6 +1494,10 @@ Assume that we need to predict the taxi fare price based on some parameters like
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1338,6 +1514,10 @@ Assume that we need to predict the taxi fare price based on some parameters like
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_3-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1507,6 +1687,10 @@ executives from the industry. Click here to know more about <a href="https://hac
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse2-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/hackverse/hackverse2.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1532,6 +1716,10 @@ Beats( Golang ), Logstash (java).</p>
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse3-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1560,6 +1748,10 @@ Jet Brains, etc.</p>
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse6-1400.webp" />
+    
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/hackverse/hackverse6.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
@@ -1578,6 +1770,10 @@ of the ground.</p>
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse4-1400.webp" />
     
 
     <!-- Fallback to the original file -->
@@ -1634,6 +1830,10 @@ relationship between points on the face, based on curated databases compiled in 
     <figure>
 
   <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse1.JPG-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse1.JPG-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse1.JPG-1400.webp" />
     
 
     <!-- Fallback to the original file -->
