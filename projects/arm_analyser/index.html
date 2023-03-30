@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arm Analyser | Shashank  Priyadarshi</title>
+    <meta name="author" content="Shashank  Priyadarshi">
+    <meta name="description" content="A 2 DOF robotic arm simulation">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/android-chrome-512x512.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://iamsh4shank.github.io/projects/arm_analyser/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Shashank </span>Priyadarshi</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li>
+
+              <!-- CV -->
+              <li class="nav-item ">
+                <a class="nav-link" href="https://iamsh4shank.github.io/docs/cv.pdf">cv
+                </a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">repositories</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Arm Analyser</h1>
+            <p class="post-description"></p>
+          </header>
+
+          <article>
+            <h1 id="arm_analyser">Arm_analyser</h1>
+
+<p>An arm analyser is a robotic arm with a proper trajectory fed with clock input and a 3D viewer using Simulink. To do this task, a trajectory planner and a mechanical model, which deals with constraints, i.e. collisions among the arm joints and objects, is used. Also, a 3D viewer, called Simulink 3D, is used to visualize the motion of the arm. The simulation of a custom robotic arm was done to gain experience with some nice features of MATLAB and Simulink for robot programming.</p>
+
+<h1 id="what-is-a-2-dof-manipulator-wrench">What is a 2 DOF manipulator <img class="emoji" title=":wrench:" alt=":wrench:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" height="20" width="20">
+</h1>
+
+<p>The 2-DOF robot manipulator is a mechanical system that uses several computer-controller serial chains to support a single platform or end-effector. The solutions to the kinematics problem of any robot manipulators have two types -</p>
+<ul>
+  <li>Forward kinematic</li>
+  <li>Inverse kinematics.</li>
+</ul>
+
+<p>In forward kinematics, the end-effector position and orientation are determined from the given set of joint angles whereas, in inverse kinematics, it operates just the opposite of forward.</p>
+
+<table>
+     <tr>
+          <td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/forwardKin.png"><br><center><b>Forward Kinematics</b></center>
+</td>
+          <td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/inverseKin.png"><br><center><b>Inverse Kinematics</b></center>
+</td>
+<td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/manipulator.png"><br><center><b>Inverse Kinematics</b></center>
+</td>
+     </tr>
+</table>
+
+<h1 id="analysing-the-mechanical-model">Analysing the Mechanical Model</h1>
+
+<p>It has five main modules to handle the motion of the robotic arm. These are -</p>
+
+<ul>
+  <li>Trajectory model - So the trajectory model contains the trajectory of our robotic arm.  It takes the input from the clock and using the sin and cos function it defines the x and y path for our robotic simulation.</li>
+  <li>Inverse Kinematics - It contains the matrices and MatLab function which takes the input as Xd and Yd from the trajectory model and feeds it to the inverse function which then calculates the theta and the required metrics and feed it to the Mechanical model of our robotic arm.</li>
+  <li>Mechanical Model - It contains the mechanical model of our robotic arm, from the arm, leg to each joint and support in the robot. Simulink provides very handy tools such as joints, sensors, links, functions, and constant support to manage all kinds of motions.</li>
+  <li>Forward Kinematics - Similar to inverse it also contains all the matrices and functions which take the input as theta from the mechanical model and the output as a calculated X and Y to move the arm.</li>
+  <li>Estimated position - It plots the graph in which the arm is moving. As initially, we took some sin and cos function for the trajectory so now it will plot the actual and expected path of the robotic arm.</li>
+</ul>
+
+<h1 id="simulink-diagrams-camera">Simulink Diagrams <img class="emoji" title=":camera:" alt=":camera:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f7.png" height="20" width="20">
+</h1>
+
+<table>
+     <tr>
+          <td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/mainModel.png"><br><center><b>Main model</b></center>
+</td>
+     </tr>
+     <tr>     
+          <td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/mechanicalModel.png"><br><center><b>Mechanical model</b></center>
+</td>
+     </tr>
+</table>
+
+<h2 id="trajectory-simulation">Trajectory simulation</h2>
+
+<table>
+     <tr>
+          <td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/roboArm.gif"><br><center><b>3D simulation</b></center>
+</td>
+<td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/trajectoryModel.png"><br><center><b>Trajectory model</b></center>
+</td>
+<td>
+<img src="https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/plot.png"><br><center><b>Expected 2D trajectory</b></center>
+</td>
+     </tr>
+</table>
+
+<h1 id="how-to-build">How to build</h1>
+
+<p>For building this simalation you need to open the RR.slx file in your MatLab there you will the whole mechanical model from trajectory to estimated model. You can access each block by opening it :)</p>
+
+<h1 id="tech-stack-satellite">Tech Stack <img class="emoji" title=":satellite:" alt=":satellite:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e1.png" height="20" width="20">
+</h1>
+<ul>
+  <li>MATLAB</li>
+  <li>Guide</li>
+  <li>Simulink</li>
+</ul>
+
+<h1 id="todo">Todo</h1>
+<ul>
+  <li>More support to GUI to handle all kind of motions</li>
+</ul>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Shashank  Priyadarshi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>

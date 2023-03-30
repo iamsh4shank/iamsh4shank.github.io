@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://iamsh4shank.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iamsh4shank.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-30T06:27:04+00:00</updated><id>https://iamsh4shank.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">The year with new learnings: 2021</title><link href="https://iamsh4shank.github.io/blog/2021/year-review_2021/" rel="alternate" type="text/html" title="The year with new learnings: 2021" /><published>2021-12-19T15:59:00+00:00</published><updated>2021-12-19T15:59:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2021/year-review_2021</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/year-review_2021/"><![CDATA[<p>Heyo everyone, so I hope you know me, if not so go and check my <a href="https://iamsh4shank.github.io/">profile</a> :D 
+Ok, so I wanted to write a <strong>YEAR</strong> in <strong>REVIEW</strong>, just to review my work of 2021. So honestly before 
+writing I didn’t have any idea on how to write a year in review so I checked a few online resources to 
+learn how to write the same. So this blog is going to be full of some experiments, comment if you want 
+to give any suggestions.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review/year_review-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review/year_review-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review/year_review-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review/year_review.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>These are a few things which I want to highlight -</p>
+
+<h2 id="review-what-happend-last-year">Review what happend last year</h2>
+<p>One thing to say, this year a lot of stuff happened (here year == 2021 xD). So I thought why not round 
+them up, round up all the ups and downs, good and bad. I won’t bore you for sure -</p>
+
+<h2 id="some-yearly-higlights--">Some Yearly higlights -</h2>
+
+<h3 id="technical--">Technical -</h3>
+
+<ul>
+  <li>Made a new business idea (won’t share it lol: still under construction), got it reviewed and worked on MVP product with bugs and errors :P</li>
+  <li>Started reading a book called Deep Learning using Computer Vision.</li>
+  <li>Completed two academics semester</li>
+  <li>Worked on the startup project <a href="https://traboda.com/">Traboda</a>, learned stuff related to web dev, mostly front end (React).</li>
+  <li>Mentored on Android client SDK <a href="https://summerofcode.withgoogle.com/archive/2021/projects/5246508378619904">project</a> under GSoC 2021 for <strong>The ASF</strong>(The Mifos Initiative)</li>
+  <li>Graduated as GDSC Lead 2020-21</li>
+  <li>Selected as an Android Research Intern in CMU</li>
+  <li>Selected in some summer schools, attended a few like MaLGa Unige</li>
+  <li>Replicated some research papers such as morphological classification, SRGANs, etc</li>
+  <li>Worked with a Professor named Gilad, we worked on th project by CMU - <a href="https://autolabproject.com/">Autolab</a>, related to auto evaluation of assignments, we integrated it in our college and automated most of the stuff based on our use case.</li>
+  <li>Joined Atom EI as an Android Engineer Intern</li>
+  <li>Got interested in Visual Learning and Recognition, Robotic Vision, and ML Securities.</li>
+  <li>Took 2 sessions, one on Android Development and the other on Introduction to AI</li>
+  <li>Won Best Hardware Digikey Category and Best Google Cloud category prize in MLH hackathon</li>
+</ul>
+
+<h3 id="lifestyle">Lifestyle</h3>
+<ul>
+  <li>Started investments in stocks, learned some stuff related to Intraday trading, F/O, and market trends (a lot to learn tho)</li>
+  <li>Regular in Gym to stay Fit</li>
+  <li>Started learning German</li>
+  <li>Wrote some blogs</li>
+  <li>Started reading The Atomic Habits</li>
+  <li>Completed reading The Power of Subconscious Mind</li>
+</ul>
+
+<h3 id="leadership">Leadership</h3>
+<ul>
+  <li>Worked in amFOSS Praveshan 2021 with other batchmates and jrs. Made mistakes but learned a lot, completed the beginning stuff. Also helping other batchmates to manage the club.</li>
+</ul>
+
+<h3 id="travel">Travel</h3>
+<ul>
+  <li>Completed two TRIPs (Sikkim and Himachal Pradesh(Upcoming))</li>
+</ul>
+
+<p>Other than this, there were so many ups and downs that came in between like pandemic, hours wasted in procrastination, overthinking, etc. Went through a lot of online readings, meetings, 
+discussions, and other stuff to keep me motivated and busy throughout this year, still it had some ups and downs, lows and highs, learnings and unproductive days, but I believe life is a growing, life is going.</p>
+
+<p>Ok I guess you got bored of this :P</p>
+
+<p>In short,</p>
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review/todo-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review/todo-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review/todo-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review/todo.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h2 id="lessons-learned-this-year">Lessons learned this year</h2>
+
+<p>So this year was a good learning year for me, learned about stuff such as -</p>
+
+<ul>
+  <li>
+    <p><strong>Startups</strong> and other stuff related to business such as what is Saas, business model of a startup, why not to just start things randomly, what is important to focus firs. For example, one should focus first on validating his/her idea with the people around, whether it will
+be a good idea to start or just other common products existing in the market. Also, there are various others things which one will learn if you are focusing on startups such as how to get fundings, MVP, the tech stack is secondary first is your audience, fund raising, micro startups, etc. There was a
+good learning curve while exploring all this, you can follow some good Twitter accounts to learn more from their experience and teachings.</p>
+  </li>
+  <li>
+    <p>Basics of <strong>Deep Learning</strong>, so it was the year where I learned how to get started with this piece of magic. It’s just great to see how things like calculus, linear algebra in general Maths make this whole system much more interesting, it’s like Hogwarts powering Harry’s life with magic. When I started, I focused on learning stuff such as normal DL concepts
+and libraries like TensorFlow, Keras, PyTroch etc. But soon came to know about the maths part, why one should learn maths to dive deeper. I still remember the chapters I read from Grokking DL explaining the maths behind Neural Networks and other DL theories under the hood.
+So I believe if you want to make your career in the research oriented part, go and explore maths parallelly. A few books which I would suggest related to Maths are Machine LearningGrokking DL for theory, Deep Learning book by Ian Goodfellow. Other than maths I also came to know the power of quality projects in Deep Learning. If you know the theory, it is not enough you need to learn how to
+implement them and believe me it is going to help you to understand the concepts from different perspectives which will make it more clear to understand. You can replicate research papers (that’s what I am doing) or maybe start with a quality project, don’t spend time on waste projects :P. So after going through all this I decided to dive deeper into Robotic Vision and Visual recognition domain in AI/DL.</p>
+  </li>
+  <li>
+    <p><strong>Habits vs Goal</strong>, ok so I came across this while reading a book The Atomic Habits, it mentioned the term called process, goals, habits, outcomes, beliefs, etc, in one word I loved this book (not completed tho), so this book is about the effects of tiny habits/changes to make some remarkable change in long run. In terms of maths: integrating(calculus) tiny actions over a long time, you will understand the power of changes. It also discusses the
+system to follow, like what to do and understanding the why part. I would advise everyone to read this book once.</p>
+  </li>
+  <li>
+    <p>Importance of <strong>Fitness</strong>, ohk this is one of the things I am proud of to start. During this lockdown and pandemic, I was at my home and gained around 15-16 Kgs of weight, and it made me feel quite lazy, unhealthy, inactive so decided to join Gym to focus on health. A lot of things happened in between such as during the second wave, gyms were closed, I got sick for a short period which made me lose all my gained muscle. But still, I maintained the diet, by diet I will say it 
+is one of the healthy diet I ever had, such as boiled beans, sprouts, fresh cheese, all sum it up to make a more protien driven and less carbs diet and on the other hand managing the deficient calorie state. And by managing all this exercise and diet I lost around 17-18 kgs of weight. Finally then decided to restart my muscle gain routine. Soon got to know my college reopening news, so I need to leave my old gym and continue in college gym, it’s going to another headache let’s see how it goes.</p>
+  </li>
+  <li>
+    <p>Importance of a <strong>Reading habit</strong>, as I mentioned the benefits of reading The Atomic Habits, so similar to that read several other blogs, a few books, and other stuff. I personally believe having consistent reading habits that helps a lot to learn and grow. It will enrich your mind with thoughts that make remarkable changes in the long run. It will help you to think from different perspective. Reading habits not just means reading some lifestyle related books, but it means reading stuff that matters, learning something new, it maybe something like
+reading a book for learning web dev, or how to cook, how to invest money, or how to learn guitar, it can be anything as far as you’re learning from it.</p>
+  </li>
+  <li>
+    <p>Dealing with Failures - As you might look into some of my achievements but behind all of them there were several failures. I believe getting failed is fine, i remember one of my teacher saying <strong>Fail early, fail often</strong>, it will help you to learn a lot of things. So failures help you to learn from those mistakes and make a change in your mind (fix mistakes) and then you are ready to grow. Don’t repeat the same mistake which you already did, make some improvements it maybe another different mistake, again follow the same thing and keep on going. Failure is just a redirection, take some time find the path and move on, fight again, learn again that will improve you not sitting idle, standup and fight again. Always belief you’re going to be different from what you were last year, last month, last day, last minute, and last second. If you are improving yourself that’s it you’re growing.</p>
+  </li>
+  <li>
+    <p><strong>Importance of Guidance</strong>, it is very important to have guidance, mentors, the teachers in life. They will help you to reshape your thoughts, make more from less. They will correct your mistakes, even they will tell your mistakes which is much more important, rectify them learn from them.</p>
+  </li>
+  <li>
+    <p><strong>Managing teams and mentoring people</strong>, not just getting mentorship from others is important, always try to help others, give what you know. It will help others to learn stuff and also make you know where you’re lagging. Help people to learn how to deal with stuff happening around them which you might already faced. Help people to fix things if you already know how to fix or maybe share your expierence with them.</p>
+  </li>
+  <li>
+    <p>Learning <strong>communication skills</strong>, is really very important, if you know how to talk to people, how to make connections, you are ready to go. I experience the role of communication in exposure. Gave a few talks, took some sessions which helped a lot to learn more stuff related to this. Communication helps in exploring perspective of people on various topics such as education, lifestyle, travel, even on how to communicate.</p>
+  </li>
+  <li>
+    <p><strong>Traveled</strong> places to know more about me and people there, it was the best part I learned a lot while traveling, such as culture, tradition, foods, and much more. It helps me to find myself after working for hours and hours, it help me to get back to me and talk for a while and decide what’s going wrong and right. Night stargazing was one of the best parts which I liked and the beauty of places were such an amazing thing I saw ever.</p>
+  </li>
+</ul>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review/year_travel-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review/year_travel-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review/year_travel-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review/year_travel.jpg" class="img-fluid rounded z-depth-1" width="500" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Other than this there are numerous learning happened this year, all thanks to people around me to teach me :D</p>
+
+<p>So now what next, ok firstly, A Very Happy New year in Advance for 2022.<br />
+Secondly, I created some plans for next year (here, next year == 2022), don’t know how much I will be able to complete, how much my plans will be efficient in shaping my future but for sure will learn something new, 
+be more regular, be more a team guy, a lot of stuff are there which I am planning now to accomplish in 2022, the upcoming year is going to be much more important to me, so I did some kind of planning and some year review in advance, that I will share it soon in next blog. Thanks for reading till here :D</p>]]></content><author><name></name></author><category term="year-review" /><category term="learnings" /><category term="experience" /><summary type="html"><![CDATA[Sharing some of my updates about the year 2021: The year of new learnings]]></summary></entry><entry><title type="html">Part 5 - Gradient Descent and Backpropagation</title><link href="https://iamsh4shank.github.io/blog/2021/part5-nn-and-dl/" rel="alternate" type="text/html" title="Part 5 - Gradient Descent and Backpropagation" /><published>2021-06-01T15:59:00+00:00</published><updated>2021-06-01T15:59:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2021/part5-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part5-nn-and-dl/"><![CDATA[<p>In the past few blogs, we saw how to deal with neural networks for example how to train, predict, and adjust the knob to decrease the error. All those neural networks had only one Layer with single or multiple inputs and output nodes. Even if you remember the last blog, we discussed one real-world dataset (MNIST), we again saw one Layer NN.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_cover-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_cover-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_cover-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_cover.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>Now it’s time to dive deeper and see how deep NN works.</p>
+
+<h2 id="lets-see-a-streetlight-problem">Let’s see a streetlight problem</h2>
+<p>Let’s assume you are some other country and you don’t know about the street signals in that country, so you planned to learn it through the actions of other people crossing the roads. So you might sit in a corner and observe the relation between the light combination and the people around you who are either walking or stopping based on the street lights.</p>
+
+<p>Let’s say there are three light combinations so you need to decode the pattern and then it would be easy for you to cross the roads. Let’s discuss some of your observations (Assume if <strong>RED</strong> means OFF and <strong>BLUE</strong> means ON)</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_11-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_11-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_11-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_11.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>With the help of these observations, we can say that middle lights perfectly correlate with whether a person should walk or stop. This is what we generally do in a Neural Network i.e. we have some data and then we train based on that data.</p>
+
+<p>Let’s prepare the data for the same example, so as we are going to make it a supervised learning problem so we need <strong>two datasets</strong> i.e. the <strong>dataset we know</strong> and the <strong>dataset we want to know</strong>. In our example as we know the street light pattern at a given time and whether the person walks or stops i.e. -</p>
+
+<p>Observation = What we know &amp;
+Inference = What we want to know</p>
+
+<p>This is the common representation our brain understands but how do computers will understand, the answer is MATRIX. Let’s convert this to a matrix form.</p>
+
+<p>Matrix - [What we know]</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_12-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_12-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_12-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_12.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>The convention is we generally represent each recorded example in a single row and each thing recorded in a single row. Not only this here we saw the data is perfectly aligned based on 1s and 0s. But it can also be managed in the data form based on the light intensities i.e. 
+Matrix - [What we know]</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_13-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_13-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_13-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_13.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>This would be more realistic recorded data. Also, we can multiply this by any constant but it will remain the same i.e. the underlying pattern would be the same. Similar to this we can also transform the matrix which we want to know into matrix form i.e. -</p>
+
+<p>Matrix - [Which we want to know]</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_14-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_14-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_14-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_14.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>The resulting matrix in both cases is called a lossless representation as we can move back and forth based on our needs. Also, we can create these matrices with the help of NumPy as we saw in one of the last blogs. Now let’s develop a simple Neural Network (training based on each example in a neural network) based on that -</p>
+
+<pre><code class="language-Python">import numpy as mp
+weights = np.array([0.5, 0.48, -0.7])
+
+alpha = 0.1
+streetlights = np.array( [ [ 1, 0, 1],
+                           [ 0, 1, 1],
+                           [ 0, 0, 1],
+                           [ 1, 1, 1],
+                           [ 0, 1, 1],
+                           [ 1, 0, 1] ] )
+walk_vs_stop = np.array( [ 0, 1, 0, 1, 1, 0 ] )
+input = streetlights[0]
+goal_prediction = walk_vs_stop[0]
+
+for iteration in range(40):
+    error_for_all_lights = 0
+    for row_index in range(len(walk_vs_stop)):
+        input = streetlights[row_index]
+        goal_prediction = walk_vs_stop[row_index]
+        prediction = input.dot(weights)
+        error = (goal_prediction - prediction) ** 2
+        error_for_all_lights += error
+        delta = prediction - goal_prediction
+        weights = weights - (alpha * (input * delta))
+        print("Prediction:" + str(prediction))
+    print("Error:" + str(error_for_all_lights) + "\n")
+
+</code></pre>
+
+<h2 id="types-of-gd">Types of GD</h2>
+
+<ol>
+  <li>Stochastic Gradient Descent - It updates the weight one example at a time i.e. it will take the first example and then it will try to predict and calculate the weight_delta and updates the weights and then it will move to the second example and so on. It iterates through the entire dataset many times until it finds the best weight configuration.</li>
+  <li>Full Gradient Descent - Instead of updating the weight once for each training example, the network calculates the avg weight_delta over the entire dataset, changing the weights only each time it computes a full average.</li>
+  <li>Batch Gradient Descent - Instead of updating the weights after just one example or after the entire dataset we select a batch size (typically between 9 and 256) of example, after which the weight got updated.</li>
+</ol>
+
+<h2 id="neural-networks-and-correlation">Neural Networks and Correlation</h2>
+<p>As in the last example, we knew what we are doing i..e relation between street lights and whether the person walks or stops. But what actually Neural Network understood? Did it understand the same thing we understood? For the NN it is just a pattern which it is learning i.e. how the input is correlated with the output. Or we can say it identified the correlation between middle input and the output.</p>
+
+<p>So correlation works here? The basic answer is the up pressure works for middle weight and down pressure works for other weights.</p>
+
+<h4 id="what-is-up-and-down-pressure">What is up and Down pressure</h4>
+<p>As we know the common or shred error can be only reduced to 0 which means the network needs to figure out which weight is contributing and which is not. Let’s take the street light example again -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_15-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_15-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_15-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_15.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>If we consider the first training example, the middle input is 0 and others are 1, but the output is 0 which means we don’t need to care for middle input now as it is 0 and any error will be only related to the left and right weight. So both the left and right input is 1 and the output is 0 which means we need to down the input so here we’ll apply down pressure. So it means in the first example there is a decorrelation between the left and right weights w.r.t. the output. The weight table would be something like this -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_16-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_16-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_16-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_16.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>Here <strong>-</strong> indicates that there is a downward pressure, <strong>+</strong> indicated that there is an up pressure, and 0 indicates that there is no pressure. So if we see on average, the left weight has 2 negative and one positive so it will move the weight towards 0. Similarly, the middle weight has 2 positives which will move the middle weight towards 1. Each individual weight here is trying to compensate for the error. The whole process of training is that the learning algorithms reward the input which is correlating the output and penalize the input which is decorrelated with the downward pressure. The weighted sum of the inputs perfectly correlates between the input and output by weighting decorrelated inputs to 0. Let’s see some of the edge cases -</p>
+
+<ol>
+  <li>Overfitting - Let’s again take the first example of streetlight [ 1 0 1 ] here what if the weight were 0.5 and -0.5 for far-right and far-left weights. Then the overall prediction is going to be 0 (-0.5<em>1 + 0.5</em>1 ) in this case. Here the weight is giving the prediction as 0 i.e the output we want. But is it a correct weight configuration? No right because it will fail for other real-world examples i.e. it just learned how to predict safely not how to predict originally. This is known as overfitting. The correct way is to giving the heaviest weight to the best input where it will predict the correct output not the safe one. So we need to make our neural network generalize instead of memorizing.</li>
+  <li>Conflicting pressure - If we consider the far right column in our example then we could say that it contains equal no. of positive as well as negative i.e. equal no. of upward and downward pressure. But on the other hand, we know the weight pushes it to 0 which means downward pressure is greater than upward pressure. So here for predicting 1, we have a 1:1 relation of middle weight with the output but for predicting 0 we may get some issue. Further, we’ll also learn about regularization, as if a weight has equal down and up pressure, then it is of no use, i.e. it’s not helping in either direction. So regularization says that weight with really string correlation is going to contribute or stay, and everything else would be considered as noise.</li>
+</ol>
+
+<p>So in these two points, we saw how correlation can be made but still, it won’t be of any use.</p>
+
+<p>Also, lemme talk some more about point no. 2. So in that we took an example of the right weight, it has equal no. of up and down pressure but the other weights were contributing so we managed to reduce the error. What if we have all the weights have the same equal up and down pressure for example let say the recorded examples are something like -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_17-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_17-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_17-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_17.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>Here the problem is all three weights have an equal number of up and down pressure. So if the data doesn’t have any direct correlation then we can have intermediate data which has the connection. Till now we are using the input and output only to design a correlation so we can use some intermediate layer to fix this. For example, we can have two layers, the first one will create an intermediate dataset that has a limited correlation with the output, and the second will use that limited correlation to correctly predict the output. So it’s basically like two layers i.e. layers stacked over each other i.e. the output of the Layer_0 to Layer_1 will act as an input to the Layer_1 to Layer_2. So the whole thing is done already we know how to deal with the single-layered Neural Network and that would be similar in the stacked neural network.</p>
+
+<p>##Backpropagation
+The main thing why we want a two-layered network is because there is no direct correlation between the input and output so we are creating an intermediate layer to solve this issue. So if we again jump to our main aim of the neural network is that we need to reduce the error to 0, we need delta, weight delta and then update the weights to do so. Now we have the delta of Layer_2 so we can get the delta of Layer_1 by multiplying the delta of Layer_2 with the weights of Layer_1 i.e.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>delta of Layer_1 = d_1</p>
+
+<p>delta of Layer_2 = d_2</p>
+
+<p>then d_1 = d_2*weight_1</p>
+
+<p>It’s like we are applying the prediction login in reverse. This way of moving the delta signal around is called backpropagation. It basically tells us that how much nodes of Layer_1 contribute to nodes of Layer_2 or basically Layer_2 error. So you can get some idea that over the layer we are making the nodes to have some correlation with the output. And by the help of the delta of each layer, we can easily find the weight_delta and then so on.</p>
+
+<p>One more common problem is we can get the same result in 2 Layer NN with whatever we are getting in 3 Layered NN because the simple logic would be 2*100*5 = 1000 and 10*100 = 1000, so we can see both have same results. Then the question is why we should use one more Layer if we are getting the same thing as it will be more expensive to calculate one more weighted sum. The answer is again related to correlation i.e. we turn off the node that has a value below 0 as we know they are not going to contribute. So if we turn it off then simply it is not going to affect the weighted sum and hence we’ll find the result based on the node which will selectively pick whether to get correlated or not. Earlier they are always correlated so sometimes they affect the results also. We use Relu to achieve it that is it will make the passed input 0 if it is less than 0. So by the help of adding one more layer, we are providing this choice that whether to subscribe for a node or not.</p>
+
+<p>##First Deep Neural Network
+So as we discussed most of the stuff like over the layer we move in the same way as we did earlier i.e. we use the normal dot function to solve all this problem. We doing all this because we need to find which input is contributing to the final error and how to reduce it with the help of the weights. Here we also one new thing which is relu2deriv that’s only there to make the node delta 0 if the node is 0.  Adjusting the weights to reduce the error over a series of training examples ultimately searches for correlation between the input and the output layers. If no correlation exists, then the error will never reach 0.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part5_nn_dl/part5_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part5_nn_dl/part5_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part5_nn_dl/part5_2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part5_nn_dl/part5_2.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<pre><code class="language-Python">import numpy as np
+np.random.seed(1)
+Returns x if x &gt; 0;
+returns 0 otherwise
+def relu(x):
+    return (x &gt; 0) * x
+def relu2deriv(output):
+    return output&gt;0
+streetlights = np.array( [[ 1, 0, 1 ],
+                          [ 0, 1, 1 ],
+                          [ 0, 0, 1 ],
+                          [ 1, 1, 1 ] ] )
+walk_vs_stop = np.array([[ 1, 1, 0, 0]]).T
+alpha = 0.2
+hidden_size = 4
+weights_0_1 = 2*np.random.random((3,hidden_size)) - 1
+weights_1_2 = 2*np.random.random((hidden_size,1)) - 1
+for iteration in range(60):
+    layer_2_error = 0
+    for i in range(len(streetlights)):
+        layer_0 = streetlights[i:i+1]
+        layer_1 = relu(np.dot(layer_0,weights_0_1))
+        layer_2 = np.dot(layer_1,weights_1_2)
+        layer_2_error += np.sum((layer_2 - walk_vs_stop[i:i+1]) ** 2)
+        layer_2_delta = (layer_2 - walk_vs_stop[i:i+1])
+        layer_1_delta=layer_2_delta.dot(weights_1_2.T)*relu2deriv(layer_1)
+        weights_1_2 -= alpha * layer_1.T.dot(layer_2_delta)
+        weights_0_1 -= alpha * layer_0.T.dot(layer_1_delta)
+    if(iteration % 10 == 9):
+        print("Error:" + str(layer_2_error))
+</code></pre>
+
+<p>So in the next blog, we’ll learn more about correlation and Relu…</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Dive deeper into why we use backpropagation and deep Neural Networks to solve the correlation problem]]></summary></entry><entry><title type="html">Part 4 - Gradient Descent in multiple weights</title><link href="https://iamsh4shank.github.io/blog/2021/part4-nn-and-dl/" rel="alternate" type="text/html" title="Part 4 - Gradient Descent in multiple weights" /><published>2021-05-30T15:59:00+00:00</published><updated>2021-05-30T15:59:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2021/part4-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part4-nn-and-dl/"><![CDATA[<p>As in <a href="https://iamsh4shank.github.io/blog/part-3-introduction-to-nn-gd">part 3</a>, we saw how to update weights using Gradient descent, in this part, we’ll start and reveal how to use the same technique to update a network that contains multiple weights. Let’s see how to learn multiple weights at a time.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_i-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_i-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_i-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/part4_i.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h2 id="mupltiple-input-nodes">Mupltiple Input nodes</h2>
+<p>In the case of multiple inputs, we can use the delta i.e. (pred-true) for calculating the delta which is going to be the same for all the inputs as we only have one output which means only one pred and one true. So how we’ll get individual updates? i.e. we need to find the individual weight deltas. As we know that the weight <strong>delta = delta*input</strong>, and in our case delta is the same but as we have multiple inputs so with the help of we can easily calculate individual updates for each weight. Let’s see the example -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/nn_part2_8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/nn_part2_8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/nn_part2_8-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/nn_part2_8.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Here in this case we have 3 inputs 8.5, 0.65, and 1.2 having weights as -1.2, -0.9, and -1.7 respectively. Then further we found the delta as -0.14 which will help us to find the individual weight deltas and further it will help to find the change in weight parameters. And once we got the updated weights then we are all set to move it to around zero error in some more iterations (probably).</p>
+
+<p>If you forget what is a delta and weight delta so you can check the last blog once, but as your friend, I will tell you once again in short -</p>
+
+<ul>
+  <li>Delta (pred - true) - It is a measure that tells how much higher or lower you want a node’s value to be to predict perfectly based on the current training example. Basically, it tells us how far we are from our true output.</li>
+  <li>Weight_delta (delta*input) - It is a derivative or basically tells us the amount and the direction you should move your weight to reduce to node_delta, accounting for scaling, negative reversal, and stopping.</li>
+</ul>
+
+<p>So as we saw in multiple inputs, the reason for different weight updates is because of the multiple inputs.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_i1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_i1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_i1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/part4_i1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<pre><code class="language-Python">def neural_network(input, weights):
+	out = 0
+	for i in range(len(input)):
+	out += (input[i] * weights[i])
+	return out
+
+def ele_mul(scalar, vector):
+	out = [0,0,0]
+	for i in range(len(out)):
+	out[i] = vector[i] * scalar
+	return out
+	
+toes = [8.5, 9.5, 9.9, 9.0]
+wlrec = [0.65, 0.8, 0.8, 0.9]
+nfans = [1.2, 1.3, 0.5, 1.0]
+win_or_lose_binary = [1, 1, 0, 1]
+true = win_or_lose_binary[0]
+
+alpha = 0.01
+weights = [0.1, 0.2, -.1]
+
+input = [toes[0],wlrec[0],nfans[0]]
+
+for iter in range(3):
+	pred = neural_network(input,weights)
+	error = (pred - true) ** 2
+	delta = pred - true
+	weight_deltas=ele_mul(delta,input)
+	print("Iteration:" + str(iter+1))
+	print("Pred:" + str(pred))
+	print("Error:" + str(error))
+	print("Delta:" + str(delta))
+	print("Weights:" + str(weights))
+	print("Weight_Deltas:")
+	print(str(weight_deltas))
+	print(
+	)
+for i in range(len(weights)):
+	weights[i]-=alpha*weight_deltas[i]
+
+</code></pre>
+<p>If we plot the graph of error vs weight then we can see the most of the learning or change in weight happens in the weight which has the largest input, because as we know weight delta is nothing but <strong>input*delta</strong>.</p>
+
+<h3 id="lets-see-one-interesting-point---what-if-we-freeze-one-weight-and-update-others">Let’s see one interesting point - what if we freeze one weight and update others</h3>
+
+<p>As in our previous example, we have three weights, so now let’s freeze a. So the basic observation would be the graph between error and weight is going to be shifted towards origin for a as the error is reducing because of other weights, but for a the weight is not modified. As we know the curve is the measure of each individual weight relative to the global error. So because of this at the end a is going to find the bottom of the bowl.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_i2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_i2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_i2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/part4_i2.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h2 id="gradient-descent-for-multiple-output-nodes">Gradient descent for multiple Output nodes</h2>
+<p>Ok so in the last topic we learned what to do if there are multiple inputs, now we’ll learn what to do if there are multiple outputs. So here we know we have a single input and multiple outputs and we also know $weight_delta = delta*input$.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/nn_part2_9-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/nn_part2_9-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/nn_part2_9-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/nn_part2_9.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>So here as we have multiple outputs which will result in individual deltas for each of the outputs multiplied with a single input to produce multiple weight deltas and hence different weight updates.</p>
+
+<pre><code class="language-Python">weights = [0.3, 0.2, 0.9]
+
+def scalar_ele_mul(number,vector):
+	output = [0,0,0]
+	assert(len(output) == len(vector))
+	for i in range(len(vector)):
+		output[i] = number * vector[i]
+	return output
+
+def neural_network(input, weights):
+	pred = ele_mul(input,weights)
+	return pred
+
+wlrec = [0.65, 1.0, 1.0, 0.9]
+
+hurt = [0.1, 0.0, 0.0, 0.1]
+win = [ 1, 1, 0, 1]
+sad	= [0.1, 0.0, 0.1, 0.2]
+input = wlrec[0]
+true = [hurt[0], win[0], sad[0]]
+pred = neural_network(input,weights)
+
+error = [0, 0, 0]
+delta = [0, 0, 0]
+for i in range(len(true)):
+	error[i] = (pred[i] - true[i]) ** 2
+	delta[i] = pred[i] - true[i]
+
+weight_deltas = scalar_ele_mul(input,weights)
+alpha = 0.1
+for i in range(len(weights)):
+	weights[i] -= (weight_deltas[i] * alpha)
+print("Weights:" + str(weights))
+print("Weight Deltas:" + str(weight_deltas))
+</code></pre>
+
+<h2 id="gradient-descent-with-multiple-input-and-output-nodes">Gradient descent with multiple Input and Output nodes</h2>
+<p>Now as we learned about GD with multiple inputs and multiple outputs, we can easily frame it for multiple input and output NN.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/nn_part2_10-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/nn_part2_10-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/nn_part2_10-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/nn_part2_10.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>So here for handling this we need to take care of the matrices and other computations. So lets’ take one example -</p>
+
+<ol>
+  <li>Input size = 3, matrix = [1,3]</li>
+  <li>Output size = 3, matrix = [1,3] = true</li>
+  <li>As all are interconnected so the size of the weight matrix will be [3, 3], and in python, it would of size 3 in the form of [ [1,3], [1,3], [1,3] ].</li>
+</ol>
+
+<p>So as we know the first step will be making a prediction i.e. input*weight which will be getting a pred matrix of size <a href="the calculation here involves is [1,3]*[[1,3], [1,3], [1,3]]  = [1,3] (here the 1 and 3 is only for size, not the real elements)">1,3</a>.</p>
+
+<p>After this, we will calculate delta i.e. pred - true. And after this, once we got delta we’ll calculate the weight delta with the help of normal matrix multiplication -</p>
+
+<p>weight_delta = input*delta (here input size = [1,3] and delta is again [1,3]) so we’ll get the resultant matrix of [3,3] by the help of nested for loops. And once we got the matrix then we can easily calculate the weights update.</p>
+
+<pre><code class="language-Python">weights = [[0.1, 0.1, -0.3], 
+		   [0.1, 0.2,  0.0],
+		   [0.0, 1.3, 0.1]]
+
+def vect_mat_mul(vect,matrix):
+	assert(len(vect) == len(matrix))
+	output = [0,0,0]
+	for i in range(len(vect)):
+		output[i] = w_sum(vect,matrix[i])
+	return output
+
+def neural_network(input, weights):
+	pred = ele_mul(input,weights)
+	return pred
+
+def outer_prod(vec_a, vec_b):
+	out = zeros_matrix(len(a),len(b))
+	for i in range(len(a)):
+		for j in range(len(b)):
+			out[i][j] = vec_a[i]*vec_b[j]
+	return out
+
+toes = [8.5, 9.5, 9.9, 9.0]
+wlrec = [0.65,0.8, 0.8, 0.9]
+nfans = [1.2, 1.3, 0.5, 1.0]
+
+hurt = [0.1, 0.0, 0.0, 0.1]
+win = [ 1, 1, 0, 1]
+sad	= [0.1, 0.0, 0.1, 0.2]
+
+alpha = 0.01
+input = [toes[0],wlrec[0],nfans[0]]
+true = [hurt[0], win[0], sad[0]]
+
+pred = neural_network(input,weights)
+
+error = [0, 0, 0]
+delta = [0, 0, 0]
+for i in range(len(true)):
+	error[i] = (pred[i] - true[i]) ** 2
+	delta[i] = pred[i] - true[i]
+
+weight_deltas = outer_prod(input,weights)
+for i in range(len(weights)):
+	for j in range(len(weights[0])):
+		weights[i][j] -= alpha * weight_deltas[i][j]
+
+</code></pre>
+<h3 id="what-actually-these-weights-learn">What actually these weights learn</h3>
+<p>Let’s see this one more example based on the <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST</a> dataset, in this dataset, each data is 784 pixels i.e. (28 X 28). It’s called the Modified National Institute of Standards and Technology (MNIST) dataset, and it consists of digits that high school students and employees of the US Census Bureau handwrote some years ago. The interesting bit is that these handwritten digits are black-and-white images of people’s handwriting. Accompanying each digit image is the actual number they were writing (0–9). For the last few decades, people have been using this dataset to train neural networks to read human handwriting, and today, you’re going to do the same. And we have 10 labels that will help us to make predictions under a certain class. So as in the previous example, we saw a NN with multiple inputs and outputs so here we’ll apply this in this example i.e. input as 784 nodes and 10 outputs.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/part4_6.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>So instead of the input matrix as [1,3], we’ll have an input matrix of [1, 784]. and output as [1, 10]. As we know the image size is 28 X 28 so for converting it to [1, 784]. So for this, we’ll take the first row of pixels and concatenate them with the second row, and the third row, and so on, until you have one list of pixels per image.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/part4_3.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>If the input is 2 then if predictions are exactly correct then the output would be 1 for 2 and 0 for others. So over this process, the network will adjust the weights and minimize the error.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/part4_4.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Well, if the weight is high, it means the model believes there’s a high degree of correlation between that pixel and the number 2. If the number is very low (negative), then the network believes there is a very low correlation (perhaps even negative correlation) between that pixel and the number 2. So if we plot, the pixels which have a high degree of correlation i.e. high weight it will should those pixels would be bright and others would be dark. So it happens because of good reason which we already learned i.e. because of DOT product. As we already know dot product tells us about the similarity which is there between two elements. if two vectors are almost similar then they have a high score of a dot product</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part4_nn_dl/part4_5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part4_nn_dl/part4_5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part4_nn_dl/part4_5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part4_nn_dl/part4_5.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>So in next blog we’ll introduce Backward propagation….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Learn how to use GD for a Neural Network which has multiple weights]]></summary></entry><entry><title type="html">Part 3 - Introduction to neural learning and Gradient Descent</title><link href="https://iamsh4shank.github.io/blog/2021/part3-nn-and-dl/" rel="alternate" type="text/html" title="Part 3 - Introduction to neural learning and Gradient Descent" /><published>2021-05-24T15:59:00+00:00</published><updated>2021-05-24T15:59:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2021/part3-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part3-nn-and-dl/"><![CDATA[<p>As we know the basic paradigm of DL i.e. Predict, compare, and Learn, and we already saw a few basics of prediction in <a href="https://iamsh4shank.github.io/blog/part-2-classificaiton-and-simple-nn">part 2</a> so let’s get started with <strong>compare</strong>.</p>
+
+<p>Imagine a blindfolded person who wants to climb up a mountain or go down a mountain, then he needs to tak ebig steps initally and then he need to reduce hos step size so that he don’t overshoot his final point. Some similar thing happens with Gradient. Check this blog to know more about Gradient.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_8-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_8.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p><strong>So comparing gives a measurement of how much a prediction “missed” by.</strong></p>
+
+<p>Handling error is one of the crucial and tough tasks in DL because once we predicted the value it will only tell us about the amount by which it differs from the actual value i.e. - very little, a lot, perfectly predicted. And once we find out the correct error then we can move to the next step i.e. learn. In the next step, learning tells each weight that how much they can change to reduce the error. This step is all about playing a blame game, where we need to find the contribution of each weight into the <a href="http://error.One">error</a> One such blame game is <strong>Gradient Descent.</strong></p>
+
+<h2 id="compare-does-your-network-make-good-predictions">Compare: Does your network make good predictions?</h2>
+<p>Let’s first understand some points -</p>
+
+<ul>
+  <li>
+    <p><strong>goal_pred -</strong> As we have an input that is recorded from real observation, similar to that it is the data collected from real observation for the output, for example - whether a batsman hit a century given his batting average.</p>
+  </li>
+  <li>
+    <p><strong>Why is error squared -</strong> As let’s assume the archer hitting the target when the shot is 5 inches down then the error will be 5 inches. Similarly, if the sot is 5 inches up then again the error will be 5 inches. So the primary reason to square the error is because it forces the output to be positive.</p>
+  </li>
+</ul>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Here you might think the small error(&lt;1) will get smaller and the large error(&gt;1) might become larger, so it happens and we pay attention to big errors and not worry much about the small ones.</p>
+
+<h3 id="why-measure-error">Why measure error</h3>
+<p>Our main goal for measuring the error because once we have the error then we can minimize it and predict more accurately. We prioritize errors differently like we can apply MSE so that the small errors become irrelevant and only the big ones counted as a significant error.</p>
+
+<p>Our main goal for accurate prediction is to make the average error close to zero. Also, we keep the error as positive because let’s assume if we have an error of +1 and then an error of -1, so the net error will be 0. So we won’t get an actual error instead wi\e’ll think we predicted perfectly.</p>
+
+<h3 id="hot-and-cold-learning">Hot and cold Learning</h3>
+<p>Hot and cold learning means adjusting or wiggling the weights to see which direction reduces the error the most, moving the weights in that direction, and repeating until the error gets to 0.</p>
+
+<p>So basically we first make the weight down and then up and finally we can decide whether to increase the weight or decrease the weight to make the prediction more accurate. In actual NN we need to perform this step many times to find the correct weights.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_3.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>Characteristics of Hot and Cold learning <strong>-</strong></p>
+
+<ul>
+  <li><strong>Simple -</strong> It’s simple like you just need to make your weight slightly high or less than compare the error of each case with the current error, based on that take the decision to increase or decrease the error.</li>
+  <li><strong>Problem 1: Inefficient</strong> <strong>-</strong> We need to predict multiple times to update the knobs.</li>
+  <li><strong>Problem 2: Hard to predict exact goal prediction -</strong> We need to set the step_amount carefully otherwise it will overshoot the output or maybe just oscillate between some values. For example, in the previous case if the step_amount is 10 then the image would be something like this -</li>
+</ul>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_4.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Not only the amount we also need to decide the direction where we want to go. It’s also inefficient because it calculates the prediction thrice for each weight update and arbitrary step_amount (down_weight, same <em>weight, up_</em>weight)</p>
+
+<h2 id="calculating-both-direction-and-amount-from-error">Calculating both direction and amount from error</h2>
+<p>Let’s get first discuss this -</p>
+
+<ul>
+  <li>direction_and_amount - It represents how you want to change weitght, the first part is pure error and the scond part is scaling, negative reversal, and stopping.
+    <ol>
+      <li><strong>Pure error</strong> -  The pure error is ( pred - goal_pred ), which indicates the raw direction and amount you missed. If this is a positive number, you predicted too high, and vice versa. If this is a big number, you missed by a big amount, and so on.</li>
+      <li><strong>Scaling, negative reversal, and stopping</strong> - These three attributes have the combined effect of translating the pure error into the absolute amount you want to change weight . They do so by addressing three major edge cases where the pure error isn’t sufficient to make a good modification to weight .</li>
+    </ol>
+  </li>
+  <li><strong>Stopping</strong> - Stopping is the simplest effect on the pure error cuase by mltiplying it by input. If input is zero then the direction_and_amount will become 0, because there’s nothing to learn. For example - imagine plugging a CD player into your stereo. If you turned the volume all the way up but the CD player was off, the volume change wouldn’t matter.</li>
+  <li><strong>Negative reversal</strong> -  This is probably the most difficult and important effect. Normally (when input is positive), moving weight upward makes the prediction move upward. But if input is negative,
+then all of a sudden weight changes directions! When input is negative, moving weight up makes the prediction go down. It’s reversed! How do you address this? Well, multiplying the pure error by input will reverse the sign of direction_and_amount in the event that input is negative. This is negative reversal, ensuring that weight moves in the correct direction even if input is negative.</li>
+  <li><strong>Scaling</strong> - Logically if input is big then the update in weight will be big, sometimes it has cons also like it goes out of control, for that we’ll discuss alpha.</li>
+</ul>
+
+<h3 id="gradient-descent">Gradient Descent</h3>
+<p>As I told in the beginning about a blindfolded person. There is some similarity in Gradient Descent also, here as we need to minimize the error so we plot a graph between error and weight (reference - check <a href="https://iamsh4shank.github.io/blog/part-2-classificaiton-and-simple-nn">part 2</a>), here our aim is to minimize the error i.e. to reach to minimum point, also we need to take care that the NN should not overshoot that point.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_6.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Here we update our parameters like weight. So first we predict the value then we calculate the loss/error, and then we calculate the delta factor and apply the previous scaling, reversal, and stopping technique to calculate the weight_delta and finally we multiply it by alpha and update our parameters.</p>
+
+<p>Steps -</p>
+
+<ol>
+  <li>Predict</li>
+  <li>Calculate error/loss (predict-actual)</li>
+  <li>Calculate weighted delta -
+    <ol>
+      <li>Pure error</li>
+      <li>Scaling, stopping, and reversal</li>
+    </ol>
+  </li>
+  <li>Multiply it with alpha and update the weight (parameters)</li>
+</ol>
+
+<p>i.e.</p>
+
+<pre><code class="language-Python">for iteration in range(4):
+		#Next two lines have the secret.
+		pred = input * weight
+		error = (pred - goal_pred) ** 2
+		delta = pred - goal_pred
+		weight_delta = delta * input
+		weight = weight - weight_delta
+		print("Error:" + str(error) + " Prediction:" + 
+				str(pred))
+
+</code></pre>
+
+<h2 id="learning-is-just-reducing-errors">Learning is just reducing errors</h2>
+<p>All you’re trying to do is figure out the right direction and amount to modify weight so that error goes down. We can replace the actual pred formula and value of goal_pred in the error formula which will make the equation something like this (assume input = 0.5 and goal _pred = 0.8)-</p>
+
+<p>$error = ((0.5*weight) - 0.8)**2$</p>
+
+<p>Here we can see this is a quadratic equation between error and weight, So we can use the slope to reduce the error and jump to the minimum point i.e. The slope points to the bottom of the bowl (lowest error ) no matter where you are in the bowl. You can use this slope to help the neural network reduce the error.</p>
+
+<p>Here you may think, we can change weight, input, goal_pred, **2, or other arithmetic calculations, but this is not true if we change input or goal_pred then we are seeing the world as we want to see not as it is. Similarly changing the arithmetic will just change how we calculate the error, so we need to make sure that it should give good measure.  So the only possible way to tweak the prediction is to adjust the weight or the knobs to reduce the error to 0.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_5.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>So now we know learning is just adjusting the weight so that the error is reduced to 0. So for this, we need to understand the relationship between <em>error</em> and <em>weight.</em> We saw the equation i.e.</p>
+
+<p>$error = ((input * weight) - goal_pred) ** 2$</p>
+
+<p>so by the help of this equation, we can define the relation between weight and error(other parameters not changing).</p>
+
+<p>With the help of this equation, we can find that the derivative will be of linear order and if we plot the graph for error vs weight then we’ll get the parabola in which the lowest point will show the minimum error for a particular weight. If we check the rate of change of error w.r.t. weight then we’ll find that on the left side the derivative of the slope is always negative and right side the derivative of the slope is always positive. So we can use this idea to go down to the minimum point where the error is zero.</p>
+
+<p>A derivative gives you the relationship between any two variables in a function. You use the derivative to determine the relationship between any weight and error. You then move the weight in the opposite direction of the derivative to find the lowest weight. This method is called gradient descent, here you move the weight value opposite the gradient value, which reduces the error to 0 i.e. if we increase the weight when you have a negative gradient and vice versa.</p>
+
+<p>If the input is sufficiently large then the update in the weight would be larger even if the error is small. The network overshoots i.e. divergence. If we have a big input then the prediction would be more sensitive to the changes in the weight. So for this, we can use alpha.</p>
+
+<h3 id="intro-to-alpha">Intro to alpha</h3>
+
+<p>As in the last problem when the input is large then the weight update can overcorrect. This happens because every time the change or derivative magnitude is larger than the previous one. The general problem we can see is every time this big change it overshoots the minimum point. So we can take a fraction of this derivate by multiplying it with alpha (value between 0 or 1). Not only for big input we can still use it for small inputs to reduce the weight updates.</p>
+
+<p>Finding the appropriate alpha is the state of art in neural networks, it’s often done by guessing. We watch the error and based on that we define whether to increase or decrease alpha. If the learning is very slow then we need to increase the alpha and if there is some overshoot issue then we can decrease the alpha.</p>
+
+<p>So in next blog we’ll see more about Gradient Descent and backward propagation….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Let's dive into gradient descent and learn about forward propagation]]></summary></entry><entry><title type="html">Part 2 - Neural Networks and Deep Learning</title><link href="https://iamsh4shank.github.io/blog/2021/part2-nn-and-dl/" rel="alternate" type="text/html" title="Part 2 - Neural Networks and Deep Learning" /><published>2021-04-27T15:59:00+00:00</published><updated>2021-04-27T15:59:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2021/part2-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part2-nn-and-dl/"><![CDATA[<p>Let’s start our basic discussion from classificaiton of Deep Learning and Machine Learning on the basis of various learning algorithm.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2.jpeg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h2 id="what-is-machine-learning">What is Machine Learning</h2>
+<p>ML basically provides a computation algorithm for making machines take decisions automatically i.e. they will take decisions without explicitly programming them. It is like machines observe a pattern and attempt to imitate it in some way.</p>
+
+<h2 id="what-is-deep-learning">What is Deep Learning</h2>
+<p>Ok I know we discussed about DL in last blog but let’s see it again :P.
+DL is the subset of ML, it uses ANN which resembles with the human brain. It has its good application in an industrial area which sometimes involves CV, NLP, automatic speech recognition, etc..</p>
+
+<p>Now let’s come to the main point of this blog i.e. classification based on various learning algorithm.</p>
+
+<h3 id="supervised-and-unsupervised-ml">Supervised and Unsupervised ML</h3>
+<p><strong>Supervised -</strong> It is a method that transforms one dataset into other. Basically, it maps input and output, and then based on that mapping it predicts the output in the future. It is very useful in narrow AI or weak AI or applied AI. Basically, it has knobs that the algorithm adjusts to increase accuracy.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>For example - If we know the Monday stock price of the last 10 years and map a relation of Tuesday stock price with the Monday data, then we’ll be able to predict the Tuesday price based on last Monday price.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p><strong>Unsupervised -</strong> In the supervised learning method instead of turning a knob for the dataset, we classify the dataset into some label or class. It just finds the pattern in the data and learns from that.</p>
+
+<p>For example - Clustering a dataset into groups, a dataset which has objects like puppies, pizza, kittens, moms, etc. We can find the pattern as food or not food, cute or delicious, etc.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<h3 id="parametric-and-non-parametric-ml">Parametric and Non-parametric ML</h3>
+
+<p><strong>Parametric -</strong>  It is a model which is characterized by having a fixed number of parameters.</p>
+
+<p><strong>Non-parameteric -</strong> In this type of model number of parameters is infinite (basically determined by data). For example - KNN, Decision tree, SVM, etc.</p>
+
+<p>Now let’s combine all together so we’ll get four classes</p>
+
+<p><strong>Supervised + Parametric Learning -</strong>
+Here we have a fixed number of knobs or parameters. Based on these parameters it tunes the models and then checks whether the prediction was correct or not and then further adjusts the fixed number of knobs to attain more accuracy. So it has the basic steps like -</p>
+
+<ol>
+  <li>Predict</li>
+  <li>Compare to the truth pattern(actual output)</li>
+  <li>Learn the pattern and adjust the knobs</li>
+</ol>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p><strong>Unsupervised + Parametric Learning -</strong>
+It is similar to supervised parametric learning but here we adjust the fixed knobs to arrange data into the cluster. Like we can adjust the knobs to train put data into various clusters.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part2_6.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p><strong>Supervised/Unsupervised + Non-parametetric Learning -</strong>
+It uses a flexible number of parameters, and the number of parameters often grows as it learns from more data. So in the case of <em>supervised</em> it will just increase the parameters for the labeled data and in <em>unsupervised</em> it will use this method of learning to make clusters.</p>
+
+<p>Now let’s dive into making a simple Neural Network :D</p>
+
+<h4 id="making-of-the-simple-neural-network">Making of the simple Neural Network</h4>
+<p>As in the last example, we saw that it is only making the prediction based on one input data point, but in typical NN it is not like that. So in order to make predictions more fruitful, we need to combine multiple inputs at the same time. It allows the network to combine various properties and information to make more informed or precise decisions. But the primary logic is the same for each datapoint i.e. NN accepts and input variable as information and weights as knowledge and output as a prediction.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<p>For example: In a match of cricket we can predict the win/loss by past records or in a baseball match we can predict win/loss by a number of toes before the match.</p>
+
+<ul>
+  <li>Input data - It’s the data which we recorded from the real-world somewhere, like temperature, cricket score, traffic intensity, etc.</li>
+  <li>Prediction - With the help of input data and the weights the network will make some predictions, like from traffic records it can predict the traffic intensity on a particular day, by previous match score and player records we can predict whether the team will win or lose the match.</li>
+</ul>
+
+<p>These predictions need to not be true every time, neural networks will learn from the mistakes and correct them. For example, if the prediction is too high then it will adjust the weight so that the prediction will be less next time.</p>
+
+<h4 id="making-prediction-with-multiple-inputs">Making prediction with multiple inputs</h4>
+<p>As in the last example, we saw that it is only making the prediction based on one input data point, but it is not like that in typical NN. So to make predictions more fruitful, we need to combine multiple inputs at the same time. It allows the network to combine various properties and information to make more informed or precise decisions. But the primary logic is the same for each datapoint i.e. NN accepts and input variable as information and weights as knowledge and output as a prediction.</p>
+
+<p>Vectors and matrices made this game very easy, they can perform a mathematical operation in groups like sum, dot products, etc. (Fun fact: Dot product gives us a notion of similarity between two vectors)</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<pre><code class="language-Python">def w_sum(a,b):
+	assert(len(a) == len(b))
+	output = 0
+	for i in range(len(a)):
+	output += (a[i] * b[i])
+	return output
+
+weights = [0.1, 0.2, 0]
+
+def neural_network(input, weights):
+		pred = w_sum(input,weights)
+		return pred
+toes = [8.5, 9.5, 9.9, 9.0]
+wlrec = [0.65, 0.8, 0.8, 0.9]
+nfans = [1.2, 1.3, 0.5, 1.0]
+
+input = [toes[0],wlrec[0],nfans[0]]
+pred = neural_network(input,weights)
+print(pred)
+</code></pre>
+
+<h5 id="numpy-code">NumPy code</h5>
+<pre><code class="language-Python">import numpy as np
+weights = np.array([0.1, 0.2, 0])
+def neural_network(input, weights):
+		pred = input.dot(weights)
+		return pred
+toes = np.array([8.5, 9.5, 9.9, 9.0])
+wlrec = np.array([0.65, 0.8, 0.8, 0.9])
+nfans = np.array([1.2, 1.3, 0.5, 1.0])
+input = np.array([toes[0],wlrec[0],nfans[0]])
+pred = neural_network(input,weights)
+print(pred)
+</code></pre>
+
+<h4 id="making-predictions-with-multiple-outputs">Making predictions with multiple outputs</h4>
+<p>We can also make multiple predictions from one input data point, and all the precautions will be completely separate. Other things are similar to multiple inputs cases.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h4 id="combining-both-multiple-input--multiple-output">Combining both: Multiple Input + Multiple Output</h4>
+<p>Here, we have multiple input datapoints which lead us to calculate weights or outputs. You can take two perspectives on this architecture: think of it as either three weights coming out of each input node, or three weights going into each output node. We’ll go with the latter one.</p>
+
+<p>It performs three independent weighted sums of input to make three separate predictions.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<h4 id="predictions">Predictions</h4>
+<p>Sometimes we need to perform this step L number of times, where we call that network as L layered neural network. So one can assume it like the input data points can predict some results and then those will carry out the future predictions like weights or final outputs.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<pre><code class="language-Python">#NumPy
+import numpy as np
+# toes % win # fans
+ih_wgt = np.array([
+				[0.1, 0.2, -0.1], # hid[0]
+				[-0.1,0.1, 0.9], # hid[1]
+				[0.1, 0.4, 0.1]]).T # hid[2]
+# hid[0] hid[1] hid[2]
+hp_wgt = np.array([
+			[0.3, 1.1, -0.3], # hurt?
+			[0.1, 0.2, 0.0], # win?
+			[0.0, 1.3, 0.1] ]).T # sad?
+weights = [ih_wgt, hp_wgt]
+def neural_network(input, weights):
+		hid = input.dot(weights[0])
+		pred = hid.dot(weights[1])
+		return pred
+toes = np.array([8.5, 9.5, 9.9, 9.0])
+wlrec = np.array([0.65,0.8, 0.8, 0.9])
+nfans = np.array([1.2, 1.3, 0.5, 1.0])
+input = np.array([toes[0],wlrec[0],nfans[0]])
+pred = neural_network(input,weights)
+print(pred)
+</code></pre>
+
+<p>So in next blog we’ll see more about Gradient Descent….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Let's dive basic ML problem classification and simple Neural Network]]></summary></entry><entry><title type="html">Part 1 - Neural Networks and Deep Learning</title><link href="https://iamsh4shank.github.io/blog/2021/part1-nn-and-dl/" rel="alternate" type="text/html" title="Part 1 - Neural Networks and Deep Learning" /><published>2021-01-13T15:12:00+00:00</published><updated>2021-01-13T15:12:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2021/part1-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part1-nn-and-dl/"><![CDATA[<h2 id="why-deep-learning--">Why Deep Learning -</h2>
+<p>In the present era, as we know the whole game is changed, now if you search for a product on some e-commerce website then it fills all your mobile phone with ads related to that product. Not just this Tesla is trending now, WHY? It’s because of their self-driving cars. Now you can fill your home with all those smart devices, so what just talk to them :P</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/Part1-Neural-Networks-and-Deep-Learning/banner.jpeg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Basically, with the help of Artificial Intelligence they changed the game as electricity transformed our society 100 years ago, they changed the way things were previously. Also during this pending, we saw a lot of initiatives with various tech startups who used Deep Learning for providing some good <a href="https://analyticsindiamag.com/11-startups-in-india-using-ai-and-robotics-to-fight-covid-19/">solutions</a> to various day-to-day problems which gave a rise to EdTech, HealthTech Startups.</p>
+
+<h2 id="what-is-neural-network--">What is Neural Network -</h2>
+<p>Generally, by the term Deep Learning, we mean training a Neural Network(shallow or deep). So for understanding what Neural Network is let’s start with some examples. Assume that we want to convert temperature from degree C to degree Fahrenheit and we don’t the actual formula which is -  F = (9/5)*C + 32 <br />
+Then it would be very hard for us to carry out this conversion. So now we’ll use one magic called Machine Learning which will make the computer sit and think for the equation(y = mx + c) using input and output. So we can think of this problem something like this -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>So as we can see the actual equation is somewhat similar to y = mx + c. Let’s some other example, more complex :) <br />
+Assume that we need to predict the taxi fare price based on some parameters like distance covered, no. of passengers, travel time, etc etc. So let’s see the basic structure for that.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_2.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Okay so the above image represents a deep neural network OR maybe something could happen similar to the above-mentioned C to F conversion. What if the taxi fare just depends total distance traveled. Let’s plot a graph -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/Part1-Neural-Networks-and-Deep-Learning/nn_3.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Let’s get into some terminologies :D</p>
+<ul>
+  <li>Here the Blue box, the Red Box, and the last circle (didn’t put any colored box) are called layers i.e.
+    <ol>
+      <li>Blue box - Layer 1</li>
+      <li>Red Box - Layer 2</li>
+      <li>Last circle - Layer 3 or output layer
+        <ul>
+          <li>Here Layer 1 and 2 are also called as Hidden Layer</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>Inputs are also called as Features and Outputs as Predictions.</li>
+  <li>Each circle is called as Neuron or Unit.</li>
+</ul>
+
+<h3 id="using-supervised-learning-in-neural-networks--">Using Supervised Learning in Neural Networks -</h3>
+<p>Let’s take the first example where we made C to F converter. So here initially we have input and output based on that we found some linear equations and with the help of that equation and input we are going to find any output in the future. Similarly, let’s the next example of predicting taxi fare there also we had some input and output, and then we found the neurons, and finally, with the help of neuron and input, we are going to find the taxi fare in the future. Similarly in various other cases like computer vision, let’s say we have an image of a cat and dog so we can predict which one is can and which is not.</p>
+
+<p>So from all these examples, we can say that if we have input and output then based on that we can design the model, and then with the help of that model and input, we can find the output in the future. This is Supervised Learning. Generally, Supervised Learning maps the input to output with the help of example input-output pair the model.</p>
+<h3 id="why-sudden-rise-in-deep-learning">Why sudden rise in Deep Learning?</h3>
+<p>So why Deep Learning became popular is one more thing to discuss before diving more into neural networks. So in traditional ML algorithms, we use SVM, Logistic Regression, etc algorithms, here the main problem was on increasing the amount of data to some point the performance increases but then after that, it goes to a saturation point, and then no such significant increase in performance happens. So in traditional ML algorithms amount of data is not very important after a certain point in time.</p>
+
+<p>But now because of the evolution of Neural Networks, the amount of data is also an important parameter that has its impact on performance. For example, we are using a Large NN (NN with high numbers of layers) then they have a good relationship between the amount of Data and Performance, same goes with shallow NN (NN with less no. of the layer) but less as compared to Deep NNs.</p>
+
+<p>Also, if the amount of data is really less it completely depends on our algorithm i.e. maybe SVM could perform better as compared to NN or vice versa. But for the large amount of data DL is the best way to make predictions. So in DL we can tune performance with the help of Data, Computation, or Algorithms. Nowadays there are various like Jupyter Notebook, Google Colab, etc they provide GPU support to enable fast computation.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Introduction to Deep Learning and Neural Networks]]></summary></entry><entry><title type="html">GSoC 2020 Work Report for Android Client app</title><link href="https://iamsh4shank.github.io/blog/2020/gsoc_report/" rel="alternate" type="text/html" title="GSoC 2020 Work Report for Android Client app" /><published>2020-09-02T16:40:16+00:00</published><updated>2020-09-02T16:40:16+00:00</updated><id>https://iamsh4shank.github.io/blog/2020/gsoc_report</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2020/gsoc_report/"><![CDATA[<p><strong>Organisation:</strong> The Mifos Initiative</p>
+
+<p><strong>Project Name:</strong> Android Field Operations App Version 7</p>
+
+<p><strong>Project GitHub repository link:</strong> <a href="https://github.com/openMF/android-client/tree/master">master branch</a></p>
+
+<p><strong>Commits made during GSoC:</strong> <a href="https://github.com/openMF/android-client/pulls/robustTechie">Pull Requests</a></p>
+
+<h2 id="contents">Contents</h2>
+<ul>
+  <li><a href="#overview-of-project">Overview of project</a></li>
+  <li><a href="#project-implementations">Project Implementations</a></li>
+  <li><a href="#future-improvements">Future Improvements</a></li>
+  <li><a href="#gsoc-expierence-with-the-mifos-initiative">GSoC expierence with The Mifos Initiative</a></li>
+</ul>
+
+<h2 id="overview-of-project">Overview of Project:</h2>
+<p>Android Field operation application based on Mifos X is a robust core banking platform that is developed for field officers using which they process transactions, keep track of their client’s data, center records, group details, different types of accounts (loan, savings and recurring) of the client, run reports of clients, etc. Its sole purpose is to make field operations easier and effortless. This application also provides an offline feature that allows officers to connect with clients and provide them financial support in remote areas as well.</p>
+
+<p>During this GSoC, I will work on extending support of Kotlin in the app, improving offline availability, extending testing coverage, integrating with external systems via Payment Hub EE, tighter integration with our notifications framework, improved client data collection via forms, and enhanced GIS tracking features.</p>
+
+<h2 id="project-implementations">Project Implementations</h2>
+<p><strong>1. Added Bottom Navigation and Floating Action Button(FAB) in Dashboard</strong> <a href="https://github.com/openMF/android-client/pull/1521">PR link</a></p>
+
+<p>For increasing user experience, using bottom navigation will be more
+preferred over side navigation to reach the top-level destinations. Also, the tab bar fairly easily communicates the current location in the app and properly uses visual cues (icons, labels, and colors) to enable the user to understand their current location at a glance. So, it will contain 4 frequent destinations i.e. dashboard, client, center, and group lists.</p>
+
+<p>FAB is a good way to prioritize the most important actions the user should take. Here in our app, it will provide quick access to create a new client, center, and group on just one click.</p>
+
+<p><strong>2. Language support through Locale</strong> <a href="https://github.com/openMF/android-client/pull/1522">PR link</a>
+Added the multi-language support in the application which will allow the user to access the application in various languages like Spanish, Hindi, English, Chinese, French, etc. Localization support is very useful for increasing user engagement in the app.</p>
+
+<p><strong>3. UI enhancement</strong> <a href="https://github.com/openMF/android-client/pull/1523">PR link</a>
+An excellent User Interface will create an instant attraction to the app while a superb User Experience will put a lasting impact on the users’ minds. The basic UI of this application can be modified by providing thecorrect padding, color formatting, proper alignment (of buttons, spinner, text
+view, edit view, etc), optimizing some predefined UI, elimination of unnecessary functionalities, enhancing toast notifications, etc.</p>
+<table>
+     <tr>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418612-9c456b00-b58e-11ea-9240-0fb36cf281f5.jpg" /><br /><center><b>Login Page</b></center></td>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418604-9b143e00-b58e-11ea-9068-a2c4244eea5b.jpg" /><br /><center><b>Dashboard Page</b></center></td>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418613-9cde0180-b58e-11ea-83dd-1525eb5144c6.jpg" /><br /><center><b>Client Details</b></center></td>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418615-9d769800-b58e-11ea-8993-f1f200bd43aa.jpg" /><br /><center><b>Individual Col. sheet</b></center></td>
+     </tr>
+  </table>
+
+<p><strong>4. Instant Search feature in search fragment</strong> <a href="https://github.com/openMF/android-client/pull/1524">PR link</a></p>
+
+<p>It will allow the user to get the search results at the instant he types the client’s name.</p>
+
+<p><strong>5.  Dark Mode support</strong> <a href="https://github.com/openMF/android-client/pull/1525">PR link</a></p>
+
+<p>Dark Mode design reduces the light emitted by device screens while maintaining the minimum color contrast ratios required for readability. It saves energy, mainly if the device uses an OLED or AMOLED screen. With the majority of the screen dark, the screen glare will be reduced. While the dark text on a white background is the best in terms of readability, Dark Mode (which has light text on a dark background) is better for reducing eye strain in low light conditions.</p>
+
+<table>
+     <tr>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792302-e2e2c300-b750-11ea-805d-26e5d384dfba.jpg" /><br /><center><b>Dashboard Page</b></center></td>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792314-e5ddb380-b750-11ea-86d4-f426e8ee0812.jpg" /><br /><center><b>Checker Inbox</b></center></td>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792313-e5451d00-b750-11ea-9ba8-d28fc20f3ebe.jpg" /><br /><center><b>Settings</b></center></td>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792428-1aea0600-b751-11ea-8dde-b4b4994575ef.gif" /><br /><center><b></b></center></td>
+     </tr>
+  </table>
+
+<p><strong>6.  Notifications support</strong> PR link- <a href="https://github.com/openMF/android-client/pull/1526">path tracker</a> and <a href="https://github.com/openMF/android-client/pull/1527">offline mode</a></p>
+
+<p>From 8.0 and above a new concept of Notification Channels came into action for notifications framework. Notification Channels provide us with the ability to group the notifications that our application sends into manageable groups. The notification feature can be used to further enhance the UX, for example if the user is offline and they create new clients, groups or centers, they shall receive a notification when they are back online after the offline sync is done.</p>
+
+<table>
+     <tr>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/86897179-b487bf00-c124-11ea-961e-17618965f7f5.gif" /><br /><center><b>Path tracking</b></center></td>
+          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/86948759-40bcd500-c16b-11ea-9c7d-15dcef18c197.gif" /><br /><center><b>Offline mode</b></center></td>
+     </tr>
+  </table>
+
+<p><strong>7.  Change Passcode feature</strong> <a href="https://github.com/openMF/android-client/pull/1528">PR link</a></p>
+
+<p>It will allow the user to change or reset the passcode without logging in again. As previously if the user had set he passcode once so he needs to log in once again to change it which will decrease the UX and also make the login workflow long.</p>
+
+<p><strong>8.  About App feature</strong> <a href="https://github.com/openMF/android-client/pull/1530">PR link</a></p>
+
+<p>This section was previously missing in the application. It allows to user to know more about the application and it also contains a few links related to the contributors, GitHub, license, and their Twitter account.</p>
+
+<p><strong>9.  Identifier status type</strong> <a href="https://github.com/openMF/android-client/pull/1536">PR link</a></p>
+
+<p>As client identifiers are classified into two types: “Active” and “Inactive”, but previously these details are not visible on the identifier list which made two same identifiers with different status type difficult to classify. So I added a new row to show the status as “Active or Inactive” in the identifier details section.</p>
+
+<p><strong>10.  KYC/client onboarding feature</strong> <a href="https://github.com/openMF/android-client/pull/1541">PR link</a></p>
+
+<p>KYC-Know Your Customer is a process by which financial institutions obtain information about the identity and address of the customers. This process helps to ensure that the services of the financial institutions are not misused. The KYC procedure is to be completed by the institutions while opening accounts and also it should be periodically updated. So now it contains a three-level KYC system to store the information based on the levels.</p>
+
+<p><strong>11.  Extending support of Kotlin:</strong> 
+Migrated the prexisiting Java code to Kotlin and also tested the new codes so that this migration doesn’t affect the exising functionalities. So why Kotlin? Because Kotlin is a new language that has adapted and corrected mistakes over the time, it generates the same bytecode as what Java does. So Kotlin can seamlessly call Java code and vice-versa. Also, null type is integrated into the language’s type system itself. So it is not necessary to keep wrapping codes with null checks around it to avoid NPE. Kotlin is not limited just for android development. Kotlin Native opens possibilities for Kotlin to support almost any platform.
+<strong>PR links -</strong></p>
+
+<ol>
+  <li>Create new client (<a href="https://github.com/openMF/android-client/pull/1533">#1533</a>)</li>
+  <li>Groups related fragment (<a href="https://github.com/openMF/android-client/pull/1535">#1535</a>)</li>
+  <li>Surveys related fragments and activities (<a href="https://github.com/openMF/android-client/pull/1539">#1539</a>)</li>
+  <li>Centers feature (<a href="https://github.com/openMF/android-client/pull/1540">#1540</a>)</li>
+  <li>Savings account-related fragment(<a href="https://github.com/openMF/android-client/pull/1542">#1542</a>)</li>
+  <li>Loan Account related fragment(<a href="https://github.com/openMF/android-client/pull/1543">#1543</a>)</li>
+  <li>Client signature, data tables, notes, and documents related fragment (<a href="https://github.com/openMF/android-client/pull/1544">#1544</a>)</li>
+  <li>Collection and Individual Collection Sheet (<a href="https://github.com/openMF/android-client/pull/1545">#1545</a>)</li>
+  <li>Client related fragment (<a href="https://github.com/openMF/android-client/pull/1550">#1550</a>)</li>
+</ol>
+
+<h3 id="future-improvements">Future Improvements</h3>
+
+<ol>
+  <li>
+    <p><strong>SMS push notifications</strong><br />
+As of now Fineract 1.x doesn’t support Firebase Cloud Messaging service for sending push notifications( Triggered, Scheduled, and Direct), so this feature can be easily implemented once the FCM integration is done.</p>
+  </li>
+  <li>
+    <p><strong>GIS support</strong> 
+There is no proper workflow of GIS that is developed yet, as of now it is used for tracking the path of the client which can be improved. The field officer can easily access the nearby client’s location and track the path based on that. And it can also be integrated with a notification framework so that whenever he is near to any client then he will get a notification for that.</p>
+  </li>
+</ol>
+
+<h3 id="gsoc-expierence-with-the-mifos-initiative">GSoC expierence with The Mifos Initiative</h3>
+<p>I had a great experience throughout this three-month-long program. The community(<a href="https://mifos.org/"> The Mifos Initiative </a>) and my mentors (<a href="https://www.linkedin.com/in/abhilash-g-55160a139/"> Abhilash Gunasegaran </a> and <a href="https://www.linkedin.com/in/tarunmudgal/"> Tarun Mudgal</a>) were very supportive in this three-month-long journey.  I also want to thanks Ed Cable for his great support. The weekly check-ins were awesome, it provided me a good community bonding chance and also helped me to solve some problems which I faced in between. GSoC helped me a lot to learn and grow in a lot of aspects. I am looking forward to contributing to this organization in the future and would also like to help the new contributors to start their contributions in the community.</p>]]></content><author><name></name></author><category term="learnings" /><category term="readings" /><category term="code" /><category term="experience" /><summary type="html"><![CDATA[Contributed to android application built on top of the MifosX platform - a robust core banking platform]]></summary></entry><entry><title type="html">First of my GSoC project</title><link href="https://iamsh4shank.github.io/blog/2020/first-of-my-gsoc-project/" rel="alternate" type="text/html" title="First of my GSoC project" /><published>2020-06-17T07:24:52+00:00</published><updated>2020-06-17T07:24:52+00:00</updated><id>https://iamsh4shank.github.io/blog/2020/first-of-my-gsoc-project</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2020/first-of-my-gsoc-project/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">Hackverse - 24 Hour Nation wide Hackathon’</title><link href="https://iamsh4shank.github.io/blog/2020/hackverse/" rel="alternate" type="text/html" title="Hackverse - 24 Hour Nation wide Hackathon’" /><published>2020-01-26T15:09:00+00:00</published><updated>2020-01-26T15:09:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2020/hackverse</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2020/hackverse/"><![CDATA[<h2 id="what-is-hackverse">What is Hackverse</h2>
+<p>HackVerse serves as a platform to encourage enthusiastic minds to brainstorm 
+on solutions for challenging issues from all over India. The unified motive of 
+gathering all like-minded hackers to our alma mater, is what led to the creation 
+of the idea in NITK Surathkal, the first of its kind. We’ll provide a platform 
+for innovations, where developers can test and showcase their potential to the 
+best of their abilities. The hackathon will also have keynotes &amp; workshops from 
+executives from the industry. Click here to know more about <a href="https://hackverse.nitk.ac.in/blog/">Hackverse</a></p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hackverse/hackverse2.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h3 id="experience">Experience</h3>
+<p>Attended Hackverse hackathon at NIT Surathkal. This was my first hackathon which 
+gave me so much experience. The conference about the blockchain, dockers, Kubernetes 
+is wonderful. Also, the talk given by Dr. Diwakar Kamath ( Google cloud India director) 
+was very enthusiastic, which tells us about what the current world needs.</p>
+
+<p>He also talked about different tech things like Fintech, AI, cloud computing, dockers, fold, 
+postman, etc. There are also some other talks upon Elastic, digital ocean, Wellsfargo, Matic 
+where they talked about various open-source platforms like Kibana(java), elastic search(node js), 
+Beats( Golang ), Logstash (java).</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hackverse/hackverse3.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Talking about our problem set in the hackathon, we planned to make Moodify, it will boost 
+your current mood. Whether you are happy, sad, angry, surprised, it will present you with 
+quotes, videos and posts that will improve your mood to a great extent. This application uses 
+emotion recognition to predict the emotion of the user by scanning their face.</p>
+
+<p>This two-day hackathon gave me so much experience as it taught me how to work in a team, a time 
+limit in a hackathon forced me to distill the visionary concepts down to actionable solutions, 
+it built a bridge to the developer community. It has some tracks like Blockchain, AI-ML, Algorithms, 
+FinTech, Future Mobility, AR-VR, Computer Vision, Open Innovation. Here, I got four T-shirts 
+(Jet Brains, Matic, Devfolio, NITK Hackverse) and some schwag, thanks to Hackverse, Matic, Devfolio, 
+Jet Brains, etc.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hackverse/hackverse6.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>On the second day i.e. on 26th of January 2020, we celebrated republic day in the NITK campus. 
+They organized Parade, Flag Hoisting, Dance, PT, etc. There was a huge crowd gathering in front 
+of the ground.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hackverse/hackverse4.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Team HackVerse made this experience best, they managed this event in the best way. They provided 
+all the facilities like from providing food to providing shelter they have done in a great way. All thanks 
+to the organizing <a href="https://hackverse.nitk.ac.in/team/">team</a>. Waiting for the next version of <a href="https://hackverse.nitk.ac.in/">HackVerse</a>.</p>
+
+<h4 id="what-is-emotion-recognition"><u>What is emotion recognition?</u></h4>
+<p>Emotive analytics is an interesting blend of psychology and technology . Though arguably reductive, 
+many facial expression detection tools lump human emotion into 7 main 
+categories: Joy, Sadness, Anger, Fear, Surprise, Contempt, and Disgust. With facial emotion detection , 
+algorithms detect faces within a photo or video, and sense micro expressions by analyzing the 
+relationship between points on the face, based on curated databases compiled in academic environments.</p>
+
+<h4 id="how-it-works"><u>How it Works</u></h4>
+<ul>
+  <li>
+    <p><strong>Step1:</strong> It will take the image of the user. The image will then be sent Affectiva API which will categorize the emotion of the user.</p>
+  </li>
+  <li>
+    <p><strong>Step2:</strong> After detecting the emotion of the user, the app will then display quotes, posts and YouTube videos to elate the mood of the user.</p>
+  </li>
+</ul>
+
+<h4 id="features"><u>Features</u></h4>
+
+<ul>
+  <li>Predict the emotion of the user.</li>
+  <li>Keep track of user’s mood over time.</li>
+  <li>If the user is sad or depressed of a considerable period of time, this application will provide him the means to get help by connecting him with a therapist.</li>
+  <li>It also conatins the graphs so that user can keep track.</li>
+</ul>
+
+<h4 id="technology-stack"><u>Technology Stack</u></h4>
+
+<ul>
+  <li>Android Studio</li>
+  <li>Java programming</li>
+  <li>YouTube API</li>
+  <li>Affectiva Face Detection API</li>
+  <li>Android NDK</li>
+  <li>Flask API</li>
+</ul>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/hackverse/hackverse1.JPG-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/hackverse/hackverse1.JPG-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/hackverse/hackverse1.JPG-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/hackverse/hackverse1.JPG" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>]]></content><author><name></name></author><category term="learnings" /><category term="experience" /><summary type="html"><![CDATA[Participated in HackVerse a hackathon]]></summary></entry></feed>

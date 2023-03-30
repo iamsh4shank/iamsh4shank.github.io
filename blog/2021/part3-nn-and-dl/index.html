@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Part 3 - Introduction to neural learning and Gradient Descent | Shashank  Priyadarshi</title>
+    <meta name="author" content="Shashank  Priyadarshi">
+    <meta name="description" content="Let's dive into gradient descent and learn about forward propagation">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/android-chrome-512x512.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://iamsh4shank.github.io/blog/2021/part3-nn-and-dl/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Shashank </span>Priyadarshi</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- CV -->
+              <li class="nav-item ">
+                <a class="nav-link" href="https://iamsh4shank.github.io/docs/cv.pdf">cv
+                </a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">repositories</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Part 3 - Introduction to neural learning and Gradient Descent</h1>
+    <p class="post-meta">May 24, 2021</p>
+    <p class="post-tags">
+      <a href="/blog/2021"> <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+        ·  
+        <a href="/blog/tag/machine-learning">
+          <i class="fas fa-hashtag fa-sm"></i> machine-learning</a>  
+          <a href="/blog/tag/research">
+          <i class="fas fa-hashtag fa-sm"></i> research</a>  
+          
+        ·  
+        <a href="/blog/category/learnings">
+          <i class="fas fa-tag fa-sm"></i> learnings</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>As we know the basic paradigm of DL i.e. Predict, compare, and Learn, and we already saw a few basics of prediction in <a href="https://iamsh4shank.github.io/blog/part-2-classificaiton-and-simple-nn">part 2</a> so let’s get started with <strong>compare</strong>.</p>
+
+<p>Imagine a blindfolded person who wants to climb up a mountain or go down a mountain, then he needs to tak ebig steps initally and then he need to reduce hos step size so that he don’t overshoot his final point. Some similar thing happens with Gradient. Check this blog to know more about Gradient.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_8-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_8-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_8-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_8.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p><strong>So comparing gives a measurement of how much a prediction “missed” by.</strong></p>
+
+<p>Handling error is one of the crucial and tough tasks in DL because once we predicted the value it will only tell us about the amount by which it differs from the actual value i.e. - very little, a lot, perfectly predicted. And once we find out the correct error then we can move to the next step i.e. learn. In the next step, learning tells each weight that how much they can change to reduce the error. This step is all about playing a blame game, where we need to find the contribution of each weight into the <a href="http://error.One" rel="external nofollow noopener" target="_blank">error</a> One such blame game is <strong>Gradient Descent.</strong></p>
+
+<h2 id="compare-does-your-network-make-good-predictions">Compare: Does your network make good predictions?</h2>
+<p>Let’s first understand some points -</p>
+
+<ul>
+  <li>
+    <p><strong>goal_pred -</strong> As we have an input that is recorded from real observation, similar to that it is the data collected from real observation for the output, for example - whether a batsman hit a century given his batting average.</p>
+  </li>
+  <li>
+    <p><strong>Why is error squared -</strong> As let’s assume the archer hitting the target when the shot is 5 inches down then the error will be 5 inches. Similarly, if the sot is 5 inches up then again the error will be 5 inches. So the primary reason to square the error is because it forces the output to be positive.</p>
+  </li>
+</ul>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_1-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_1-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_1-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_1.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Here you might think the small error(&lt;1) will get smaller and the large error(&gt;1) might become larger, so it happens and we pay attention to big errors and not worry much about the small ones.</p>
+
+<h3 id="why-measure-error">Why measure error</h3>
+<p>Our main goal for measuring the error because once we have the error then we can minimize it and predict more accurately. We prioritize errors differently like we can apply MSE so that the small errors become irrelevant and only the big ones counted as a significant error.</p>
+
+<p>Our main goal for accurate prediction is to make the average error close to zero. Also, we keep the error as positive because let’s assume if we have an error of +1 and then an error of -1, so the net error will be 0. So we won’t get an actual error instead wi\e’ll think we predicted perfectly.</p>
+
+<h3 id="hot-and-cold-learning">Hot and cold Learning</h3>
+<p>Hot and cold learning means adjusting or wiggling the weights to see which direction reduces the error the most, moving the weights in that direction, and repeating until the error gets to 0.</p>
+
+<p>So basically we first make the weight down and then up and finally we can decide whether to increase the weight or decrease the weight to make the prediction more accurate. In actual NN we need to perform this step many times to find the correct weights.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_3-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_3-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_3-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_3.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+<p>Characteristics of Hot and Cold learning <strong>-</strong></p>
+
+<ul>
+  <li>
+<strong>Simple -</strong> It’s simple like you just need to make your weight slightly high or less than compare the error of each case with the current error, based on that take the decision to increase or decrease the error.</li>
+  <li>
+<strong>Problem 1: Inefficient</strong> <strong>-</strong> We need to predict multiple times to update the knobs.</li>
+  <li>
+<strong>Problem 2: Hard to predict exact goal prediction -</strong> We need to set the step_amount carefully otherwise it will overshoot the output or maybe just oscillate between some values. For example, in the previous case if the step_amount is 10 then the image would be something like this -</li>
+</ul>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_4-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_4-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_4-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_4.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Not only the amount we also need to decide the direction where we want to go. It’s also inefficient because it calculates the prediction thrice for each weight update and arbitrary step_amount (down_weight, same <em>weight, up_</em>weight)</p>
+
+<h2 id="calculating-both-direction-and-amount-from-error">Calculating both direction and amount from error</h2>
+<p>Let’s get first discuss this -</p>
+
+<ul>
+  <li>direction_and_amount - It represents how you want to change weitght, the first part is pure error and the scond part is scaling, negative reversal, and stopping.
+    <ol>
+      <li>
+<strong>Pure error</strong> -  The pure error is ( pred - goal_pred ), which indicates the raw direction and amount you missed. If this is a positive number, you predicted too high, and vice versa. If this is a big number, you missed by a big amount, and so on.</li>
+      <li>
+<strong>Scaling, negative reversal, and stopping</strong> - These three attributes have the combined effect of translating the pure error into the absolute amount you want to change weight . They do so by addressing three major edge cases where the pure error isn’t sufficient to make a good modification to weight .</li>
+    </ol>
+  </li>
+  <li>
+<strong>Stopping</strong> - Stopping is the simplest effect on the pure error cuase by mltiplying it by input. If input is zero then the direction_and_amount will become 0, because there’s nothing to learn. For example - imagine plugging a CD player into your stereo. If you turned the volume all the way up but the CD player was off, the volume change wouldn’t matter.</li>
+  <li>
+<strong>Negative reversal</strong> -  This is probably the most difficult and important effect. Normally (when input is positive), moving weight upward makes the prediction move upward. But if input is negative,
+then all of a sudden weight changes directions! When input is negative, moving weight up makes the prediction go down. It’s reversed! How do you address this? Well, multiplying the pure error by input will reverse the sign of direction_and_amount in the event that input is negative. This is negative reversal, ensuring that weight moves in the correct direction even if input is negative.</li>
+  <li>
+<strong>Scaling</strong> - Logically if input is big then the update in weight will be big, sometimes it has cons also like it goes out of control, for that we’ll discuss alpha.</li>
+</ul>
+
+<h3 id="gradient-descent">Gradient Descent</h3>
+<p>As I told in the beginning about a blindfolded person. There is some similarity in Gradient Descent also, here as we need to minimize the error so we plot a graph between error and weight (reference - check <a href="https://iamsh4shank.github.io/blog/part-2-classificaiton-and-simple-nn">part 2</a>), here our aim is to minimize the error i.e. to reach to minimum point, also we need to take care that the NN should not overshoot that point.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_6-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_6-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_6-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_6.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Here we update our parameters like weight. So first we predict the value then we calculate the loss/error, and then we calculate the delta factor and apply the previous scaling, reversal, and stopping technique to calculate the weight_delta and finally we multiply it by alpha and update our parameters.</p>
+
+<p>Steps -</p>
+
+<ol>
+  <li>Predict</li>
+  <li>Calculate error/loss (predict-actual)</li>
+  <li>Calculate weighted delta -
+    <ol>
+      <li>Pure error</li>
+      <li>Scaling, stopping, and reversal</li>
+    </ol>
+  </li>
+  <li>Multiply it with alpha and update the weight (parameters)</li>
+</ol>
+
+<p>i.e.</p>
+
+<pre><code class="language-Python">for iteration in range(4):
+		#Next two lines have the secret.
+		pred = input * weight
+		error = (pred - goal_pred) ** 2
+		delta = pred - goal_pred
+		weight_delta = delta * input
+		weight = weight - weight_delta
+		print("Error:" + str(error) + " Prediction:" + 
+				str(pred))
+
+</code></pre>
+
+<h2 id="learning-is-just-reducing-errors">Learning is just reducing errors</h2>
+<p>All you’re trying to do is figure out the right direction and amount to modify weight so that error goes down. We can replace the actual pred formula and value of goal_pred in the error formula which will make the equation something like this (assume input = 0.5 and goal _pred = 0.8)-</p>
+
+<p>$error = ((0.5*weight) - 0.8)**2$</p>
+
+<p>Here we can see this is a quadratic equation between error and weight, So we can use the slope to reduce the error and jump to the minimum point i.e. The slope points to the bottom of the bowl (lowest error ) no matter where you are in the bowl. You can use this slope to help the neural network reduce the error.</p>
+
+<p>Here you may think, we can change weight, input, goal_pred, **2, or other arithmetic calculations, but this is not true if we change input or goal_pred then we are seeing the world as we want to see not as it is. Similarly changing the arithmetic will just change how we calculate the error, so we need to make sure that it should give good measure.  So the only possible way to tweak the prediction is to adjust the weight or the knobs to reduce the error to 0.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/part3_nn_dl/3_5-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/part3_nn_dl/3_5-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/part3_nn_dl/3_5-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/part3_nn_dl/3_5.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>So now we know learning is just adjusting the weight so that the error is reduced to 0. So for this, we need to understand the relationship between <em>error</em> and <em>weight.</em> We saw the equation i.e.</p>
+
+<p>$error = ((input * weight) - goal_pred) ** 2$</p>
+
+<p>so by the help of this equation, we can define the relation between weight and error(other parameters not changing).</p>
+
+<p>With the help of this equation, we can find that the derivative will be of linear order and if we plot the graph for error vs weight then we’ll get the parabola in which the lowest point will show the minimum error for a particular weight. If we check the rate of change of error w.r.t. weight then we’ll find that on the left side the derivative of the slope is always negative and right side the derivative of the slope is always positive. So we can use this idea to go down to the minimum point where the error is zero.</p>
+
+<p>A derivative gives you the relationship between any two variables in a function. You use the derivative to determine the relationship between any weight and error. You then move the weight in the opposite direction of the derivative to find the lowest weight. This method is called gradient descent, here you move the weight value opposite the gradient value, which reduces the error to 0 i.e. if we increase the weight when you have a negative gradient and vice versa.</p>
+
+<p>If the input is sufficiently large then the update in the weight would be larger even if the error is small. The network overshoots i.e. divergence. If we have a big input then the prediction would be more sensitive to the changes in the weight. So for this, we can use alpha.</p>
+
+<h3 id="intro-to-alpha">Intro to alpha</h3>
+
+<p>As in the last problem when the input is large then the weight update can overcorrect. This happens because every time the change or derivative magnitude is larger than the previous one. The general problem we can see is every time this big change it overshoots the minimum point. So we can take a fraction of this derivate by multiplying it with alpha (value between 0 or 1). Not only for big input we can still use it for small inputs to reduce the weight updates.</p>
+
+<p>Finding the appropriate alpha is the state of art in neural networks, it’s often done by guessing. We watch the error and based on that we define whether to increase or decrease alpha. If the learning is very slow then we need to increase the alpha and if there is some overshoot issue then we can decrease the alpha.</p>
+
+<p>So in next blog we’ll see more about Gradient Descent and backward propagation….</p>
+
+  </article>
+
+
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2020/first-of-my-gsoc-project/">First of my GSoC project</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/year-review_2021/">The year with new learnings: 2021</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/part5-nn-and-dl/">Part 5 - Gradient Descent and Backpropagation</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/part4-nn-and-dl/">Part 4 - Gradient Descent in multiple weights</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/part2-nn-and-dl/">Part 2 - Neural Networks and Deep Learning</a>
+  </li>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Shashank  Priyadarshi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
