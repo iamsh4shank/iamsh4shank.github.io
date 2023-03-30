@@ -1,0 +1,62 @@
+education:
+  - university: Amrita Vishwa Vidyapeetham
+    degree: B. Tech in Computer Science with specilization in AI
+    Duration: Aug. 2019 - Now
+    icon: 
+
+  - university: Ben Gurion University of Negev, Israel 
+    degree: Summer School on Data Mining for Business Intelligence and Cybersecurity 
+    Duration: Jul. 2022 - Aug. 2022
+    icon: 
+    
+  
+
+work:
+  - company: Aftershoot
+    job: Machine Learning Engineer Intern
+    Duration: Nov. 2021 - Jan. 2023
+    icon: 
+
+  - company: Skit.ai
+    job: Machine Learning Core Intern
+    Duration: Jun. 2022 - Sept. 2022
+    icon: 
+
+  - company: Zoho Labs
+    job: Summer Research Intern
+    Duration: Apr. 2019 - Aug. 2022
+    icon: 
+
+  - company: The Atom EI
+    job: Android Engineering Intern
+    Duration: Sep. 2021 - Nov. 2021
+    icon: 
+
+  - company: The Mifos Initiative (GSoC)
+    job: Student Intern
+    Duration: May 2020 - Sep. 2020
+    icon: 
+
+
+
+volunteer:
+  - title: Mentor @GSoC 2021, 2022
+    company: Google Summer of Code @The Mifos Initiative
+    Duration: Mar. 2021 - Sept. 2022
+    
+  - title: Lead at Google Developer Student CLub (GDSC)
+    company: GDSC @Amrita Vishwa Vidyapeetham
+    Duration: Aug. 2020 - Jul. 2021
+    
+  - title: Speaker
+    company: Introduction to AI
+    Duration: Sep. 2021
+    
+  - title: Speaker
+    company: Android Development
+    Duration: Apr. 2021
+    
+  - title: Member and Mentor
+    company: amFOSS
+    Duration: Aug. 2019 - Present
+    
