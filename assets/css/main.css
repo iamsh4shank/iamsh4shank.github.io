@@ -524,6 +524,30 @@ footer.sticky-bottom {
   text-decoration: none;
 }
 
+.experience h2.category {
+  color: var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.experience_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.volunteer_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_content {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
 .projects a {
   text-decoration: none;
 }
