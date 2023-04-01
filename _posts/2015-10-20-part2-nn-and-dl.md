@@ -28,19 +28,19 @@ Now let's come to the main point of this blog i.e. classification based on vario
 **Supervised -** It is a method that transforms one dataset into other. Basically, it maps input and output, and then based on that mapping it predicts the output in the future. It is very useful in narrow AI or weak AI or applied AI. Basically, it has knobs that the algorithm adjusts to increase accuracy. 
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_1.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_1.png" class="img-fluid rounded z-depth-1" %}
 </div>
 For example - If we know the Monday stock price of the last 10 years and map a relation of Tuesday stock price with the Monday data, then we'll be able to predict the Tuesday price based on last Monday price.
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_2.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_2.png" class="img-fluid rounded z-depth-1" %}
 </div>
 **Unsupervised -** In the supervised learning method instead of turning a knob for the dataset, we classify the dataset into some label or class. It just finds the pattern in the data and learns from that. 
 
 For example - Clustering a dataset into groups, a dataset which has objects like puppies, pizza, kittens, moms, etc. We can find the pattern as food or not food, cute or delicious, etc.
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_3.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_3.png" class="img-fluid rounded z-depth-1" %}
 </div>
 ### Parametric and Non-parametric ML  
 
@@ -58,7 +58,7 @@ Here we have a fixed number of knobs or parameters. Based on these parameters it
 3. Learn the pattern and adjust the knobs
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_4.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_4.png" class="img-fluid rounded z-depth-1" %}
 </div>
 
 **Unsupervised + Parametric Learning -**
@@ -83,7 +83,7 @@ As in the last example, we saw that it is only making the prediction based on on
 
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_7.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_7.png" class="img-fluid rounded z-depth-1" %}
 </div>
 For example: In a match of cricket we can predict the win/loss by past records or in a baseball match we can predict win/loss by a number of toes before the match.
 
@@ -98,7 +98,7 @@ As in the last example, we saw that it is only making the prediction based on on
 Vectors and matrices made this game very easy, they can perform a mathematical operation in groups like sum, dot products, etc. (Fun fact: Dot product gives us a notion of similarity between two vectors)
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_8.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_8.png" class="img-fluid rounded z-depth-1" %}
 </div>
 
 ```Python
@@ -142,7 +142,7 @@ print(pred)
 We can also make multiple predictions from one input data point, and all the precautions will be completely separate. Other things are similar to multiple inputs cases.
  
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_9.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_9.png" class="img-fluid rounded z-depth-1" %}
 </div>
 
 #### Combining both: Multiple Input + Multiple Output
@@ -151,13 +151,13 @@ Here, we have multiple input datapoints which lead us to calculate weights or ou
 It performs three independent weighted sums of input to make three separate predictions.
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_10.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_10.png" class="img-fluid rounded z-depth-1" %}
 </div>
 #### Predictions
 Sometimes we need to perform this step L number of times, where we call that network as L layered neural network. So one can assume it like the input data points can predict some results and then those will carry out the future predictions like weights or final outputs.
 
 <div class="text-center">
-    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part_2_13.png" width=600 class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/part-2-classificaiton-and-simple-nn/nn_part2_13.png"  class="img-fluid rounded z-depth-1" %}
 </div>
 
 ```Python
