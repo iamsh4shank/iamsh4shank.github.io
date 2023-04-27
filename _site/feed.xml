@@ -1,7 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-26T21:12:08+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-27T22:21:17+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
 </subtitle><entry><title type="html">Introduction to Adversarial ML</title><link href="http://localhost:4000/blog/2023/part1-a_ml/" rel="alternate" type="text/html" title="Introduction to Adversarial ML" /><published>2023-04-25T20:42:00+05:30</published><updated>2023-04-25T20:42:00+05:30</updated><id>http://localhost:4000/blog/2023/part1-a_ml</id><content type="html" xml:base="http://localhost:4000/blog/2023/part1-a_ml/"><![CDATA[<p>Hi all, let’s see an interesting case, picture this: you’ve trained a machine learning model to identify images of dogs and cats accurately. It’s performing great during testing and you’re excited to deploy it in the real world. But what happens when someone tries to trick the model by feeding it images that are slightly altered, making it misclassify them?</p>
 
-<p>As AI-assisted tools become more prevalent and we witness the upcoming deployment of AI in real-world use cases, it’s crucial that we shift our focus not only on several performance metrics but also on the robustness of such models. One thing I have noticed is that we tend to focus more on increasing accuracy or other metrics when creating ML models. For instance, if you’re an ML enthusiast who has created models for classification or segmentation tasks, you’re likely to evaluate the model’s performance based on its accuracy or F1 score. However, we need to consider more factors to ensure that the model doesn’t fail in real-world use cases.</p>
+<p>With the increasing prevalence of AI-assisted tools and the upcoming deployment of AI in real-world use cases, it’s crucial that we shift our focus beyond performance metrics and prioritize the robustness of these models. One observation I’ve made is that we tend to emphasize improving accuracy or other metrics when developing ML models. For example, if you’re an ML enthusiast who has created models for classification or segmentation tasks, you’re probably measuring the model’s performance based on its accuracy or F1 score. However, we need to take into account additional factors to ensure the model doesn’t fail in real-world scenarios.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/adversarial_ml/p1/adv_cover_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/adversarial_ml/p1/adv_cover_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/adversarial_ml/p1/adv_cover_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/adversarial_ml/p1/adv_cover_1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
 
 <p>Think about it - what if a camera installed at a busy intersection failed to count the number of cars crossing the road due to external disturbances like weather or background noise? Or worse, what if someone could easily trick a face recognition system with a patch that looks similar to your face? These scenarios highlight the pressing need to make AI systems more secure and resilient to such corruption. These corruptions could be Adversarial attacks, in which an attacker intentionally manipulates data to mislead or evade AI systems, which are one example of the potential risks associated with AI. Additionally, AI systems can potentially reveal sensitive personal information if they are not properly secured.</p>
 
@@ -45,20 +64,20 @@ A white box attack is an attack scenario where the attacker has access to the ta
 
 <p>Let’s begin by exploring some practical applications while simultaneously learning the relevant theory. I will be incorporating some mathematical concepts along the way, which may significantly enhance the complexity of the topic. However, I will try to provide relevant links and explanations to ensure that it remains clear and understandable.</p>
 
-<p>To start, I will use a pre-trained ResNet18 model by PyTorch to classify the image of a Goldfish</p>
+<p>To start, I will use a pre-trained ResNet18 model by PyTorch to classify the image of a Indigo</p>
 
 <div class="text-center">
     <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/adversarial_ml/p1/goldfish-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/adversarial_ml/p1/goldfish-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/adversarial_ml/p1/goldfish-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/adversarial_ml/p1/indigo-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/adversarial_ml/p1/indigo-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/adversarial_ml/p1/indigo-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/adversarial_ml/p1/goldfish.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/adversarial_ml/p1/indigo.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -69,13 +88,13 @@ A white box attack is an attack scenario where the attacker has access to the ta
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="kn">from</span> <span class="n">torchvision</span> <span class="kn">import</span> <span class="n">transforms</span>
 
-<span class="n">gold_fish_img</span> <span class="o">=</span> <span class="n">Image</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="s">"goldfish.png"</span><span class="p">)</span>
-<span class="n">transform</span> <span class="o">=</span> <span class="n">transforms</span><span class="p">.</span><span class="nc">Compose</span><span class="p">([</span>
+<span class="n">indigo_img</span> <span class="o">=</span> <span class="n">Image</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="s">"indigo.jpg"</span><span class="p">)</span>
+<span class="n">preprocess</span> <span class="o">=</span> <span class="n">transforms</span><span class="p">.</span><span class="nc">Compose</span><span class="p">([</span>
    <span class="n">transforms</span><span class="p">.</span><span class="nc">Resize</span><span class="p">(</span><span class="mi">224</span><span class="p">),</span>
    <span class="n">transforms</span><span class="p">.</span><span class="nc">ToTensor</span><span class="p">(),</span>
 <span class="p">])</span>
-<span class="n">gold_fish_tensor</span> <span class="o">=</span> <span class="nf">transform</span><span class="p">(</span><span class="n">gold_fish_img</span><span class="p">)[</span><span class="bp">None</span><span class="p">,:,:,:]</span>
-<span class="n">plt</span><span class="p">.</span><span class="nf">imshow</span><span class="p">(</span><span class="n">gold_fish_tensor</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nf">numpy</span><span class="p">().</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+<span class="n">indigo_tensor</span> <span class="o">=</span> <span class="nf">preprocess</span><span class="p">(</span><span class="n">indigo_img</span><span class="p">)[</span><span class="bp">None</span><span class="p">,:,:,:]</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">imshow</span><span class="p">(</span><span class="n">indigo_tensor</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nf">numpy</span><span class="p">().</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
 </code></pre></div></div>
 <div class="text-center">
     <figure>
@@ -108,7 +127,7 @@ A white box attack is an attack scenario where the attacker has access to the ta
 </span><span class="n">trans</span> <span class="o">=</span> <span class="n">transforms</span><span class="p">.</span><span class="nc">Compose</span><span class="p">([</span>
    <span class="n">transforms</span><span class="p">.</span><span class="nc">Normalize</span><span class="p">((</span><span class="mf">0.485</span><span class="p">,</span> <span class="mf">0.456</span><span class="p">,</span> <span class="mf">0.406</span><span class="p">),</span> <span class="p">(</span><span class="mf">0.229</span><span class="p">,</span> <span class="mf">0.224</span><span class="p">,</span> <span class="mf">0.225</span><span class="p">)),</span>  
 <span class="p">])</span>
-<span class="n">output</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="nf">trans</span><span class="p">(</span><span class="n">gold_fish_tensor</span><span class="p">))</span>
+<span class="n">output</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="nf">trans</span><span class="p">(</span><span class="n">indigo_tensor</span><span class="p">))</span>
 <span class="n">pred</span> <span class="o">=</span> <span class="n">output</span><span class="p">.</span><span class="nf">argmax</span><span class="p">(</span><span class="n">dim</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
 </code></pre></div></div>
 
@@ -119,7 +138,7 @@ A white box attack is an attack scenario where the attacker has access to the ta
     <span class="nf">print</span><span class="p">(</span><span class="n">imagenet_classes</span><span class="p">[</span><span class="n">pred</span><span class="p">.</span><span class="nf">item</span><span class="p">()])</span>
 
 </code></pre></div></div>
-<p>Ok everything is working fine our model predicted correctly that it is a Goldfish. Now next we need to generate the perturb data. So before that let’s come to some general concepts of model. So we have input space <strong><em>X</em></strong> (say), and the output space will be a <em>k</em> dimensional vector space (<em>k</em> being the number of classes), here the output space vector could be the logit space. So we can define the function for the model something like -</p>
+<p>Ok everything is working fine our model predicted correctly that it is a Indigo. Now next we need to generate the perturb data. So before that let’s come to some general concepts of model. So we have input space <strong><em>X</em></strong> (say), and the output space will be a <em>k</em> dimensional vector space (<em>k</em> being the number of classes), here the output space vector could be the logit space. So we can define the function for the model something like -</p>
 
 \[h_\theta : X \rightarrow \mathbb{R}^k\]
 
@@ -145,15 +164,15 @@ A white box attack is an attack scenario where the attacker has access to the ta
 \[l(hθ(x),y)=log(\sum_{n=1}^{\infty} exp(h_\theta(x)_j)) - h_\theta(x)_y\]
 
 <p>too much maths but for our use case we can simple use this function by PyTorch to use the cross entropy loss -</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 1 is the label index of Gold Fish
-</span><span class="kn">import</span> <span class="n">math</span>
-<span class="n">loss</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">CrossEntropyLoss</span><span class="p">()(</span><span class="n">output</span><span class="p">,</span><span class="n">torch</span><span class="p">.</span><span class="nc">LongTensor</span><span class="p">([</span><span class="mi">1</span><span class="p">])).</span><span class="nf">item</span><span class="p">()</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">math</span>
+<span class="c1"># [14] is the class of Indigo
+</span><span class="n">loss</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">CrossEntropyLoss</span><span class="p">()(</span><span class="n">output</span><span class="p">,</span><span class="n">torch</span><span class="p">.</span><span class="nc">LongTensor</span><span class="p">([</span><span class="mi">14</span><span class="p">])).</span><span class="nf">item</span><span class="p">()</span>
 <span class="n">probability</span> <span class="o">=</span> <span class="n">math</span><span class="p">.</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="n">loss</span><span class="p">)</span>
-<span class="nf">print </span><span class="p">(</span><span class="sa">f</span><span class="s">"Loss: </span><span class="si">{</span><span class="n">loss</span><span class="si">}</span><span class="s">, probability of class Goldfish: </span><span class="si">{</span><span class="n">probability</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<span class="nf">print </span><span class="p">(</span><span class="sa">f</span><span class="s">"Loss: </span><span class="si">{</span><span class="n">loss</span><span class="si">}</span><span class="s">, probability of class Indigo: </span><span class="si">{</span><span class="n">probability</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Output: 
-Loss: 0.0010887415846809745, probability of class Goldfish: 0.9989118508794051
+Loss: 0.05189608410000801, probability of class Indigo: 0.9494275223323242
 </code></pre></div></div>
 <p>So if apply exp of this we an approximately as probability which is a good accuracy.</p>
 
@@ -172,7 +191,121 @@ Loss: 0.0010887415846809745, probability of class Goldfish: 0.9989118508794051
 
 \[\underset{\delta \in \Delta}{maximize} \text{ }l(h_\theta(x + \delta), y)\]
 
-<p>Now comes the other important topic of discussion i.e. how to decide for this $\Delta$ i.e. allowed set of perturbation. In simple langauge this value can be anything which when added to the actual image, human visually feel no difference with the original input image. So we can apply several types of transformations in the image keeping in mind that it should not affect the semantic content of the image under the added perturbation. Mathematically we define a perturbation set which can be L norms such that we need to bound the added perturbation inside the L norms ($ L_0, L_1, L_2, or L_\infty $). The most common is $L_\infty$ ball.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Get started with Security and Privacy in AI]]></summary></entry><entry><title type="html">Deploying a PyTorch ML model in an Android app</title><link href="http://localhost:4000/blog/2023/ml_android/" rel="alternate" type="text/html" title="Deploying a PyTorch ML model in an Android app" /><published>2023-01-28T21:29:00+05:30</published><updated>2023-01-28T21:29:00+05:30</updated><id>http://localhost:4000/blog/2023/ml_android</id><content type="html" xml:base="http://localhost:4000/blog/2023/ml_android/"><![CDATA[<p>Integration of a computer vision model built in PyTorch with an Android app can be a powerful way to bring the capabilities of machine learning to mobile devices. In this blog post, we will go over the steps needed to integrate a PyTorch model into an Android app and run inferences on the device. This integration will allow us the development of more advanced and intelligent mobile apps. ML can enable features such as image and speech recognition, natural language processing, and predictive analytics, which can enhance the user experience and make the app more efficient and effective. Additionally, integrating ML with Android can enable offline functionality, which is important for apps that need to work in areas with limited or no internet connectivity. Furthermore, with the growing amount of data generated by mobile devices, integrating machine learning models allows for more efficient and accurate data analysis.</p>
+<p>Now comes the other important topic of discussion i.e. how to decide for this $\Delta$ i.e. allowed set of perturbation. In simple langauge this value can be anything which when added to the actual image, human visually feel no difference with the original input image. So we can apply several types of transformations in the image keeping in mind that it should not affect the semantic content of the image under the added perturbation. Mathematically we define a perturbation set which can be L norms such that we need to bound the added perturbation inside the L norms ($ L_0, L_1, L_2, or L_\infty s$). The most common is $L_\infty$ ball. $L_\infty$ norm for vector a is defined as -</p>
+
+\[||a||_\infty = \underset{i}{max} \text{ }|a_i|\]
+
+<p>which means it refers to the maximum absolute value of the elements in a vector $a$. So while adding the perturbation in the image we need to take care that the magnitude lie between $[-\epsilon, \epsilon]$. Also we need to make sure that if the iamge is normalised i.e. if all pixel lie between $[0, 1]$ then we need to make sure that $x + \delta $ lie between the same range too. 
+But first let’s see a basic example of attacking a model.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">torch.optim</span> <span class="k">as</span> <span class="n">optim</span>
+<span class="n">epsilon</span> <span class="o">=</span> <span class="mf">2.</span><span class="o">/</span><span class="mi">255</span>
+<span class="c1">#adversarial perturbation
+</span><span class="n">adv_per</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">zeros_like</span><span class="p">(</span><span class="n">indigo_tensor</span><span class="p">,</span> <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">opt</span> <span class="o">=</span> <span class="n">optim</span><span class="p">.</span><span class="nc">SGD</span><span class="p">([</span><span class="n">delta</span><span class="p">],</span> <span class="n">lr</span><span class="o">=</span><span class="mf">1e-1</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">ite</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">50</span><span class="p">):</span>
+    <span class="n">pred</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="nf">trans</span><span class="p">(</span><span class="n">indigo_tensor</span> <span class="o">+</span> <span class="n">adv_per</span><span class="p">))</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">nn</span><span class="p">.</span><span class="nc">CrossEntropyLoss</span><span class="p">()(</span><span class="n">pred</span><span class="p">,</span> <span class="n">torch</span><span class="p">.</span><span class="nc">LongTensor</span><span class="p">([</span><span class="mi">14</span><span class="p">]))</span>
+    <span class="k">if</span> <span class="n">ite</span> <span class="o">%</span> <span class="mi">10</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ite</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">loss</span><span class="p">.</span><span class="nf">item</span><span class="p">()</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+    
+    <span class="n">opt</span><span class="p">.</span><span class="nf">zero_grad</span><span class="p">()</span>
+    <span class="n">loss</span><span class="p">.</span><span class="nf">backward</span><span class="p">()</span>
+    <span class="n">opt</span><span class="p">.</span><span class="nf">step</span><span class="p">()</span>
+    <span class="n">adv_per</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nf">clamp_</span><span class="p">(</span><span class="o">-</span><span class="n">epsilon</span><span class="p">,</span> <span class="n">epsilon</span><span class="p">)</span>
+    
+<span class="nf">print</span><span class="p">(</span><span class="s">"True class probability:"</span><span class="p">,</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Softmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)(</span><span class="n">pred</span><span class="p">)[</span><span class="mi">0</span><span class="p">,</span><span class="mi">14</span><span class="p">].</span><span class="nf">item</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Output:
+0: -0.05189608410000801
+10: -21.462343215942383
+20: -26.89446258544922
+30: -28.595821380615234
+40: -27.62549591064453
+Indigo class probability: 1.5631285328610023e-12
+</code></pre></div></div>
+<p>Let’s understand the code, here we are using the SGD optimiser for gradient optimiszation using backpropagation. Further we mentioned the value of $\epsilon$ for the making it inside the $L_{inf}$ ball. Next we are initalizing the adversarial perturbation(<code class="language-plaintext highlighter-rouge">adv_perturbation</code>) which is a zero tensor similar to the input image and the <code class="language-plaintext highlighter-rouge">requires_grad=True</code> argument specifies that the tensor will be used in a computation graph and that gradients will be computed with respect to it. Next we iterate the 50 gradient step (similar to PGD type attack). So now we’re following the same step of first finsing the prediction for <code class="language-plaintext highlighter-rouge">image + adv_per</code> and then calculated the loss and used the negative sign to maximize the loss by making model more confident in such predictions. Next we clear (<code class="language-plaintext highlighter-rouge">opt.zero_grad()</code>) previously stored gradient of the optimizer and compute the gradients of the loss w.r.t. <code class="language-plaintext highlighter-rouge">adv_per</code> using autograd engine. Next <code class="language-plaintext highlighter-rouge">opt.step()</code> will update the <code class="language-plaintext highlighter-rouge">adv_per</code> tensor using the gradients computed in the previous step. Over the iteration we also need to keep track that our updated <code class="language-plaintext highlighter-rouge">adv_per</code> lies between [$-\epsilon, \epsilon$], so for this we use <code class="language-plaintext highlighter-rouge">data.clamp_</code> to achieve this.</p>
+
+<p>So what did it actually classified as -</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">max_class</span> <span class="o">=</span> <span class="n">pred</span><span class="p">.</span><span class="nf">max</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">].</span><span class="nf">item</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"False predicted class name: "</span><span class="p">,</span> <span class="n">imagenet_classes</span><span class="p">[</span><span class="n">max_class</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"False rredicted class probability:"</span><span class="p">,</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Softmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)(</span><span class="n">pred</span><span class="p">)[</span><span class="mi">0</span><span class="p">,</span><span class="n">max_class</span><span class="p">].</span><span class="nf">item</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Output:
+False predicted class name:  chickadee
+False predicted class probability: 0.9999942779541016
+</code></pre></div></div>
+
+<p>But this is how chickadee looks like -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/adversarial_ml/p1/chickadee-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/adversarial_ml/p1/chickadee-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/adversarial_ml/p1/chickadee-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/adversarial_ml/p1/chickadee.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>And this is how it actually looks likes after adding the perturbation</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plt</span><span class="p">.</span><span class="nf">imshow</span><span class="p">((</span><span class="n">indigo_tensor</span> <span class="o">+</span> <span class="n">delta</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nf">detach</span><span class="p">().</span><span class="nf">numpy</span><span class="p">().</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/adversarial_ml/p1/attacked_indigo-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/adversarial_ml/p1/attacked_indigo-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/adversarial_ml/p1/attacked_indigo-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/adversarial_ml/p1/attacked_indigo.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Let’s see how the adversarial perturbation looks -</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/adversarial_ml/p1/delta-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/adversarial_ml/p1/delta-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/adversarial_ml/p1/delta-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/adversarial_ml/p1/delta.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>This is the very fundamental implementation of adversarial attack, there are several attacked that we’ll learn in the upcoming blogs such as <code class="language-plaintext highlighter-rouge">FGSM, PGD, BIM, Carlini Wagner, etc</code>. You might say that the <code class="language-plaintext highlighter-rouge">Chickadee</code> looks similar to an <code class="language-plaintext highlighter-rouge">Indigo</code>, what if we want to make the  image more different or say targeted towards a particular class. So we’ll see that in next blog on how to make the targeted perturbation towards a particular class.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Get started with Security and Privacy in AI]]></summary></entry><entry><title type="html">Deploying a PyTorch ML model in an Android app</title><link href="http://localhost:4000/blog/2023/ml_android/" rel="alternate" type="text/html" title="Deploying a PyTorch ML model in an Android app" /><published>2023-01-28T21:29:00+05:30</published><updated>2023-01-28T21:29:00+05:30</updated><id>http://localhost:4000/blog/2023/ml_android</id><content type="html" xml:base="http://localhost:4000/blog/2023/ml_android/"><![CDATA[<p>Integration of a computer vision model built in PyTorch with an Android app can be a powerful way to bring the capabilities of machine learning to mobile devices. In this blog post, we will go over the steps needed to integrate a PyTorch model into an Android app and run inferences on the device. This integration will allow us the development of more advanced and intelligent mobile apps. ML can enable features such as image and speech recognition, natural language processing, and predictive analytics, which can enhance the user experience and make the app more efficient and effective. Additionally, integrating ML with Android can enable offline functionality, which is important for apps that need to work in areas with limited or no internet connectivity. Furthermore, with the growing amount of data generated by mobile devices, integrating machine learning models allows for more efficient and accurate data analysis.</p>
 
 <p>Today we’re going to learn how to integrate a Machine Learning model into an Android App. So the idea is - 
 We are going to create an app that let you add a picture from your gallery and further tells you which type of Tomato it is using the <a href="https://universe.roboflow.com/labeler-projects/tomato-classification-jc5kz">Tomato classification dataset</a>. A tomato classification model could be used in precision agriculture to pick tomatoes with the correct ripeness, pick certain types of tomatoes, sort tomatoes once they have been picked, serve as input for overall crop growth or crop health, and more.</p>
