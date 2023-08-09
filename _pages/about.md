@@ -2,7 +2,7 @@
 layout: about-custom
 title: about
 permalink: /
-subtitle: ML Researcher | Member at <a href='https://amfoss.in/'>amFOSS</a>
+subtitle: ML Researcher
 
 profile:
   align: right
