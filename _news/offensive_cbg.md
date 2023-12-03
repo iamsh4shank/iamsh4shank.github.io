@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Intern at OffensiveAI Lab (CBG)
-date: 2023-09-31 16:11:00-0400
+date: 2023-07-07 16:11:00-0400
 inline: false
 related_posts: false
 ---

@@ -1,7 +1,12 @@
 education:
+  - university: Saarland Univeristy, Germany
+    degree: MSc. in Computer Science
+    Duration: 2023 - Now
+    icon: 
+
   - university: Amrita Vishwa Vidyapeetham
     degree: B. Tech in Computer Science with specilization in AI
-    Duration: Aug. 2019 - Now
+    Duration: 2019 - 2023
     icon: 
 
   - university: Ben Gurion University of Negev, Israel 
