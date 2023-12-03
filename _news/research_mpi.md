@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Voluntary Research at University of Siegen
+title: Research Assistant at Max Planck Institutes of Informatics
 date: 2023-11-31 16:11:00-0400
 inline: false
 related_posts: false
