@@ -6,4 +6,4 @@ inline: false
 related_posts: false
 ---
 
-Started working at MPI-INF under professor Margret Keuper on the problem to understand the affect of downsampling the images to study the overall robustness of the Machine Learning models against common corruptions.
+Started working at MPI-INF under professor Margret Keuper on the problem to understand the effect of downsampling the images to study the overall robustness of the Machine Learning models against common corruptions.

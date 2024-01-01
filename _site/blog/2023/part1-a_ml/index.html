@@ -56,7 +56,7 @@
   </head>
 
   <!-- Body -->
-  <body class="fixed-top-nav sticky-bottom-footer">
+  <body class="fixed-top-nav ">
 
     <!-- Header -->
     <header>
@@ -150,7 +150,7 @@
   </header>
 
   <article class="post-content">
-    <p>Hi all, let’s see an interesting case, picture this: you’ve trained a machine learning model to identify images of dogs and cats accurately. It’s performing great during testing and you’re excited to deploy it in the real world. But what happens when someone tries to trick the model by feeding it images that are slightly altered, making it misclassify them?</p>
+    <p>Hi all, let’s see an interesting case, picture this: you’ve trained a machine learning model to identify images of dogs and cats accurately. It’s performing great during testing and you’re excited to deploy it in the real world. But what happens when someone tries to trick the model by feeding it with images that are slightly altered, making it misclassify them?</p>
 
 <p>With the increasing prevalence of AI-assisted tools and the upcoming deployment of AI in real-world use cases, it’s crucial that we shift our focus beyond performance metrics and prioritize the robustness of these models. One observation I’ve made is that we tend to emphasize improving accuracy or other metrics when developing ML models. For example, if you’re an ML enthusiast who has created models for classification or segmentation tasks, you’re probably measuring the model’s performance based on its accuracy or F1 score. However, we need to take into account additional factors to ensure the model doesn’t fail in real-world scenarios.</p>
 
@@ -228,7 +228,7 @@ A white box attack is an attack scenario where the attacker has access to the ta
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/adversarial_ml/p1/indigo.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/adversarial_ml/p1/indigo.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -379,7 +379,7 @@ Indigo class probability: 1.5631285328610023e-12
 </code></pre></div></div>
 <p>Let’s understand the code, here we are using the SGD optimiser for gradient optimiszation using backpropagation. Further we mentioned the value of $\epsilon$ for the making it inside the $L_{inf}$ ball. Next we are initalizing the adversarial perturbation(<code class="language-plaintext highlighter-rouge">adv_perturbation</code>) which is a zero tensor similar to the input image and the <code class="language-plaintext highlighter-rouge">requires_grad=True</code> argument specifies that the tensor will be used in a computation graph and that gradients will be computed with respect to it. Next we iterate the 50 gradient step (similar to PGD type attack). So now we’re following the same step of first finsing the prediction for <code class="language-plaintext highlighter-rouge">image + adv_per</code> and then calculated the loss and used the negative sign to maximize the loss by making model more confident in such predictions. Next we clear (<code class="language-plaintext highlighter-rouge">opt.zero_grad()</code>) previously stored gradient of the optimizer and compute the gradients of the loss w.r.t. <code class="language-plaintext highlighter-rouge">adv_per</code> using autograd engine. Next <code class="language-plaintext highlighter-rouge">opt.step()</code> will update the <code class="language-plaintext highlighter-rouge">adv_per</code> tensor using the gradients computed in the previous step. Over the iteration we also need to keep track that our updated <code class="language-plaintext highlighter-rouge">adv_per</code> lies between [$-\epsilon, \epsilon$], so for this we use <code class="language-plaintext highlighter-rouge">data.clamp_</code> to achieve this.</p>
 
-<p>So what did it actually classified as -</p>
+<p>So what did the model actually classified after adding perturbation -</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">max_class</span> <span class="o">=</span> <span class="n">pred</span><span class="p">.</span><span class="nf">max</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">].</span><span class="nf">item</span><span class="p">()</span>
 <span class="nf">print</span><span class="p">(</span><span class="s">"False predicted class name: "</span><span class="p">,</span> <span class="n">imagenet_classes</span><span class="p">[</span><span class="n">max_class</span><span class="p">])</span>
 <span class="nf">print</span><span class="p">(</span><span class="s">"False rredicted class probability:"</span><span class="p">,</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Softmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)(</span><span class="n">pred</span><span class="p">)[</span><span class="mi">0</span><span class="p">,</span><span class="n">max_class</span><span class="p">].</span><span class="nf">item</span><span class="p">())</span>
@@ -390,7 +390,7 @@ False predicted class name:  chickadee
 False predicted class probability: 0.9999942779541016
 </code></pre></div></div>
 
-<p>But this is how chickadee looks like -</p>
+<p>But actually this is how chickadee looks like -</p>
 
 <div class="text-center">
     <figure>
@@ -411,7 +411,7 @@ False predicted class probability: 0.9999942779541016
 
 </div>
 
-<p>And this is how it actually looks likes after adding the perturbation</p>
+<p>And this how our image looks like after adding perturbation to normal eyes</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plt</span><span class="p">.</span><span class="nf">imshow</span><span class="p">((</span><span class="n">indigo_tensor</span> <span class="o">+</span> <span class="n">delta</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nf">detach</span><span class="p">().</span><span class="nf">numpy</span><span class="p">().</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
 </code></pre></div></div>
@@ -474,19 +474,7 @@ False predicted class probability: 0.9999942779541016
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2020/first-of-my-gsoc-project/">First of my GSoC project</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/ml_android/">Deploying a PyTorch ML model in an Android app</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/year-review_2021/">The year with new learnings: 2021</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/part1-a_ml/">Introduction to Adversarial ML</a>
   </li>
 
   
@@ -498,16 +486,29 @@ False predicted class probability: 0.9999942779541016
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/part4-nn-and-dl/">Part 4 - Gradient Descent in multiple weights</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/part3-nn-and-dl/">Part 3 - Introduction to neural learning and Gradient Descent</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/year-review_2023/">Redefining Normal: A Year of Changes and Challenges in 2023</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/ml_android/">Deploying a PyTorch ML model in an Android app</a>
   </li>
 
 </div>
 
     </div>
 
-    <!-- Footer -->    <footer class="sticky-bottom">
-      <div class="container">
-        © Copyright 2023 Shashank  Priyadarshi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2024 Shashank  Priyadarshi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>
