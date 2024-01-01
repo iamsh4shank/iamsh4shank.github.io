@@ -1,5 +1,394 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://iamsh4shank.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iamsh4shank.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-03T22:23:17+00:00</updated><id>https://iamsh4shank.github.io/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
-</subtitle><entry><title type="html">Introduction to Adversarial ML</title><link href="https://iamsh4shank.github.io/blog/2023/part1-a_ml/" rel="alternate" type="text/html" title="Introduction to Adversarial ML" /><published>2023-04-25T15:12:00+00:00</published><updated>2023-04-25T15:12:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2023/part1-a_ml</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/part1-a_ml/"><![CDATA[<p>Hi all, let’s see an interesting case, picture this: you’ve trained a machine learning model to identify images of dogs and cats accurately. It’s performing great during testing and you’re excited to deploy it in the real world. But what happens when someone tries to trick the model by feeding it with images that are slightly altered, making it misclassify them?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://iamsh4shank.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iamsh4shank.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-01-01T14:03:54+00:00</updated><id>https://iamsh4shank.github.io/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
+</subtitle><entry><title type="html">Redefining Normal: A Year of Changes and Challenges in 2023</title><link href="https://iamsh4shank.github.io/blog/2023/year-review_2023/" rel="alternate" type="text/html" title="Redefining Normal: A Year of Changes and Challenges in 2023" /><published>2023-12-10T15:59:00+00:00</published><updated>2023-12-10T15:59:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2023/year-review_2023</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/year-review_2023/"><![CDATA[<p>On one fine evening I was thinking what all happened in my year and I realised that it’s funny how the passage of time can bring about so much change, presenting us with unforeseen challenges and forcing us to make decisions that shape the course of our lives.</p>
+
+<p>This year, like any other, has been a mosaic of experiences, each piece contributing to the larger picture of who I am becoming. As I sit here, typing on my keyboard and thoughts flowing freely, I’m struck by the realization that this year has been a subtle yet profound teacher, offering lessons in resilience, adaptability, and the art of decision-making.</p>
+
+<p>This year has taught me the importance of embracing change with an open heart, understanding that it is through the ebb and flow of life that we discover our truest selves.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/year2023-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/year2023-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/year2023-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/year2023.jpg" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>In this blog, I aim to delve into the nitty-gritty of reality - the raw, unfiltered moments where adulting takes center stage, and the significance of skills throughout our journey. Whether you choose to read it in its entirety or opt to close the tab, the decision is entirely yours.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://media4.giphy.com/media/KLsbueE1LHs8E/giphy.gif?cid=ecf05e47q0p3w346rzrn0zqep8o0sqajbwdcksn2gdy1e06v&amp;ep=v1_gifs_related&amp;rid=giphy.gif&amp;ct=g-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://media4.giphy.com/media/KLsbueE1LHs8E/giphy.gif?cid=ecf05e47q0p3w346rzrn0zqep8o0sqajbwdcksn2gdy1e06v&amp;ep=v1_gifs_related&amp;rid=giphy.gif&amp;ct=g-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://media4.giphy.com/media/KLsbueE1LHs8E/giphy.gif?cid=ecf05e47q0p3w346rzrn0zqep8o0sqajbwdcksn2gdy1e06v&amp;ep=v1_gifs_related&amp;rid=giphy.gif&amp;ct=g-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://media4.giphy.com/media/KLsbueE1LHs8E/giphy.gif?cid=ecf05e47q0p3w346rzrn0zqep8o0sqajbwdcksn2gdy1e06v&amp;ep=v1_gifs_related&amp;rid=giphy.gif&amp;ct=g" class="img-fluid rounded z-depth-1" width="300" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>Before we delve into the intricacies of the year’s reflections, let’s embark on a journey together through the highs and lows that shaped the past twelve months.</p>
+<h2 id="some-yearly-highlights--">Some Yearly highlights -</h2>
+
+<ul>
+  <li>Switched my path from pursuing an IT job to a researcher—a decision that turned the page to a chapter of curiosity and exploration.</li>
+  <li>In pursuit of my new path, I read several research papers related to my field such as Machine Learning, Robustness in ML, Security, Confidentiality attacks, Computer Vision, AGI, LLMs, and much more.</li>
+  <li>Guess what? I officially finished my undergraduation with Distinction 🎓, survived countless coffee-fueled nights. Yep, you heard it right – graduation cap and all! 😄</li>
+  <li>Worked in two different international research intership.</li>
+  <li>Recently joined one of my dream place to work i.e. Max Planck Institutes of Informatics.</li>
+  <li>Started my MSc. in Computer Science.</li>
+  <li>Connected with over 1000+ amazing minds across the Globe, uncovering a world of inspiration and learning in their diverse projects.</li>
+  <li>Explored five different countries — Prague, France, Germany, Luxembourg, and Israel—expanded my horizons and reshaped my perspective in countless new ways.</li>
+</ul>
+
+<p>Now, let’s dive beneath the surface of the narrative and unravel the major lessons learned. It’s like searching for hidden treasures in the sea of experiences, where each wave brings a new insight, and every ripple tells a story of growth. Think of it as flipping through the pages of a personal diary where the ink isn’t just words but lessons etched in the ink of experience. Everything I went through helped me to grow in several dimensions as a person that I never dreamed of. But fear not, it won’t be just another blog about lessons and mistakes. I’ll sprinkle some fun and artistry into the mix, making the journey a joyous exploration!</p>
+
+<h2 id="discovering-growth-and-surprises">Discovering Growth and Surprises</h2>
+
+<p>From the beginning of the year, embarking on the journey from a Software Engineering job enthusiast to a budding researcher has been nothing short of a rollercoaster. Picture this: I decided to bid farewell to the security of a regular job at the dawn of the year, opting for a break to explore the field of research. Sounds simple, right? Well, not quite. (something like this lol, tho I am not doing PhD).</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/life_of_phd-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/life_of_phd-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/life_of_phd-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/life_of_phd.jpeg" class="img-fluid rounded z-depth-1" width="300" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>This was just to give an example, but in general the idea of leaving my job and starting up something new was quite difficult for me, on one hand it was a comfort place for me but on the other I wanted to explore and explore my potentials. Due to my interest in research I decided to quit job and start with a break in the beginning of the year. At that time I considered writing blogs for companies like RoboFlow to get in touch with researchers working in my domain to get some guidance on one how to proceed in the field of Machine Learning at industrial level and second is it really necessary to have some research experience?</p>
+
+<p>When my blog was on review I started working on other one, the idea was to talk about making AI tools safer. Eager to gather insights, I immersed myself in academic papers such as what excatly is AI safety and how deeply it is rooted to cybersecurity, robustness or ML, and security in general. Founding it interesting, from nowhere I started reaching out to professors to work under there supervision. I got the reply for most of them but soon I realized it’s hard for them to take me into there labs as my undergrads is still unfininshed. Day after day I came to know about several constraints such as funding, Visa, need to be an undergradute, and much more. Frustration crept in like an unwelcome guest, threatening to derail my enthusiasm.</p>
+
+<p>Undeterred, I decided to continue my email game, bombarding more inboxes
+with my earnest pleas for a chance. The goal was simple: snag an
+opportunity, any opportunity, to get a taste of real research life
+and validate the decision to bid farewell to the comforts of a
+regular job.</p>
+
+<h2 id="the-power-of-communication-and-networking">The Power of Communication and Networking</h2>
+<p>Throughout this time I brainstormed a lot, read 100s of papers, went through 1000 of professor’s profiles, and tried figuring what can I do to get a research problem out of it. After reaching out to numerous individuals, I was fortunate enough to secure an opportunity to work alongside one of the most esteemed professors in my field. This experience made me realize the significance of communication. Engaging with people unexpectedly revealed valuable insights. For example I had chance to talk with professors from the top universities such as CMU, MIT, ICL, and much more. Conversations with them introduced a new perspective, emphasizing the importance of continuous learning to make meaningful contributions to the field of machine learning.</p>
+
+<p>I reached out to individuals I’ve always admired, and it significantly enhanced my thinking process and problem-solving approach. On non technical level it gave me a confidence that aanything is possible by mere an email or a conversation in general.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://media0.giphy.com/media/ej1Ajh2zU2ER5YiMdD/giphy.gif?cid=ecf05e47jab8nt0d1i4qyc255ms05hgvahh8fu9hbdkrlgdj&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://media0.giphy.com/media/ej1Ajh2zU2ER5YiMdD/giphy.gif?cid=ecf05e47jab8nt0d1i4qyc255ms05hgvahh8fu9hbdkrlgdj&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://media0.giphy.com/media/ej1Ajh2zU2ER5YiMdD/giphy.gif?cid=ecf05e47jab8nt0d1i4qyc255ms05hgvahh8fu9hbdkrlgdj&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://media0.giphy.com/media/ej1Ajh2zU2ER5YiMdD/giphy.gif?cid=ecf05e47jab8nt0d1i4qyc255ms05hgvahh8fu9hbdkrlgdj&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g" class="img-fluid rounded z-depth-1" width="300" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h2 id="journey-takes-over-the-destination">Journey takes over the Destination</h2>
+<p>This experience led me to a realization — it’s not always about winning accolades or achieving milestones; rather, it’s about finding contentment in the effort you invest. I came to understand that, for me, the journey is more significant than the destination. While someone else might find fulfillment in the job I left behind, I discovered value in taking a different path, even if it meant confronting hard decisions, facing harsh truths, enduring dark nights, and weathering disappointments. The end result made every challenge worthwhile.</p>
+
+<p>While the people around me may have questioned my decisions, the grind I’ve embraced has been a potent teacher. It made me realize that what others think doesn’t really matter, it’s just there perspective, nothing right nothing wrong. But it’s tough when people judge you without really understanding your decisions and ask them to follow theirs. I’ve encountered numerous individuals urging me to bask in the comfort of my previous life, to simply exist and be content.But what truly counts are the choices we make for ourselves. I aimed for achievements that could not only look good on my profile but would also boost my confidence and how I percieve the world.</p>
+
+<p>So, while some expected me to dance to the tunes of their expectations, I chose a different melody—one of resilience, risk, and self-discovery. Now comes to the learning, days after days I was realising things like how adulting hits on several levels such as the value of money, the value of time, and more importantly the value of people around you. It made me realise that being young we think we are invulnerable and you have enough time, but kiddo you’re not and you don’t have.</p>
+
+<h2 id="the-art-of-decision-making">The Art of Decision Making</h2>
+<p>Stepping out of the college bubble unveiled a vital truth: the art of decision-making is a skill worth acquiring. It’s not just about the choices we make but also our ability to navigate the aftermath of those decisions. Completing my undergraduate studies undeniably marked a significant milestone, opening a new chapter for me. Talking about the old me, maybe I have choosen path like opting for college placement, or maybe do some off campus jobs that was the NORMAL (at least in my surrounding). However, this time around, I chose to pause, savor the sense of accomplishment, and then proceed towards my aspirations, undeterred by the pace of the world around me.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://media2.giphy.com/media/KYdR9Uno6et3LQcEDU/giphy.webp?cid=ecf05e47h93tswspt663z20d5u1awrgpu35ep9mxoebddmp5&amp;ep=v1_gifs_search&amp;rid=giphy.webp&amp;ct=g-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://media2.giphy.com/media/KYdR9Uno6et3LQcEDU/giphy.webp?cid=ecf05e47h93tswspt663z20d5u1awrgpu35ep9mxoebddmp5&amp;ep=v1_gifs_search&amp;rid=giphy.webp&amp;ct=g-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://media2.giphy.com/media/KYdR9Uno6et3LQcEDU/giphy.webp?cid=ecf05e47h93tswspt663z20d5u1awrgpu35ep9mxoebddmp5&amp;ep=v1_gifs_search&amp;rid=giphy.webp&amp;ct=g-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="https://media2.giphy.com/media/KYdR9Uno6et3LQcEDU/giphy.webp?cid=ecf05e47h93tswspt663z20d5u1awrgpu35ep9mxoebddmp5&amp;ep=v1_gifs_search&amp;rid=giphy.webp&amp;ct=g" class="img-fluid rounded z-depth-1" width="200" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>In the midst of my journey, I found myself pondering why I hadn’t questioned my path sooner. Why hadn’t I asked myself what I truly wanted to do or identified the skills I wished to acquire? Was I genuinely progressing toward my desired destination? This introspection illuminated a glaring necessity—to question the fundamentals of my lifestyle. For example - was doing Engineering helpful, was my majors in bachelors was really worth to do, or was running for a job race is my game? It d   awned on me that taking the time to contemplate is far more valuable than rushing through the things. I often heard people saying “Live in the Moment”, yeah please do live in the moment but think about the next moment too, you have to enjoy that too right. Being optmistic and enthusiastic is all good, but calcuate the risks for that question - “What if…….”</p>
+
+<h2 id="dont-be-a-sloth-be-proactive">Don’t be a Sloth be Proactive</h2>
+<p>I have a habit to take things lightly, a habit that many of us share—failing to analyze the long-term impact of our action and ending up fixing the mistakes that we once did in past. Let me give you one example - in the latter half of the year, I opted for an internship in Israel. While it was an exciting decision at the time, it had repercussions in the future. Knowing that I have to get my Visa for Germany (for my masters in winter batch) and tick several other checklist items that I have to finish for my mastes I chose to go to Israel. This seemingly small choice triggered moments of self-doubt about its potential impact on my future. It became evident that sometimes, we need to consider the long-term consequences of our decisions. Somehow I was lucky to get all the things done on the cost of several difficult moment that felt like Mission Impossible. Days after days I faced millions of issues that were way to small but would have caused a big damange in my upcoming career. Most of the times I was in a call to India getting things settled there in terms of Fees, Visa, and all the nity grities of the whole process. It was more like fixing things at a rate of throusands per hour. Even after this I had to fix a few more things so decided to fly back and thankfully my advisor (at Israel) allowed me to do so. I came back and got things done just on time and belive me it was all like ticking the checklist one after the other so everything happens on time. This experience served as a wake-up call, underscoring the importance of foresight in decision-making. It highlighted that careful planning and consideration of the future impact of our choices are paramount.</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/tiny-gains-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/tiny-gains-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/tiny-gains-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/tiny-gains.jpg" class="img-fluid rounded z-depth-1" width="300" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<h2 id="never-complain-but-adapt">Never Complain but Adapt</h2>
+<p>In this phase, my initial plans crumbled, and I found myself grappling with the stark reality that things weren’t aligning in my favor. It’s a tough pill to swallow, but such is life. I had two options either quit and just feel guilty for my own decisions or rise up and see what could be fixed. I dusted myself off and forged new plans, this time taking into account the constraints that had blindsided me before. These plans, too, might have their share of pitfalls, and that’s okay, isn’t it?</p>
+
+<p>The key, I realized, is to maintain a resilient mindset focused on the goal—solving problems. It doesn’t matter which specific plans lead in that direction; what matters is the commitment to address challenges head-on. In the big image, the ability to adapt and persist in the face of setbacks often proves more valuable than sticking rigidly to a predetermined path.</p>
+
+<h2 id="surrounding-matters">Surrounding matters</h2>
+<p>Another profound lesson that unfolded was the significance of those who surround you—your family and close friends. I am endlessly grateful for these two pillars in my life. Regardless of the twists and turns that came my way, these individuals stood by my side, offering unwavering support without a barrage of questions about my decisions. Fella you have to be sure in this, you have to choose your surrounding wisely. It makes you setteled on core level. For instance if you live in chatoic environment it’s going to take a lot of time just to settle the issues, instead of you working on yourself. For me their presence served as a reliable anchor, providing strength during the challenging phases of this year. Make sure it do for you as well.</p>
+
+<h2 id="be-self-independent">Be Self Independent</h2>
+<p>Certainly, embracing self-independence is indeed a significant lesson, particularly when reflecting on the transition from a life where everything was readily available to a more self-sufficient lifestyle. From managing day-to-day chores to preparing meals, the shift to independence brings about its own set of challenges. However, through this journey, I’ve learned essential skills such as cooking, budgeting expenses, navigating travel, enjoying my own company, and much more. It’s a transformative experience, isn’t it? Taking charge of practical aspects of life gives a sense of control and transparency. Despite the challenges, the ability to influence, change, or eliminate certain aspects becomes empowering.  I can analyse what is actually important to me. It gives me a better day to day analysis of my time and things that I have to do.</p>
+
+<p>Talking about the cooking skills. Would you like to take a glimpse at some of the dishes I’ve prepared?</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/food_6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/food_6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/food_6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/food_6.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/food_5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/food_5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/food_5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/food_5.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+        <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/food_3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/food_3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/food_3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/food_3.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h2 id="know-yourself">Know Yourself</h2>
+<p>Then came the day when I arrived to Germany, a new beginning with opportunities for growth. It unfolded as a chance to expand in various dimensions—travelling (a dream come true), delving into places and cultures (the ones we often romanticize), and connecting with intriguing individuals. It was a time where I was doing thing that I wanted to do such as taking courses that I like, exploring things that I never knew that existed. It felt like living a dream; the kind I fantasized about 5-6 years ago when the idea of venturing to places like this seemed like a distant fantasy. I chose courses and other stuff but this time without getting impacted from people around me. This time I am ok with someone doing things maybe completely different or maybe off the normal, but that’s ok right? After all, isn’t it about running your own race? And yes improvement matters, so when you realise it’s your race accelerate like no one else can.</p>
+
+<p>Now, it’s like I’m on a Euro Trip, hopping from one dream destination to another week after week. Countries like France, Germany, Czech Republic, Luxembourg—checked them off my list. Experiencing the famed Christmas Markets of Europe has been a dream come true. After seeing all those Instagram posts of popular European destinations last year where you can spend your Chtristmas holidays, I’m excited to be visiting them now. It hit me that all the hard work wasn’t in vain; fighting through countless issues, enduring sleepless nights, facing harsh truths, and having occasional breakdowns—all of it was worth it. I learned things right, I observed myself on how I tackle things. This journey has been a lesson in itself. I observed how I handle things, realizing the importance of paying attention to prevent situations from worsening. It’s true that a significant portion of this year’s lessons stemmed from mistakes. But hey, who cares? Learning is learning, whether it’s fresh or acquired through some missteps along the way. In short you have to to know yourself, before reading or knowing about someone elses lifestyle know about yourself, INTROSPECT your own story.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/prague_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/prague_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/prague_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/prague_1.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/germany_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/germany_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/germany_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/germany_1.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+        <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/germany_2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/germany_2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/germany_2-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/germany_2.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/germany_4-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/germany_4-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/germany_4-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/germany_4.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/france_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/france_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/france_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/france_1.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+        <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/israel_1-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/israel_1-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/israel_1-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/israel_1.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h2 id="what-next-">What Next ?</h2>
+<p>All set for 2024! I’ve got some ambitious plans and goals lined up – from financial growth to enhancing my communication skills and striving for technical achievements. Sure, there might be uncertainties, and some goals might be challenging, but who cares? The key is taking that step towards self-improvement.</p>
+
+<p>This year, my focus is shifting from just making things work or achieving specific milestones. Instead, I’m determined to learn how to elevate my lifestyle, evolve as an individual, identify what truly matters to me, and forge meaningful connections. It’s about being better in every aspect, not just ticking off accomplishments.</p>
+
+<p>It could turn out to be another questionable decision or even end in failure by the year’s end, but does it really matter? No, not at all. Let’s dive in and take the plunge. If things unfold as planned, great! If not, we’ll patch things up, learn from the experience, and move forward. Becuase someone said - “Better an oops then a what if”</p>
+
+<div class="text-center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/year-review-2023/dayvsyear-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/year-review-2023/dayvsyear-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/year-review-2023/dayvsyear-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/year-review-2023/dayvsyear.png" class="img-fluid rounded z-depth-1" width="600" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>As I pen down these reflections, I am filled with gratitude for the journey that was this year. It was a year of growth, of learning, and of becoming. It was a year that nudged me out of my comfort zone and into the realm of possibility. And so, as the sun dips below the horizon, casting long shadows that dance on the walls, I find solace in the knowledge that, despite the uncertainties, life’s rich tapestry continues to unfold—one decision, one challenge, and one change at a time.</p>
+
+<p>What comes next is a resounding “yes” to embracing life with happiness, freedom, and a thirst for more travel. This is just the starting point, and there’s so much more to explore. As we bid farewell to this year, I look forward to meeting you all again in the next. Thank you for reading this far. Remember, you’re all doing great and awesome. It’s okay to break, cry, and pause for a moment. This journey is uniquely yours; take your time, observe, and then confidently step towards your goals. Wishing you all a Happy New Year!</p>]]></content><author><name></name></author><category term="year-review" /><category term="learnings" /><category term="experience" /><summary type="html"><![CDATA[Sharing some of my updates about the year 2023: The year where I switched several things and took a new approach for how I want to shape my life]]></summary></entry><entry><title type="html">Introduction to Adversarial ML</title><link href="https://iamsh4shank.github.io/blog/2023/part1-a_ml/" rel="alternate" type="text/html" title="Introduction to Adversarial ML" /><published>2023-04-25T15:12:00+00:00</published><updated>2023-04-25T15:12:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2023/part1-a_ml</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/part1-a_ml/"><![CDATA[<p>Hi all, let’s see an interesting case, picture this: you’ve trained a machine learning model to identify images of dogs and cats accurately. It’s performing great during testing and you’re excited to deploy it in the real world. But what happens when someone tries to trick the model by feeding it with images that are slightly altered, making it misclassify them?</p>
 
 <p>With the increasing prevalence of AI-assisted tools and the upcoming deployment of AI in real-world use cases, it’s crucial that we shift our focus beyond performance metrics and prioritize the robustness of these models. One observation I’ve made is that we tend to emphasize improving accuracy or other metrics when developing ML models. For example, if you’re an ML enthusiast who has created models for classification or segmentation tasks, you’re probably measuring the model’s performance based on its accuracy or F1 score. However, we need to take into account additional factors to ensure the model doesn’t fail in real-world scenarios.</p>
 
@@ -2266,4 +2655,4 @@ There is no proper workflow of GIS that is developed yet, as of now it is used f
 </ol>
 
 <h3 id="gsoc-expierence-with-the-mifos-initiative">GSoC expierence with The Mifos Initiative</h3>
-<p>I had a great experience throughout this three-month-long program. The community(<a href="https://mifos.org/"> The Mifos Initiative </a>) and my mentors (<a href="https://www.linkedin.com/in/abhilash-g-55160a139/"> Abhilash Gunasegaran </a> and <a href="https://www.linkedin.com/in/tarunmudgal/"> Tarun Mudgal</a>) were very supportive in this three-month-long journey.  I also want to thanks Ed Cable for his great support. The weekly check-ins were awesome, it provided me a good community bonding chance and also helped me to solve some problems which I faced in between. GSoC helped me a lot to learn and grow in a lot of aspects. I am looking forward to contributing to this organization in the future and would also like to help the new contributors to start their contributions in the community.</p>]]></content><author><name></name></author><category term="learnings" /><category term="readings" /><category term="code" /><category term="experience" /><summary type="html"><![CDATA[Contributed to android application built on top of the MifosX platform - a robust core banking platform]]></summary></entry><entry><title type="html">First of my GSoC project</title><link href="https://iamsh4shank.github.io/blog/2020/first-of-my-gsoc-project/" rel="alternate" type="text/html" title="First of my GSoC project" /><published>2020-06-17T07:24:52+00:00</published><updated>2020-06-17T07:24:52+00:00</updated><id>https://iamsh4shank.github.io/blog/2020/first-of-my-gsoc-project</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2020/first-of-my-gsoc-project/"><![CDATA[]]></content><author><name></name></author></entry></feed>
+<p>I had a great experience throughout this three-month-long program. The community(<a href="https://mifos.org/"> The Mifos Initiative </a>) and my mentors (<a href="https://www.linkedin.com/in/abhilash-g-55160a139/"> Abhilash Gunasegaran </a> and <a href="https://www.linkedin.com/in/tarunmudgal/"> Tarun Mudgal</a>) were very supportive in this three-month-long journey.  I also want to thanks Ed Cable for his great support. The weekly check-ins were awesome, it provided me a good community bonding chance and also helped me to solve some problems which I faced in between. GSoC helped me a lot to learn and grow in a lot of aspects. I am looking forward to contributing to this organization in the future and would also like to help the new contributors to start their contributions in the community.</p>]]></content><author><name></name></author><category term="learnings" /><category term="readings" /><category term="code" /><category term="experience" /><summary type="html"><![CDATA[Contributed to android application built on top of the MifosX platform - a robust core banking platform]]></summary></entry></feed>
