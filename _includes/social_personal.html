@@ -1,0 +1,12 @@
+            {% if page.instagram_id or site.instagram_id %}
+            <a href="https://instagram.com/{{ page.instagram_id | default: site.instagram_id }}" title="Instagram"><i class="fab fa-instagram"></i></a>
+            {% endif %}
+            {% if page.twitter_username or site.twitter_username %}
+            <a href="https://twitter.com/{{ page.twitter_username | default: site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
+            {% endif %}
+            {% if page.spotify_id or site.spotify_id %}
+            <a href="https://open.spotify.com/user/{{ page.spotify_id | default: site.spotify_id }}" title="Spotify"><i class="fab fa-spotify"></i></a>
+            {% endif %}
+            {% if page.youtube_id or site.youtube_id %}
+            <a href="https://youtube.com/@{{ page.youtube_id | default: site.youtube_id }}" title="YouTube"><i class="fab fa-youtube"></i></a>
+            {% endif %}

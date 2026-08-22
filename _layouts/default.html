@@ -10,7 +10,9 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if page.permalink contains '/personal' or page.url contains '/personal' %}personal-mode-body{% endif %} {% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    {% include personal_particles.html %}
 
     <!-- Header -->
     {%- include header.html %}

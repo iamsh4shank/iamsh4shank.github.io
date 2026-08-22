@@ -4,7 +4,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
+          {% if page.permalink != '/' and page.permalink != '/personal/' and page.url != '/personal/' and page.url != '/personal/blog/' -%}
             <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
               {%- if site.title == "blank" -%}
                 {%- if site.first_name -%}
@@ -33,6 +33,8 @@
             <span class="icon-bar middle-bar"></span>
             <span class="icon-bar bottom-bar"></span>
           </button>
+          <!-- Mode Toggle: Work / Personal (always visible, outside collapse) -->
+          {% include mode_toggle.html %}
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
@@ -43,32 +45,61 @@
                 {% endif %}
               {% endfor %}
 
+              {% assign is_personal = false %}
+              {% if page.url contains '/personal' or page.permalink contains '/personal' %}
+                {% assign is_personal = true %}
+              {% endif %}
+
               <!-- About -->
-              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
-                  {%- if page.permalink == '/' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
+              {% if is_personal %}
+                <li class="nav-item {% if page.permalink == '/personal/' or page.url == '/personal/' %}active{% endif %}">
+                  <a class="nav-link" href="{{ '/personal/' | relative_url }}">{{ about_title }}
+                    {%- if page.permalink == '/personal/' or page.url == '/personal/' -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
+                </li>
+              {% else %}
+                <li class="nav-item {% if page.permalink == '/' or page.url == '/' %}active{% endif %}">
+                  <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                    {%- if page.permalink == '/' or page.url == '/' -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
+                </li>
+              {% endif %}
+
               {% if site.blog_nav_title %}
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
+              {% if is_personal %}
+                <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+                  <a class="nav-link" href="{{ '/personal/blog/' | relative_url }}">{{ site.blog_nav_title }}
+                    {%- if page.url contains 'blog' -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
+                </li>
+              {% else %}
+                <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+                  <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
+                    {%- if page.url contains 'blog' -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
+                  </a>
+                </li>
+              {% endif %}
 
-              <!-- CV -->
+              <!-- CV (hidden on personal) -->
+              {% unless is_personal %}
               <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
                 <a class="nav-link" href="https://iamsh4shank.github.io/docs/cv.pdf">cv
                 </a>
               </li>
-              {%- endif %}
+              {% endunless %}
+              {% endif %}
 
-              <!-- Other pages -->
+              <!-- Other pages (hidden on personal) -->
+              {% unless is_personal %}
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
@@ -100,6 +131,8 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              {% endunless %}
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

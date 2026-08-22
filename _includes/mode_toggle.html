@@ -1,0 +1,23 @@
+<!-- Mode Toggle: Work / Personal icon switcher -->
+{% assign is_personal_mode = false %}
+{% if page.url contains '/personal' or page.permalink contains '/personal' %}
+  {% assign is_personal_mode = true %}
+{% endif %}
+
+<div class="mode-toggle">
+  {% if page.url contains 'blog' %}
+    <a href="{{ '/blog/' | relative_url }}" class="mode-toggle__option {% unless is_personal_mode %}active{% endunless %}" title="Work Mode">
+      <i class="fas fa-briefcase"></i>
+    </a>
+    <a href="{{ '/personal/blog/' | relative_url }}" class="mode-toggle__option {% if is_personal_mode %}active{% endif %}" title="Personal Mode">
+      <i class="fas fa-heart"></i>
+    </a>
+  {% else %}
+    <a href="{{ '/' | relative_url }}" class="mode-toggle__option {% unless is_personal_mode %}active{% endunless %}" title="Work Mode">
+      <i class="fas fa-briefcase"></i>
+    </a>
+    <a href="{{ '/personal/' | relative_url }}" class="mode-toggle__option {% if is_personal_mode %}active{% endif %}" title="Personal Mode">
+      <i class="fas fa-heart"></i>
+    </a>
+  {% endif %}
+</div>

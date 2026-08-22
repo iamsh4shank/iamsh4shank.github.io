@@ -97,7 +97,7 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
+instagram_id: "_.inmyframe" # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
@@ -258,7 +258,6 @@ display_tags: ['machine learning', 'research', 'experience', 'readings', 'code']
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: [Einstein]
   first_name: [Albert, A.]
 
@@ -268,10 +267,9 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+
+  # bibtex_filters: [latex, smallcaps, superscript]  # disable this
+  bibtex_filters: []  # or just remove the line entirely
 
   replace_strings: true
   join_strings: true

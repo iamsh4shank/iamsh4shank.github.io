@@ -18,15 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there, I am passionate about exploring how security and privacy can be enhanced in the fields of AI. As AI systems become more sophisticated and widely deployed, the risks posed by adversarial attacks are becoming increasingly significant. It's crucial that we understand the vulnerabilities of AI systems and develop effective strategies for defending against these attacks.
+Hi there, I am currently a Research Assistant at [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/home) under the supervision of [Prof. Dr. Margret Keuper](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/margret-keuper), and pursuing master's in Computer Science at [Saarland University](https://www.uni-saarland.de/en/home.html). My master's thesis is supervised by Anurag Das, Siddharth Gairola, and Shashank Agnihotri.
 
-I spend a lot of my time researching the latest developments in adversarial AI and thinking about how we can make AI systems more robust and secure. Whether it's exploring novel attack methods or developing innovative defense strategies, I am always eager to learn more and deepen my understanding of this critical field.
+Prior to this, I have worked with [Dr. Yisroel Mirsky](https://offensive-ai-lab.com) as an academic research intern in contributing to add more support to [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox). Before that, I worked as an summer intern at [Zoho](https://www.zoho.com/de/?sredirect=true) where I focused on project related to Language and Vision understanding. I have completed my bachelor's degree in Computer Science with specilization in AI from [Amrita Vishwa Vidyapeetham](https://www.amrita.edu) with Distinction, where my thesis was supervised by [Dr. Jayaraj Poroor](https://dl.acm.org/profile/81453651946) involved exploring the integration of knowledge graphs in Language Models for better reasoning.
 
-I also love reading about advancements in Computer Vision (like object detection or image segmentation) and LLMs (integration with Neuroscience) or AI in general.
+## research
 
-In short -
+Broadly, I am interested in Machine Learning, Computer Vision, Language, and their applications to real-world problems. I am particularly interested in Self-Supervised Learning, investigating how models extract dense, generalizable features from raw data, vision language alignment, and, PEFT.
 
-* :rocket: I'm currently exploring security in AI, Visual Computing, and MLOps.
-* :speech_balloon: Ask me about open source, computer vision, deep learning, android development, and how communities works.
-* 📫 How to reach me: Send an email to me at [s.priyadarshi629@gmail.com](mailto:s.priyadarshi629@gmail.com) or ping me on <a href = "https://t.me/iamsh4shank"> Telegram.</a>
-* :smile: Pronouns: He/Him/His </a>
+
+Outside of work, I love hiking, traveling, riding motorcycles, and playing sports. Check out the [personal side](/personal/) to know more!
