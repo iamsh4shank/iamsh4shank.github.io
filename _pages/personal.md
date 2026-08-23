@@ -25,21 +25,15 @@ Welcome to the non-work side of me! When I'm not training models, reading papers
 
 - **Hiking & Traveling** — I love exploring new trails and discovering hidden gems in nature. Mountains, forests, coastlines — you name it.
 - **Motorcycle Riding** — There's something about the open road on two wheels that clears the mind like nothing else.
-- **[Photography](https://www.instagram.com/_.inmyframe/)** — Capturing moments through my lens. Mostly landscapes, street photography, and travel shots.
-- **Sports** — Cricket, Badminton, Football, and pretty much anything that involves a ball and running around.
+- **[Photography](https://www.instagram.com/_.inmyframe/)** — Capturing moments - mostly landscapes, street photography, and travel shots.
+- **Sports** — Cricket, Badminton, Football, and pretty much anything.
 
 ## 📚 what i read
 
 I'm fascinated by the story of how we evolved as **Homo Sapiens** — from cave paintings to building neural networks. Some of my favorite reads include books on evolutionary biology, anthropology, and the history of human civilization.
 
-*Currently reading*: *Add your current book here!*
+*Will add the books soon*
 
 ## 🎵 vibes
 
-*Add your favorite music, podcasts, shows, or anything else that defines your vibe here!*
-
-## 🎲 fun facts
-
-- *Add a fun fact about yourself!*
-- *Another one!*
-- *And one more!*
+*Will add music, podcasts, shows, or anything else that I find interesting*
