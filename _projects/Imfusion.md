@@ -2,7 +2,7 @@
 layout: page
 title: Imfusion
 description: An Open Source image fusion desktop app which supports image fusion using Discrete wavelet transformation.
-img: 
+img: https://raw.githubusercontent.com/iamsh4shank/Imfusion/main/screenshots/medical1.png
 importance: 3
 category: fun
 github: https://github.com/iamsh4shank/Imfusion

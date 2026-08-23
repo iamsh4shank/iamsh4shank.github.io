@@ -11,6 +11,45 @@ permalink: /personal/blog/
     <h2>Thoughts, travels, stories, and everything outside the lab.</h2>
   </div>
 
+  {% assign personal_tags = "" | split: "," %}
+  {% for post in site.posts %}
+    {% if post.type == 'personal' or post.tags contains 'personal' or post.categories contains 'personal' %}
+      {% for tag in post.tags %}
+        {% unless tag == 'personal' or personal_tags contains tag %}
+          {% assign personal_tags = personal_tags | push: tag %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% if personal_tags.size > 0 %}
+  <div class="tag-list">
+    <ul class="p-0 m-0">
+      {% for tag in personal_tags %}
+        <li>
+          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        </li>
+        {% unless forloop.last %}
+          <p>&bull;</p>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% elsif site.display_tags %}
+  <div class="tag-list">
+    <ul class="p-0 m-0">
+      {% for tag in site.display_tags %}
+        <li>
+          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        </li>
+        {% unless forloop.last %}
+          <p>&bull;</p>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   <ul class="post-list">
     {% assign personal_count = 0 %}
     {% for post in site.posts %}

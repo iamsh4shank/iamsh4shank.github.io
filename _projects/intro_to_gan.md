@@ -2,7 +2,7 @@
 layout: page
 title: Intro To GAN
 description: SRGAN using a Generative Adversarial Network based approach to reconsruct the galaxy images.
-img: 
+img: assets/img/Part1-Neural-Networks-and-Deep-Learning/banner.jpeg
 github: https://github.com/iamsh4shank/SRGAN
 importance: 3
 category: fun

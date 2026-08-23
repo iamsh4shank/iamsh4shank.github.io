@@ -2,7 +2,7 @@
 layout: page
 title: Tweet Analyser
 description: A Tweet Analyser that will classify your tweet into few labels such as abusive, non-abusive, hate, and humour. It fetches the tweet on particular query using Twitter API and after filtering analyses the tweet.
-img: 
+img: https://images.unsplash.com/photo-1611605698335-8b1569810432?w=800&auto=format&fit=crop&q=60
 importance: 3
 github: https://github.com/iamsh4shank/Tweet_Analyser
 category: fun

@@ -2,7 +2,7 @@
 layout: page
 title: SpotOn
 description: Making FGSM to pay more attention
-img: 
+img: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&auto=format&fit=crop&q=60
 importance: 3
 category: work
 ---

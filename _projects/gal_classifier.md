@@ -2,7 +2,7 @@
 layout: page
 title: Galaxy Classifier
 description: AI Tool for morphological classfication using Deep ConvNet. It shows how computational cosmology could help to make hard classificaiton easy.
-img: 
+img: https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&auto=format&fit=crop&q=60
 github: https://github.com/iamsh4shank/gal-classifier
 importance: 2
 category: work

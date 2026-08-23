@@ -4,8 +4,13 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' and page.permalink != '/personal/' and page.url != '/personal/' and page.url != '/personal/blog/' -%}
-            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% assign is_personal = false %}
+          {% if page.url contains '/personal' or page.permalink contains '/personal' %}
+            {% assign is_personal = true %}
+          {% endif %}
+
+          {% if page.permalink != '/' and page.permalink != '/personal/' and page.url != '/personal/' -%}
+            <a class="navbar-brand title font-weight-lighter" href="{% if is_personal %}{{ '/personal/' | relative_url }}{% else %}{{ site.baseurl }}/{% endif %}">
               {%- if site.title == "blank" -%}
                 {%- if site.first_name -%}
                   <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
@@ -20,7 +25,7 @@
                 {{- site.title -}}
               {%- endif -%}
             </a>
-          {%- elsif site.enable_navbar_social -%}
+          {%- elsif site.enable_navbar_social and is_personal == false -%}
           <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}

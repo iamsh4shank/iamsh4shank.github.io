@@ -2,7 +2,7 @@
 layout: page
 title: Arm Analyser
 description: A 2 DOF robotic arm simulation
-img: 
+img: https://raw.githubusercontent.com/robustTechie/Arm_analyser/main/screenshot/mainModel.png
 importance: 3
 category: fun
 github: https://github.com/iamsh4shank/Arm_analyser
