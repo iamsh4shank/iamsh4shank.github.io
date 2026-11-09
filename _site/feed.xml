@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-08-24T12:15:26+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
-</subtitle><entry><title type="html">Redefining Normal: A Year of Changes and Challenges in 2023</title><link href="http://localhost:4000/blog/2023/year-review_2023/" rel="alternate" type="text/html" title="Redefining Normal: A Year of Changes and Challenges in 2023" /><published>2023-12-10T16:59:00+01:00</published><updated>2023-12-10T16:59:00+01:00</updated><id>http://localhost:4000/blog/2023/year-review_2023</id><content type="html" xml:base="http://localhost:4000/blog/2023/year-review_2023/"><![CDATA[<p>On one fine evening I was thinking what all happened in my year and I realised that it’s funny how the passage of time can bring about so much change, presenting us with unforeseen challenges and forcing us to make decisions that shape the course of our lives.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://iamsh4shank.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iamsh4shank.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-11-04T16:48:55+01:00</updated><id>https://iamsh4shank.github.io/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
+</subtitle><entry><title type="html">Redefining Normal: A Year of Changes and Challenges in 2023</title><link href="https://iamsh4shank.github.io/blog/2023/year-review_2023/" rel="alternate" type="text/html" title="Redefining Normal: A Year of Changes and Challenges in 2023" /><published>2023-12-10T16:59:00+01:00</published><updated>2023-12-10T16:59:00+01:00</updated><id>https://iamsh4shank.github.io/blog/2023/year-review_2023</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/year-review_2023/"><![CDATA[<p>On one fine evening I was thinking what all happened in my year and I realised that it’s funny how the passage of time can bring about so much change, presenting us with unforeseen challenges and forcing us to make decisions that shape the course of our lives.</p>
 
 <p>This year, like any other, has been a mosaic of experiences, each piece contributing to the larger picture of who I am becoming. As I sit here, typing on my keyboard and thoughts flowing freely, I’m struck by the realization that this year has been a subtle yet profound teacher, offering lessons in resilience, adaptability, and the art of decision-making.</p>
 
@@ -388,7 +388,1114 @@ regular job.</p>
 
 <p>As I pen down these reflections, I am filled with gratitude for the journey that was this year. It was a year of growth, of learning, and of becoming. It was a year that nudged me out of my comfort zone and into the realm of possibility. And so, as the sun dips below the horizon, casting long shadows that dance on the walls, I find solace in the knowledge that, despite the uncertainties, life’s rich tapestry continues to unfold—one decision, one challenge, and one change at a time.</p>
 
-<p>What comes next is a resounding “yes” to embracing life with happiness, freedom, and a thirst for more travel. This is just the starting point, and there’s so much more to explore. As we bid farewell to this year, I look forward to meeting you all again in the next. Thank you for reading this far. Remember, you’re all doing great and awesome. It’s okay to break, cry, and pause for a moment. This journey is uniquely yours; take your time, observe, and then confidently step towards your goals. Wishing you all a Happy New Year!</p>]]></content><author><name></name></author><category term="year-review" /><category term="learnings" /><category term="experience" /><category term="personal" /><summary type="html"><![CDATA[Sharing some of my updates about the year 2023: The year where I switched several things and took a new approach for how I want to shape my life]]></summary></entry><entry><title type="html">Introduction to Adversarial ML</title><link href="http://localhost:4000/blog/2023/part1-a_ml/" rel="alternate" type="text/html" title="Introduction to Adversarial ML" /><published>2023-04-25T17:12:00+02:00</published><updated>2023-04-25T17:12:00+02:00</updated><id>http://localhost:4000/blog/2023/part1-a_ml</id><content type="html" xml:base="http://localhost:4000/blog/2023/part1-a_ml/"><![CDATA[<p>Hi all, let’s see an interesting case, picture this: you’ve trained a machine learning model to identify images of dogs and cats accurately. It’s performing great during testing and you’re excited to deploy it in the real world. But what happens when someone tries to trick the model by feeding it with images that are slightly altered, making it misclassify them?</p>
+<p>What comes next is a resounding “yes” to embracing life with happiness, freedom, and a thirst for more travel. This is just the starting point, and there’s so much more to explore. As we bid farewell to this year, I look forward to meeting you all again in the next. Thank you for reading this far. Remember, you’re all doing great and awesome. It’s okay to break, cry, and pause for a moment. This journey is uniquely yours; take your time, observe, and then confidently step towards your goals. Wishing you all a Happy New Year!</p>]]></content><author><name></name></author><category term="year-review" /><category term="learnings" /><category term="experience" /><category term="personal" /><summary type="html"><![CDATA[Sharing some of my updates about the year 2023: The year where I switched several things and took a new approach for how I want to shape my life]]></summary></entry><entry><title type="html">Linear Algebra for Deep Learning</title><link href="https://iamsh4shank.github.io/blog/2023/la/" rel="alternate" type="text/html" title="Linear Algebra for Deep Learning" /><published>2023-10-20T17:59:00+02:00</published><updated>2023-10-20T17:59:00+02:00</updated><id>https://iamsh4shank.github.io/blog/2023/la</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/la/"><![CDATA[<h1 id="linear-algebra-for-deep-learning-revision-notes">Linear Algebra for Deep Learning: Revision Notes</h1>
+
+<p>These are my own study notes on the linear algebra you need before reading deep learning papers. They follow the topics in Chapter 2 of <em>Deep Learning</em> by Goodfellow, Bengio and Courville (<a href="https://www.deeplearningbook.org/contents/linear_algebra.html">online chapter</a>). I wrote everything in my own words and added derivations, small numeric examples, NumPy checks and self-test questions. Read the original chapter too. It is free and short.</p>
+
+<p><strong>How to use these notes.</strong> Read a section once. Then close the page and derive the boxed results on blank paper. The self-test at the end lists what you should be able to do without notes.</p>
+
+<hr />
+
+<h2 id="table-of-contents">Table of contents</h2>
+
+<ol>
+  <li><a href="#1-objects-scalars-vectors-matrices-tensors">Objects: scalars, vectors, matrices, tensors</a></li>
+  <li><a href="#2-products-of-matrices-and-vectors">Products of matrices and vectors</a></li>
+  <li><a href="#3-identity-and-inverse">Identity and inverse</a></li>
+  <li><a href="#4-linear-dependence-span-and-solving-ax--b">Linear dependence, span and solving Ax = b</a></li>
+  <li><a href="#5-norms">Norms</a></li>
+  <li><a href="#6-special-matrices-and-vectors">Special matrices and vectors</a></li>
+  <li><a href="#7-eigendecomposition">Eigendecomposition</a></li>
+  <li><a href="#8-singular-value-decomposition-svd">Singular value decomposition</a></li>
+  <li><a href="#9-the-moore-penrose-pseudoinverse">The Moore-Penrose pseudoinverse</a></li>
+  <li><a href="#10-trace">Trace</a></li>
+  <li><a href="#11-determinant">Determinant</a></li>
+  <li><a href="#12-worked-example-deriving-pca">Worked example: deriving PCA</a></li>
+  <li><a href="#13-cheat-sheet">Cheat sheet</a></li>
+  <li><a href="#14-self-test">Self-test</a></li>
+  <li><a href="#15-further-references">Further references</a></li>
+</ol>
+
+<hr />
+
+<h2 id="1-objects-scalars-vectors-matrices-tensors">1. Objects: scalars, vectors, matrices, tensors</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Object</th>
+      <th>Notation</th>
+      <th>Example type</th>
+      <th>Indexing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scalar</td>
+      <td>italic lowercase, $a$</td>
+      <td>$a \in \mathbb{R}$, $n \in \mathbb{N}$</td>
+      <td>none</td>
+    </tr>
+    <tr>
+      <td>Vector</td>
+      <td>bold lowercase, $\mathbf{x}$</td>
+      <td>$\mathbf{x} \in \mathbb{R}^n$</td>
+      <td>$x_i$</td>
+    </tr>
+    <tr>
+      <td>Matrix</td>
+      <td>bold uppercase, $\mathbf{A}$</td>
+      <td>$\mathbf{A} \in \mathbb{R}^{m \times n}$</td>
+      <td>$A_{i,j}$</td>
+    </tr>
+    <tr>
+      <td>Tensor</td>
+      <td>bold sans-serif, $\mathsf{A}$</td>
+      <td>$\mathsf{A} \in \mathbb{R}^{m \times n \times p}$</td>
+      <td>$A_{i,j,k}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Things worth remembering:</p>
+
+<ul>
+  <li><strong>Vectors are columns by default.</strong> $\mathbf{x} \in \mathbb{R}^n$ is an $n \times 1$ matrix. A row vector is written $\mathbf{x}^\top$.</li>
+  <li><strong>Index sets.</strong> For $S = {1, 3}$, $\mathbf{x}_S = (x_1, x_3)$. A minus sign means “all except”: $\mathbf{x}_{-1}$ drops $x_1$, and $\mathbf{x}_{-S}$ drops every index in $S$.</li>
+  <li><strong>Rows and columns.</strong> $\mathbf{A}_{i,:}$ is row $i$. $\mathbf{A}_{:,j}$ is column $j$. For an expression such as $f(\mathbf{A})$, write the entry as $f(\mathbf{A})_{i,j}$.</li>
+  <li><strong>Tensors</strong> are just arrays with more than two axes. A batch of RGB images is a 4-axis tensor of shape (batch, channels, height, width).</li>
+</ul>
+
+<h3 id="transpose">Transpose</h3>
+
+\[(\mathbf{A}^\top)_{i,j} = A_{j,i}\]
+
+<p>Picture it as a mirror image across the main diagonal (top left to bottom right). An $m \times n$ matrix becomes $n \times m$. A scalar is its own transpose: $a^\top = a$. This small fact is used in many proofs below.</p>
+
+<h3 id="element-wise-operations-and-broadcasting">Element-wise operations and broadcasting</h3>
+
+<ul>
+  <li>Matrices of the same shape add entry by entry: $C_{i,j} = A_{i,j} + B_{i,j}$.</li>
+  <li>Scalars act on every entry: $(a\mathbf{B} + c)_{i,j} = a B_{i,j} + c$.</li>
+  <li><strong>Broadcasting</strong> (a deep learning convention, not standard math): adding a vector to a matrix adds it to every row.
+\(\mathbf{C} = \mathbf{A} + \mathbf{b} \quad\Longleftrightarrow\quad C_{i,j} = A_{i,j} + b_j\)
+This is exactly what happens with a bias term: $\mathbf{H} = \mathbf{X}\mathbf{W} + \mathbf{b}$, where each row of $\mathbf{X}$ is one example.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">zeros</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">2.</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">A</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>   <span class="c1"># every row becomes [1, 2]
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="2-products-of-matrices-and-vectors">2. Products of matrices and vectors</h2>
+
+<h3 id="matrix-product">Matrix product</h3>
+
+<p>For $\mathbf{A} \in \mathbb{R}^{m \times n}$ and $\mathbf{B} \in \mathbb{R}^{n \times p}$:</p>
+
+\[\boxed{C_{i,j} = \sum_{k=1}^{n} A_{i,k} B_{k,j}}, \qquad \mathbf{C} = \mathbf{A}\mathbf{B} \in \mathbb{R}^{m \times p}\]
+
+<p>The inner dimensions must match. Entry $(i, j)$ is the dot product of row $i$ of $\mathbf{A}$ with column $j$ of $\mathbf{B}$.</p>
+
+<p><strong>Cost.</strong> Computing $\mathbf{AB}$ naively takes $m \cdot n \cdot p$ multiply-adds. This is the number to use when counting FLOPs of a linear layer (often reported as $2mnp$ FLOPs, counting multiply and add separately).</p>
+
+<h3 id="hadamard-product">Hadamard product</h3>
+
+\[(\mathbf{A} \odot \mathbf{B})_{i,j} = A_{i,j} B_{i,j}\]
+
+<p>Element-wise, same shapes. Do not confuse it with the matrix product. In NumPy, <code class="language-plaintext highlighter-rouge">A * B</code> is Hadamard and <code class="language-plaintext highlighter-rouge">A @ B</code> is the matrix product.</p>
+
+<h3 id="dot-product">Dot product</h3>
+
+\[\mathbf{x}^\top \mathbf{y} = \sum_i x_i y_i\]
+
+<p>It is a matrix product of a $1 \times n$ and an $n \times 1$ matrix, so the result is $1 \times 1$, a scalar.</p>
+
+<h3 id="algebraic-properties">Algebraic properties</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Holds?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Distributive: $\mathbf{A}(\mathbf{B} + \mathbf{C}) = \mathbf{AB} + \mathbf{AC}$</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>Associative: $\mathbf{A}(\mathbf{BC}) = (\mathbf{AB})\mathbf{C}$</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>Commutative: $\mathbf{AB} = \mathbf{BA}$</td>
+      <td><strong>no</strong>, in general</td>
+    </tr>
+    <tr>
+      <td>Dot product commutes: $\mathbf{x}^\top\mathbf{y} = \mathbf{y}^\top\mathbf{x}$</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>Transpose of a product: $(\mathbf{AB})^\top = \mathbf{B}^\top \mathbf{A}^\top$</td>
+      <td>yes (order reverses)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Proof that the dot product commutes</strong>, using only the transpose rules:</p>
+
+\[\mathbf{x}^\top\mathbf{y} = (\mathbf{x}^\top\mathbf{y})^\top = \mathbf{y}^\top (\mathbf{x}^\top)^\top = \mathbf{y}^\top\mathbf{x}\]
+
+<p>The first step uses “a scalar equals its transpose”. The second uses the product rule for transposes.</p>
+
+<p><strong>Associativity matters for speed.</strong> For $\mathbf{x} \in \mathbb{R}^n$ and $\mathbf{A}, \mathbf{B} \in \mathbb{R}^{n \times n}$, computing $\mathbf{A}(\mathbf{B}\mathbf{x})$ costs $O(n^2)$, while $(\mathbf{AB})\mathbf{x}$ costs $O(n^3)$. Same answer, very different cost. This is why LoRA computes $\mathbf{B}(\mathbf{A}\mathbf{x})$ instead of forming $\mathbf{BA}$ during training.</p>
+
+<h3 id="linear-systems">Linear systems</h3>
+
+<p>A system of $m$ linear equations in $n$ unknowns:</p>
+
+\[\mathbf{A}\mathbf{x} = \mathbf{b}, \qquad \mathbf{A} \in \mathbb{R}^{m \times n},\ \mathbf{x} \in \mathbb{R}^n,\ \mathbf{b} \in \mathbb{R}^m\]
+
+<p>Row $i$ reads $\mathbf{A}_{i,:}\mathbf{x} = b_i$, that is $A_{i,1}x_1 + \dots + A_{i,n}x_n = b_i$.</p>
+
+<hr />
+
+<h2 id="3-identity-and-inverse">3. Identity and inverse</h2>
+
+<p><strong>Identity.</strong> $\mathbf{I}_n \in \mathbb{R}^{n \times n}$ has ones on the diagonal and zeros elsewhere. For every $\mathbf{x} \in \mathbb{R}^n$, $\mathbf{I}_n\mathbf{x} = \mathbf{x}$.</p>
+
+<p><strong>Inverse.</strong> $\mathbf{A}^{-1}$ is the matrix with</p>
+
+\[\mathbf{A}^{-1}\mathbf{A} = \mathbf{I}_n\]
+
+<p>If it exists, then</p>
+
+\[\mathbf{A}\mathbf{x} = \mathbf{b} \;\Rightarrow\; \mathbf{A}^{-1}\mathbf{A}\mathbf{x} = \mathbf{A}^{-1}\mathbf{b} \;\Rightarrow\; \mathbf{x} = \mathbf{A}^{-1}\mathbf{b}\]
+
+<p><strong>Practical warning.</strong> The inverse is mostly a tool for reasoning. In code, never compute <code class="language-plaintext highlighter-rouge">inv(A) @ b</code>. Use <code class="language-plaintext highlighter-rouge">np.linalg.solve(A, b)</code> (LU factorization) or a least-squares routine. Forming the inverse explicitly is slower and loses more precision, especially when $\mathbf{A}$ is ill-conditioned.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([[</span><span class="mf">3.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">],</span> <span class="p">[</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">2.</span><span class="p">]]);</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">9.</span><span class="p">,</span> <span class="mf">8.</span><span class="p">])</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>        <span class="c1"># preferred
+</span><span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="nf">allclose</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">x</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>  <span class="c1"># [2. 3.] True
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="4-linear-dependence-span-and-solving-ax--b">4. Linear dependence, span and solving Ax = b</h2>
+
+<h3 id="how-many-solutions-can-there-be">How many solutions can there be?</h3>
+
+<p>Exactly zero, one, or infinitely many. Never exactly two.</p>
+
+<p><strong>Proof.</strong> Suppose $\mathbf{x}$ and $\mathbf{y}$ are two different solutions. For any $\alpha \in \mathbb{R}$, let $\mathbf{z} = \alpha\mathbf{x} + (1 - \alpha)\mathbf{y}$. Then</p>
+
+\[\mathbf{A}\mathbf{z} = \alpha\mathbf{A}\mathbf{x} + (1-\alpha)\mathbf{A}\mathbf{y} = \alpha\mathbf{b} + (1-\alpha)\mathbf{b} = \mathbf{b}\]
+
+<p>Each $\alpha$ gives a different point on the line through $\mathbf{x}$ and $\mathbf{y}$, so there are infinitely many solutions.</p>
+
+<h3 id="the-column-picture">The column picture</h3>
+
+<p>The most useful way to read $\mathbf{A}\mathbf{x}$:</p>
+
+\[\mathbf{A}\mathbf{x} = \sum_{j=1}^{n} x_j \,\mathbf{A}_{:,j}\]
+
+<p>$\mathbf{A}\mathbf{x}$ is a <strong>linear combination</strong> of the columns of $\mathbf{A}$, with weights given by $\mathbf{x}$. Each $x_j$ says “how far to move along column $j$”.</p>
+
+<ul>
+  <li>The <strong>span</strong> of a set of vectors is every linear combination of them.</li>
+  <li>The <strong>column space</strong> (or <strong>range</strong>) of $\mathbf{A}$ is the span of its columns.</li>
+  <li>$\mathbf{A}\mathbf{x} = \mathbf{b}$ has a solution <strong>if and only if</strong> $\mathbf{b}$ is in the column space of $\mathbf{A}$.</li>
+</ul>
+
+<h3 id="when-is-there-a-solution-for-every-b">When is there a solution for every b?</h3>
+
+<p>We need the column space to be all of $\mathbb{R}^m$.</p>
+
+<ul>
+  <li><strong>Necessary:</strong> $n \ge m$ (at least as many columns as dimensions of $\mathbf{b}$). With fewer columns, the column space is at most an $n$-dimensional subspace of $\mathbb{R}^m$. Example: a $3 \times 2$ matrix maps into a plane inside $\mathbb{R}^3$, so most $\mathbf{b}$ are unreachable.</li>
+  <li><strong>Not sufficient:</strong> columns can be redundant. The matrix
+\(\begin{pmatrix} 1 &amp; 1 \\ 2 &amp; 2 \end{pmatrix}\)
+has two columns but both point the same way. Its column space is a line, not $\mathbb{R}^2$.</li>
+</ul>
+
+<h3 id="linear-independence">Linear independence</h3>
+
+<p>A set of vectors is <strong>linearly independent</strong> if no vector in it is a linear combination of the others. Equivalently, $\sum_j c_j \mathbf{v}_j = \mathbf{0}$ forces all $c_j = 0$.</p>
+
+<p>So the precise condition is: <strong>the columns of $\mathbf{A}$ must contain a set of exactly $m$ linearly independent vectors.</strong> (A set of $m$-dimensional vectors cannot have more than $m$ independent members.)</p>
+
+<p>The number of linearly independent columns is the <strong>rank</strong> of $\mathbf{A}$. Solvable for every $\mathbf{b}$ means $\operatorname{rank}(\mathbf{A}) = m$.</p>
+
+<h3 id="when-is-the-solution-unique">When is the solution unique?</h3>
+
+<p>Uniqueness needs at most $m$ columns. Otherwise there are extra directions that can be traded against each other (a nonzero null space), giving infinitely many solutions.</p>
+
+<p>Putting both conditions together: <strong>solvable for every $\mathbf{b}$ with a unique solution</strong> requires $\mathbf{A}$ to be <strong>square</strong> ($m = n$) with all columns linearly independent. Such a matrix is invertible.</p>
+
+<p>A square matrix with linearly dependent columns is <strong>singular</strong>. A singular or non-square $\mathbf{A}$ can still give solutions for some $\mathbf{b}$, but not via matrix inversion.</p>
+
+<p><strong>Left and right inverses.</strong> So far we used $\mathbf{A}^{-1}\mathbf{A} = \mathbf{I}$ (left inverse). One can also ask for $\mathbf{A}\mathbf{A}^{-1} = \mathbf{I}$ (right inverse). For square matrices the two are the same matrix.</p>
+
+<h3 id="summary-table">Summary table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Shape of $\mathbf{A}$ ($m \times n$)</th>
+      <th>Full rank</th>
+      <th>Number of solutions to $\mathbf{Ax} = \mathbf{b}$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>square, $m = n$</td>
+      <td>yes</td>
+      <td>exactly one, for every $\mathbf{b}$</td>
+    </tr>
+    <tr>
+      <td>wide, $m &lt; n$</td>
+      <td>rank $m$</td>
+      <td>infinitely many, for every $\mathbf{b}$</td>
+    </tr>
+    <tr>
+      <td>tall, $m &gt; n$</td>
+      <td>rank $n$</td>
+      <td>zero or one, depending on $\mathbf{b}$</td>
+    </tr>
+    <tr>
+      <td>any</td>
+      <td>rank deficient</td>
+      <td>zero or infinitely many</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="5-norms">5. Norms</h2>
+
+<p>A norm measures the size of a vector. Formally, $f$ is a norm if for all $\mathbf{x}, \mathbf{y}$ and scalars $\alpha$:</p>
+
+<ol>
+  <li>$f(\mathbf{x}) = 0 \Rightarrow \mathbf{x} = \mathbf{0}$</li>
+  <li>$f(\mathbf{x} + \mathbf{y}) \le f(\mathbf{x}) + f(\mathbf{y})$ (triangle inequality)</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>$f(\alpha\mathbf{x}) =</td>
+          <td>\alpha</td>
+          <td>f(\mathbf{x})$ (absolute homogeneity)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ol>
+
+<p>Non-negativity, $f(\mathbf{x}) \ge 0$, follows from these.</p>
+
+<h3 id="the-lp-family">The $L^p$ family</h3>
+
+\[\|\mathbf{x}\|_p = \Big(\sum_i |x_i|^p\Big)^{1/p}, \qquad p \ge 1\]
+
+<p>For $p &lt; 1$ the triangle inequality fails, so it is not a norm.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Norm</th>
+      <th>Formula</th>
+      <th>Key property</th>
+      <th>Where it shows up</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$L^2$ (Euclidean)</td>
+      <td>$\sqrt{\sum_i x_i^2}$</td>
+      <td>rotation invariant; the default, often written $|\mathbf{x}|$</td>
+      <td>distances, weight decay</td>
+    </tr>
+    <tr>
+      <td>squared $L^2$</td>
+      <td>$\mathbf{x}^\top\mathbf{x}$</td>
+      <td>$\partial/\partial x_i = 2x_i$, depends only on $x_i$</td>
+      <td>MSE loss, weight decay</td>
+    </tr>
+    <tr>
+      <td>$L^1$</td>
+      <td>$\sum_i \lvert x_i \rvert$</td>
+      <td>same slope everywhere</td>
+      <td>sparsity, lasso</td>
+    </tr>
+    <tr>
+      <td>$L^\infty$ (max norm)</td>
+      <td>$\max_i \lvert x_i \rvert$</td>
+      <td>largest entry</td>
+      <td>$L^\infty$ adversarial attacks (PGD with $\epsilon$-ball)</td>
+    </tr>
+    <tr>
+      <td>Frobenius (matrices)</td>
+      <td>$\sqrt{\sum_{i,j} A_{i,j}^2}$</td>
+      <td>$L^2$ of the flattened matrix</td>
+      <td>reconstruction error, low-rank approximation</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="why-squared-l2-versus-l1">Why squared $L^2$ versus $L^1$?</h3>
+
+<ul>
+  <li><strong>Squared $L^2$</strong> is easy to work with: its gradient is $2\mathbf{x}$, and each partial derivative depends only on its own coordinate. But near zero it grows very slowly. A coordinate of $0.01$ contributes $10^{-4}$. So it barely pushes small values all the way to zero.</li>
+  <li><strong>$L^1$</strong> grows at the same rate everywhere. Moving a coordinate from $0.01$ to $0$ reduces it by exactly $0.01$, the same as moving from $5.01$ to $5$. So it does push small values to exactly zero. Use it when the difference between “exactly zero” and “small but nonzero” matters.</li>
+</ul>
+
+<p><strong>Gradient view.</strong> $\nabla \tfrac{1}{2}|\mathbf{x}|_2^2 = \mathbf{x}$ (shrinks proportionally), while the subgradient of $|\mathbf{x}|_1$ is $\operatorname{sign}(\mathbf{x})$ (constant push toward zero).</p>
+
+<h3 id="the-l0-norm-is-not-a-norm">The “L0 norm” is not a norm</h3>
+
+<p>Counting the nonzero entries is often called the $L^0$ norm. It is not a norm: scaling $\mathbf{x}$ by $\alpha \ne 0$ does not change the count, so homogeneity fails. Because the count is non-differentiable and combinatorial, $L^1$ is usually used as a convex substitute. (Magnitude pruning and SparseGPT impose an $L^0$ budget directly, by choosing which weights to zero.)</p>
+
+<h3 id="dot-product-and-angle">Dot product and angle</h3>
+
+\[\mathbf{x}^\top\mathbf{y} = \|\mathbf{x}\|_2 \|\mathbf{y}\|_2 \cos\theta\]
+
+<p>Normalize both vectors and the dot product is the cosine similarity. This is the score in CLIP, SimCLR and most contrastive losses.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Cauchy-Schwarz</strong> follows directly: $</td>
+      <td>\mathbf{x}^\top\mathbf{y}</td>
+      <td>\le |\mathbf{x}|_2|\mathbf{y}|_2$, because $</td>
+      <td>\cos\theta</td>
+      <td>\le 1$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">3.</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">inf</span><span class="p">))</span>
+<span class="c1"># 7.0 5.0 4.0
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="6-special-matrices-and-vectors">6. Special matrices and vectors</h2>
+
+<h3 id="diagonal-matrices">Diagonal matrices</h3>
+
+<p>$\mathbf{D}$ is diagonal if $D_{i,j} = 0$ whenever $i \ne j$. $\operatorname{diag}(\mathbf{v})$ is the square diagonal matrix with $\mathbf{v}$ on the diagonal.</p>
+
+<ul>
+  <li><strong>Cheap multiplication:</strong> $\operatorname{diag}(\mathbf{v})\mathbf{x} = \mathbf{v} \odot \mathbf{x}$. That is $O(n)$, not $O(n^2)$.</li>
+  <li><strong>Cheap inverse:</strong> exists iff every $v_i \ne 0$, and then $\operatorname{diag}(\mathbf{v})^{-1} = \operatorname{diag}\big((1/v_1, \dots, 1/v_n)^\top\big)$.</li>
+  <li>Restricting a model to diagonal matrices is a common trick to reduce cost (diagonal covariance in VAEs, Adam’s per-parameter scaling, LayerNorm’s scale vector).</li>
+</ul>
+
+<p><strong>Rectangular diagonal matrices</strong> also exist. For $\mathbf{D} \in \mathbb{R}^{m \times n}$:</p>
+
+<ul>
+  <li>if $m &gt; n$ (tall), $\mathbf{Dx}$ scales each entry and then appends zeros;</li>
+  <li>if $m &lt; n$ (wide), $\mathbf{Dx}$ scales the first $m$ entries and drops the rest.</li>
+</ul>
+
+<p>They have no inverse but still multiply cheaply. They appear in the SVD.</p>
+
+<h3 id="symmetric-matrices">Symmetric matrices</h3>
+
+<p>$\mathbf{A} = \mathbf{A}^\top$. They arise when entries come from a function that does not care about argument order, for example a distance matrix $A_{i,j} = d(\mathbf{x}^{(i)}, \mathbf{x}^{(j)})$, a covariance matrix, a Gram matrix $\mathbf{X}^\top\mathbf{X}$ or a Hessian.</p>
+
+<h3 id="unit-orthogonal-and-orthonormal-vectors">Unit, orthogonal and orthonormal vectors</h3>
+
+<ul>
+  <li><strong>Unit vector:</strong> $|\mathbf{x}|_2 = 1$.</li>
+  <li><strong>Orthogonal:</strong> $\mathbf{x}^\top\mathbf{y} = 0$. If both are nonzero, they are at 90 degrees. In $\mathbb{R}^n$ at most $n$ nonzero vectors can be mutually orthogonal.</li>
+  <li><strong>Orthonormal:</strong> orthogonal and unit norm.</li>
+</ul>
+
+<h3 id="orthogonal-matrices">Orthogonal matrices</h3>
+
+<p>A <strong>square</strong> matrix whose rows are mutually orthonormal and whose columns are mutually orthonormal:</p>
+
+\[\boxed{\mathbf{Q}^\top\mathbf{Q} = \mathbf{Q}\mathbf{Q}^\top = \mathbf{I}} \quad\Rightarrow\quad \mathbf{Q}^{-1} = \mathbf{Q}^\top\]
+
+<p>The inverse costs nothing: just transpose.</p>
+
+<p>Facts worth knowing (beyond the chapter):</p>
+
+<ul>
+  <li>Orthogonal matrices preserve lengths and angles: $|\mathbf{Q}\mathbf{x}|_2^2 = \mathbf{x}^\top\mathbf{Q}^\top\mathbf{Q}\mathbf{x} = |\mathbf{x}|_2^2$. They are rotations and reflections.</li>
+  <li>$\det(\mathbf{Q}) = \pm 1$.</li>
+  <li><strong>Naming trap:</strong> “orthogonal matrix” means ortho<strong>normal</strong> columns. A matrix whose columns are orthogonal but not unit length has no special name.</li>
+  <li><strong>Non-square case:</strong> a tall $\mathbf{U} \in \mathbb{R}^{n \times l}$ with orthonormal columns satisfies $\mathbf{U}^\top\mathbf{U} = \mathbf{I}_l$ but <strong>not</strong> $\mathbf{U}\mathbf{U}^\top = \mathbf{I}_n$. Instead $\mathbf{U}\mathbf{U}^\top$ is the projection onto the span of the columns. This is exactly the PCA decoder matrix in Section 12.</li>
+</ul>
+
+<hr />
+
+<h2 id="7-eigendecomposition">7. Eigendecomposition</h2>
+
+<p><strong>Why decompose?</strong> Writing 12 as $2 \times 2 \times 3$ tells you things the decimal representation hides (divisible by 3, not by 5). Decomposing a matrix similarly reveals properties that do not depend on how we happen to write it down.</p>
+
+<h3 id="eigenvectors-and-eigenvalues">Eigenvectors and eigenvalues</h3>
+
+<p>A nonzero vector $\mathbf{v}$ is an <strong>eigenvector</strong> of square $\mathbf{A}$ with <strong>eigenvalue</strong> $\lambda$ if</p>
+
+\[\boxed{\mathbf{A}\mathbf{v} = \lambda\mathbf{v}}\]
+
+<p>$\mathbf{A}$ only stretches $\mathbf{v}$; it does not change its direction (a negative $\lambda$ flips it).</p>
+
+<ul>
+  <li><strong>Left eigenvectors</strong> satisfy $\mathbf{v}^\top\mathbf{A} = \lambda\mathbf{v}^\top$. “Eigenvector” alone means right eigenvector.</li>
+  <li>If $\mathbf{v}$ is an eigenvector, so is $s\mathbf{v}$ for any $s \ne 0$, with the same $\lambda$. Convention: use unit eigenvectors.</li>
+  <li><strong>Finding them</strong> (not in the chapter, but asked in interviews): $\mathbf{A}\mathbf{v} = \lambda\mathbf{v}$ with $\mathbf{v} \ne \mathbf{0}$ means $(\mathbf{A} - \lambda\mathbf{I})$ is singular, so $\det(\mathbf{A} - \lambda\mathbf{I}) = 0$. This polynomial in $\lambda$ is the characteristic polynomial.</li>
+</ul>
+
+<p><strong>Worked example.</strong></p>
+
+\[\mathbf{A} = \begin{pmatrix} 2 &amp; 1 \\ 1 &amp; 2 \end{pmatrix}, \quad \det\begin{pmatrix} 2-\lambda &amp; 1 \\ 1 &amp; 2-\lambda \end{pmatrix} = (2-\lambda)^2 - 1 = 0 \Rightarrow \lambda \in \{3, 1\}\]
+
+<p>For $\lambda = 3$: $\mathbf{v} = \tfrac{1}{\sqrt 2}(1, 1)^\top$. For $\lambda = 1$: $\mathbf{v} = \tfrac{1}{\sqrt 2}(1, -1)^\top$. They are orthogonal, as expected for a symmetric matrix.</p>
+
+<h3 id="the-decomposition">The decomposition</h3>
+
+<p>If $\mathbf{A} \in \mathbb{R}^{n \times n}$ has $n$ linearly independent eigenvectors $\mathbf{v}^{(1)}, \dots, \mathbf{v}^{(n)}$, stack them as columns of $\mathbf{V}$ and the eigenvalues in $\boldsymbol{\lambda}$. Then</p>
+
+\[\mathbf{A} = \mathbf{V}\operatorname{diag}(\boldsymbol{\lambda})\mathbf{V}^{-1}\]
+
+<p><strong>Why:</strong> $\mathbf{A}\mathbf{V} = \mathbf{V}\operatorname{diag}(\boldsymbol{\lambda})$ is just the $n$ eigenvector equations side by side. Multiply both sides on the right by $\mathbf{V}^{-1}$.</p>
+
+<p>Caveats:</p>
+
+<ul>
+  <li>Not every matrix has one. Example: $\begin{pmatrix} 0 &amp; 1 \ 0 &amp; 0 \end{pmatrix}$ has only eigenvalue $0$ and only one independent eigenvector.</li>
+  <li>Real matrices can have complex eigenvalues. Example: a 90 degree rotation $\begin{pmatrix} 0 &amp; -1 \ 1 &amp; 0 \end{pmatrix}$ has $\lambda = \pm i$. No real direction stays fixed under a rotation.</li>
+</ul>
+
+<h3 id="real-symmetric-matrices-the-spectral-theorem">Real symmetric matrices: the spectral theorem</h3>
+
+<p>Every real symmetric matrix can be decomposed using only real numbers and an orthogonal matrix:</p>
+
+\[\boxed{\mathbf{A} = \mathbf{Q}\boldsymbol{\Lambda}\mathbf{Q}^\top}\]
+
+<p>$\mathbf{Q}$ is orthogonal (columns are orthonormal eigenvectors) and $\boldsymbol{\Lambda}$ is diagonal (eigenvalues). Column $i$ of $\mathbf{Q}$ goes with $\Lambda_{i,i}$.</p>
+
+<p><strong>Geometric picture.</strong> Write $\mathbf{A}\mathbf{x} = \mathbf{Q}\boldsymbol{\Lambda}(\mathbf{Q}^\top\mathbf{x})$:</p>
+
+<ol>
+  <li>$\mathbf{Q}^\top\mathbf{x}$: express $\mathbf{x}$ in the eigenvector basis.</li>
+  <li>$\boldsymbol{\Lambda}$: scale coordinate $i$ by $\lambda_i$.</li>
+  <li>$\mathbf{Q}$: go back to the original basis.</li>
+</ol>
+
+<table>
+  <tbody>
+    <tr>
+      <td>So $\mathbf{A}$ stretches space by $\lambda_i$ along each $\mathbf{q}^{(i)}$. The unit circle becomes an ellipse whose axes are the eigenvectors, with half-lengths $</td>
+      <td>\lambda_i</td>
+      <td>$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Equivalently, $\mathbf{A} = \sum_i \lambda_i \mathbf{q}^{(i)}\mathbf{q}^{(i)\top}$: a weighted sum of rank-one projections.</p>
+
+<p><strong>Uniqueness.</strong> If two or more eigenvectors share an eigenvalue, any orthonormal basis of their span works too, so $\mathbf{Q}$ is not unique. Convention: sort eigenvalues in descending order. Under that convention, the decomposition is unique if all eigenvalues are distinct (up to the sign of each eigenvector).</p>
+
+<h3 id="what-eigenvalues-tell-you">What eigenvalues tell you</h3>
+
+<ul>
+  <li><strong>Singular iff some eigenvalue is zero.</strong> (A zero eigenvalue means $\mathbf{A}\mathbf{v} = \mathbf{0}$ for some $\mathbf{v} \ne \mathbf{0}$, so information is lost.)</li>
+  <li><strong>Inverse of a symmetric invertible matrix:</strong> $\mathbf{A}^{-1} = \mathbf{Q}\boldsymbol{\Lambda}^{-1}\mathbf{Q}^\top$. Same eigenvectors, reciprocal eigenvalues.</li>
+  <li><strong>Powers:</strong> $\mathbf{A}^k = \mathbf{Q}\boldsymbol{\Lambda}^k\mathbf{Q}^\top$.</li>
+</ul>
+
+<h3 id="optimizing-a-quadratic-form-on-the-unit-sphere">Optimizing a quadratic form on the unit sphere</h3>
+
+<p>For real symmetric $\mathbf{A}$, consider</p>
+
+\[f(\mathbf{x}) = \mathbf{x}^\top\mathbf{A}\mathbf{x} \quad \text{subject to } \|\mathbf{x}\|_2 = 1\]
+
+<p><strong>Result:</strong> the maximum of $f$ is $\lambda_{\max}$ and the minimum is $\lambda_{\min}$, attained at the corresponding eigenvectors. If $\mathbf{x}$ is any eigenvector, $f(\mathbf{x})$ equals its eigenvalue.</p>
+
+<p><strong>Proof</strong> (derive this yourself). Let $\mathbf{y} = \mathbf{Q}^\top\mathbf{x}$. Since $\mathbf{Q}$ is orthogonal, $|\mathbf{y}|_2 = 1$. Then</p>
+
+\[f(\mathbf{x}) = \mathbf{x}^\top\mathbf{Q}\boldsymbol{\Lambda}\mathbf{Q}^\top\mathbf{x} = \mathbf{y}^\top\boldsymbol{\Lambda}\mathbf{y} = \sum_i \lambda_i y_i^2\]
+
+<p>The weights $y_i^2$ are non-negative and sum to 1, so $f$ is a weighted average of the eigenvalues. A weighted average lies between the smallest and largest value, with equality when all weight sits on one eigenvalue, that is when $\mathbf{y}$ is a standard basis vector, that is when $\mathbf{x}$ is an eigenvector. $\blacksquare$</p>
+
+<p>The ratio $\mathbf{x}^\top\mathbf{A}\mathbf{x} / \mathbf{x}^\top\mathbf{x}$ is the <strong>Rayleigh quotient</strong>. This result is the core of PCA (Section 12) and of curvature arguments in optimization: for a Hessian $\mathbf{H}$, $\mathbf{d}^\top\mathbf{H}\mathbf{d}$ is the curvature along unit direction $\mathbf{d}$, and the extremes are the extreme eigenvalues.</p>
+
+<h3 id="definiteness">Definiteness</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Eigenvalues</th>
+      <th>Quadratic form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>positive definite (PD)</td>
+      <td>all $&gt; 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} &gt; 0$ for all $\mathbf{x} \ne \mathbf{0}$</td>
+    </tr>
+    <tr>
+      <td>positive semidefinite (PSD)</td>
+      <td>all $\ge 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} \ge 0$ for all $\mathbf{x}$</td>
+    </tr>
+    <tr>
+      <td>negative definite</td>
+      <td>all $&lt; 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} &lt; 0$ for all $\mathbf{x} \ne \mathbf{0}$</td>
+    </tr>
+    <tr>
+      <td>negative semidefinite</td>
+      <td>all $\le 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} \le 0$ for all $\mathbf{x}$</td>
+    </tr>
+    <tr>
+      <td>indefinite</td>
+      <td>mixed signs</td>
+      <td>both signs occur</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The eigenvalue and quadratic-form columns are equivalent, by the weighted-average argument above.</p>
+
+<p><strong>Where this matters:</strong></p>
+
+<ul>
+  <li>Any Gram matrix $\mathbf{X}^\top\mathbf{X}$ is PSD, because $\mathbf{v}^\top\mathbf{X}^\top\mathbf{X}\mathbf{v} = |\mathbf{X}\mathbf{v}|_2^2 \ge 0$. So covariance matrices are PSD.</li>
+  <li>A Hessian that is PD at a critical point means a strict local minimum. Indefinite means a saddle point.</li>
+  <li>$\mathbf{X}^\top\mathbf{X} + \alpha\mathbf{I}$ with $\alpha &gt; 0$ is PD (eigenvalues shift up by $\alpha$), hence invertible. This is why ridge regression always has a unique solution.</li>
+</ul>
+
+<hr />
+
+<h2 id="8-singular-value-decomposition-svd">8. Singular value decomposition (SVD)</h2>
+
+<p>The eigendecomposition only works for some square matrices. The SVD works for <strong>every real matrix</strong>, square or not.</p>
+
+\[\boxed{\mathbf{A} = \mathbf{U}\mathbf{D}\mathbf{V}^\top}, \qquad \mathbf{A} \in \mathbb{R}^{m \times n}\]
+
+<table>
+  <thead>
+    <tr>
+      <th>Factor</th>
+      <th>Shape</th>
+      <th>Property</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$\mathbf{U}$</td>
+      <td>$m \times m$</td>
+      <td>orthogonal</td>
+      <td>columns are <strong>left-singular vectors</strong></td>
+    </tr>
+    <tr>
+      <td>$\mathbf{D}$</td>
+      <td>$m \times n$</td>
+      <td>diagonal (rectangular), entries $\ge 0$</td>
+      <td>diagonal entries are <strong>singular values</strong> $\sigma_i$</td>
+    </tr>
+    <tr>
+      <td>$\mathbf{V}$</td>
+      <td>$n \times n$</td>
+      <td>orthogonal</td>
+      <td>columns are <strong>right-singular vectors</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Geometric picture.</strong> $\mathbf{A}\mathbf{x} = \mathbf{U}(\mathbf{D}(\mathbf{V}^\top\mathbf{x}))$: rotate or reflect in the input space, scale each axis by $\sigma_i$ (and change dimension), rotate or reflect in the output space. Every linear map is “rotate, stretch, rotate”.</p>
+
+<h3 id="connection-to-eigendecomposition">Connection to eigendecomposition</h3>
+
+\[\mathbf{A}^\top\mathbf{A} = \mathbf{V}\mathbf{D}^\top\mathbf{U}^\top\mathbf{U}\mathbf{D}\mathbf{V}^\top = \mathbf{V}(\mathbf{D}^\top\mathbf{D})\mathbf{V}^\top\]
+
+\[\mathbf{A}\mathbf{A}^\top = \mathbf{U}(\mathbf{D}\mathbf{D}^\top)\mathbf{U}^\top\]
+
+<p>Both are eigendecompositions of symmetric PSD matrices. Read off:</p>
+
+<ul>
+  <li>right-singular vectors ($\mathbf{V}$) are eigenvectors of $\mathbf{A}^\top\mathbf{A}$;</li>
+  <li>left-singular vectors ($\mathbf{U}$) are eigenvectors of $\mathbf{A}\mathbf{A}^\top$;</li>
+  <li>the nonzero singular values are the square roots of the nonzero eigenvalues of $\mathbf{A}^\top\mathbf{A}$ (equivalently of $\mathbf{A}\mathbf{A}^\top$): $\sigma_i = \sqrt{\lambda_i}$.</li>
+</ul>
+
+<h3 id="useful-extras-beyond-the-chapter">Useful extras (beyond the chapter)</h3>
+
+<ul>
+  <li><strong>Rank</strong> = number of nonzero singular values.</li>
+  <li><strong>Rank-one expansion:</strong> $\mathbf{A} = \sum_{i=1}^{r} \sigma_i \mathbf{u}^{(i)}\mathbf{v}^{(i)\top}$.</li>
+  <li><strong>Best low-rank approximation (Eckart-Young):</strong> keeping the top $k$ terms gives the rank-$k$ matrix closest to $\mathbf{A}$ in Frobenius (and spectral) norm. The error is $\sqrt{\sum_{i&gt;k}\sigma_i^2}$ in Frobenius norm. This is the reason low-rank adapters (LoRA) and low-rank compression make sense when singular values decay fast.</li>
+  <li>$|\mathbf{A}|_F^2 = \sum_i \sigma_i^2$ and the spectral norm $|\mathbf{A}|_2 = \sigma_{\max}$.</li>
+  <li><strong>Condition number</strong> $\sigma_{\max}/\sigma_{\min}$: large means solving $\mathbf{Ax} = \mathbf{b}$ amplifies errors.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">U</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">Vt</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">svd</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>                     <span class="c1"># full: U 5x5, Vt 3x3
+</span><span class="n">eig</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">eigvalsh</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">A</span><span class="p">)[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>         <span class="c1"># descending
+</span><span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">allclose</span><span class="p">(</span><span class="n">s</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">eig</span><span class="p">))</span>                   <span class="c1"># True
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="9-the-moore-penrose-pseudoinverse">9. The Moore-Penrose pseudoinverse</h2>
+
+<p><strong>Problem.</strong> For non-square $\mathbf{A}$ there is no inverse. We would still like a matrix $\mathbf{B}$ so that $\mathbf{x} = \mathbf{B}\mathbf{y}$ solves $\mathbf{A}\mathbf{x} = \mathbf{y}$ as well as possible.</p>
+
+<ul>
+  <li><strong>Tall</strong> $\mathbf{A}$ (more rows than columns, more equations than unknowns): usually no exact solution.</li>
+  <li><strong>Wide</strong> $\mathbf{A}$ (more columns than rows): usually infinitely many solutions.</li>
+</ul>
+
+<h3 id="definition">Definition</h3>
+
+\[\mathbf{A}^+ = \lim_{\alpha \searrow 0} (\mathbf{A}^\top\mathbf{A} + \alpha\mathbf{I})^{-1}\mathbf{A}^\top\]
+
+<p>Read it as “ridge regression with vanishing regularization”. The $\alpha\mathbf{I}$ makes the matrix invertible (Section 7), and the limit removes the bias.</p>
+
+<h3 id="how-it-is-actually-computed">How it is actually computed</h3>
+
+\[\boxed{\mathbf{A}^+ = \mathbf{V}\mathbf{D}^+\mathbf{U}^\top}\]
+
+<p>where $\mathbf{D}^+$ is built from $\mathbf{D}$ by taking the reciprocal of each nonzero diagonal entry and then transposing (so $\mathbf{D}^+$ is $n \times m$). Zero singular values stay zero.</p>
+
+<p><strong>Sanity check.</strong> If $\mathbf{A}$ is square and invertible, then $\mathbf{D}^+ = \mathbf{D}^{-1}$ and $\mathbf{V}\mathbf{D}^{-1}\mathbf{U}^\top = (\mathbf{U}\mathbf{D}\mathbf{V}^\top)^{-1} = \mathbf{A}^{-1}$.</p>
+
+<h3 id="what-it-gives-you">What it gives you</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>$\mathbf{x} = \mathbf{A}^+\mathbf{y}$ is</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>wide, consistent (many solutions)</td>
+      <td>the solution with <strong>smallest</strong> $|\mathbf{x}|_2$</td>
+    </tr>
+    <tr>
+      <td>tall, inconsistent (no solution)</td>
+      <td>the $\mathbf{x}$ minimizing $|\mathbf{A}\mathbf{x} - \mathbf{y}|_2$ (least squares)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Least squares link.</strong> When $\mathbf{A}$ has full column rank, $\mathbf{A}^+ = (\mathbf{A}^\top\mathbf{A})^{-1}\mathbf{A}^\top$. Derivation: minimize $|\mathbf{Ax} - \mathbf{y}|_2^2$, set the gradient $2\mathbf{A}^\top(\mathbf{Ax} - \mathbf{y})$ to zero, get the normal equations $\mathbf{A}^\top\mathbf{A}\mathbf{x} = \mathbf{A}^\top\mathbf{y}$.</p>
+
+<p><strong>Minimum norm link.</strong> When $\mathbf{A}$ has full row rank, $\mathbf{A}^+ = \mathbf{A}^\top(\mathbf{A}\mathbf{A}^\top)^{-1}$. The solution lies in the row space of $\mathbf{A}$, so it has no component in the null space. Any other solution adds a null-space component, which can only increase the norm (Pythagoras). This is also the classic explanation for why gradient descent from zero on an overparameterized linear regression converges to the minimum-norm interpolator.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">);</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>   <span class="c1"># wide
+</span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">pinv</span><span class="p">(</span><span class="n">A</span><span class="p">)</span> <span class="o">@</span> <span class="n">y</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">allclose</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>                        <span class="c1"># True, exact solution
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="10-trace">10. Trace</h2>
+
+\[\operatorname{Tr}(\mathbf{A}) = \sum_i A_{i,i}\]
+
+<p>The trace is useful because it lets you write sums and norms as matrix expressions, which are easier to manipulate.</p>
+
+<h3 id="properties">Properties</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Formula</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frobenius norm</td>
+      <td>$|\mathbf{A}|_F = \sqrt{\operatorname{Tr}(\mathbf{A}\mathbf{A}^\top)}$</td>
+    </tr>
+    <tr>
+      <td>transpose invariance</td>
+      <td>$\operatorname{Tr}(\mathbf{A}) = \operatorname{Tr}(\mathbf{A}^\top)$</td>
+    </tr>
+    <tr>
+      <td>linearity (extra)</td>
+      <td>$\operatorname{Tr}(\mathbf{A} + \mathbf{B}) = \operatorname{Tr}(\mathbf{A}) + \operatorname{Tr}(\mathbf{B})$, $\operatorname{Tr}(c\mathbf{A}) = c\operatorname{Tr}(\mathbf{A})$</td>
+    </tr>
+    <tr>
+      <td>cyclic invariance</td>
+      <td>$\operatorname{Tr}(\mathbf{ABC}) = \operatorname{Tr}(\mathbf{CAB}) = \operatorname{Tr}(\mathbf{BCA})$</td>
+    </tr>
+    <tr>
+      <td>scalar</td>
+      <td>$a = \operatorname{Tr}(a)$</td>
+    </tr>
+    <tr>
+      <td>eigenvalues (extra)</td>
+      <td>$\operatorname{Tr}(\mathbf{A}) = \sum_i \lambda_i$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Cyclic invariance in general:</strong></p>
+
+\[\operatorname{Tr}\Big(\prod_{i=1}^{n}\mathbf{F}^{(i)}\Big) = \operatorname{Tr}\Big(\mathbf{F}^{(n)}\prod_{i=1}^{n-1}\mathbf{F}^{(i)}\Big)\]
+
+<p>You may move the <strong>last</strong> factor to the <strong>front</strong> (cycle), but you may not swap arbitrary factors: $\operatorname{Tr}(\mathbf{ABC}) \ne \operatorname{Tr}(\mathbf{ACB})$ in general.</p>
+
+<p><strong>It holds even when shapes change.</strong> For $\mathbf{A} \in \mathbb{R}^{m \times n}$, $\mathbf{B} \in \mathbb{R}^{n \times m}$: $\mathbf{AB}$ is $m \times m$ and $\mathbf{BA}$ is $n \times n$, yet</p>
+
+\[\operatorname{Tr}(\mathbf{AB}) = \sum_i\sum_j A_{i,j}B_{j,i} = \operatorname{Tr}(\mathbf{BA})\]
+
+<p>The double sum is the proof: both traces sum the same products.</p>
+
+<p><strong>The trace trick</strong> (very common): a scalar quadratic form can be rewritten as a trace and cycled.</p>
+
+\[\mathbf{x}^\top\mathbf{A}\mathbf{x} = \operatorname{Tr}(\mathbf{x}^\top\mathbf{A}\mathbf{x}) = \operatorname{Tr}(\mathbf{A}\mathbf{x}\mathbf{x}^\top)\]
+
+<p>This is how you take expectations of quadratic forms, $\mathbb{E}[\mathbf{x}^\top\mathbf{A}\mathbf{x}] = \operatorname{Tr}(\mathbf{A}\,\mathbb{E}[\mathbf{x}\mathbf{x}^\top])$, and how you derive the Gaussian MLE for the covariance.</p>
+
+<hr />
+
+<h2 id="11-determinant">11. Determinant</h2>
+
+<p>$\det(\mathbf{A})$ maps a square matrix to a real number.</p>
+
+\[\boxed{\det(\mathbf{A}) = \prod_i \lambda_i}\]
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Geometric meaning.</strong> $</td>
+      <td>\det(\mathbf{A})</td>
+      <td>$ is the factor by which $\mathbf{A}$ scales volume. Take the unit cube, apply $\mathbf{A}$, and measure the volume of the resulting parallelepiped.</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>$\det = 0$: at least one direction is squashed flat, all volume is lost, and the map cannot be undone (singular).</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>$</td>
+          <td>\det</td>
+          <td>= 1$: volume is preserved (rotations, reflections, shears).</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>The sign tells you whether orientation is flipped.</li>
+</ul>
+
+<p>Extras worth knowing:</p>
+
+<ul>
+  <li>$\det(\mathbf{AB}) = \det(\mathbf{A})\det(\mathbf{B})$, $\det(\mathbf{A}^\top) = \det(\mathbf{A})$, $\det(\mathbf{A}^{-1}) = 1/\det(\mathbf{A})$.</li>
+  <li>$2 \times 2$: $\det\begin{pmatrix} a &amp; b \ c &amp; d\end{pmatrix} = ad - bc$.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>The determinant appears in the Gaussian density normalizer $</td>
+          <td>2\pi\boldsymbol{\Sigma}</td>
+          <td>^{-1/2}$ and in the change-of-variables formula behind normalizing flows, $\log p_X(\mathbf{x}) = \log p_Z(f(\mathbf{x})) + \log</td>
+          <td>\det \mathbf{J}_f(\mathbf{x})</td>
+          <td>$.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Use <code class="language-plaintext highlighter-rouge">np.linalg.slogdet</code>, not <code class="language-plaintext highlighter-rouge">det</code>, for anything large: determinants overflow or underflow quickly.</li>
+</ul>
+
+<hr />
+
+<h2 id="12-worked-example-deriving-pca">12. Worked example: deriving PCA</h2>
+
+<p>This section uses nearly everything above. Derive it on paper at least twice.</p>
+
+<h3 id="setup">Setup</h3>
+
+<p>We have $m$ points ${\mathbf{x}^{(1)}, \dots, \mathbf{x}^{(m)}}$ in $\mathbb{R}^n$. We want lossy compression: store a code $\mathbf{c}^{(i)} \in \mathbb{R}^l$ with $l &lt; n$ for each point.</p>
+
+<ul>
+  <li>Encoder: $f(\mathbf{x}) = \mathbf{c}$.</li>
+  <li>Decoder: $g(\mathbf{c}) \approx \mathbf{x}$.</li>
+  <li>Reconstruction: $r(\mathbf{x}) = g(f(\mathbf{x}))$.</li>
+</ul>
+
+<h3 id="design-choices">Design choices</h3>
+
+<ol>
+  <li><strong>Linear decoder:</strong> $g(\mathbf{c}) = \mathbf{D}\mathbf{c}$ with $\mathbf{D} \in \mathbb{R}^{n \times l}$.</li>
+  <li><strong>Orthogonal columns</strong> of $\mathbf{D}$. (Note: $\mathbf{D}$ is not square, so it is not an “orthogonal matrix”, but $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$.)</li>
+  <li><strong>Unit-norm columns.</strong> Without this the problem has no unique solution: scale a column of $\mathbf{D}$ by $s$ and the matching code entries by $1/s$, and the reconstruction is unchanged.</li>
+</ol>
+
+<p>So the constraint is $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$.</p>
+
+<p>We assume the data is <strong>centered</strong> (mean subtracted). Without centering, the method finds directions of largest second moment about the origin, not largest variance.</p>
+
+<h3 id="step-1-the-optimal-code-for-a-fixed-d">Step 1: the optimal code for a fixed D</h3>
+
+<p>Choose the code that minimizes reconstruction error:</p>
+
+\[\mathbf{c}^* = \arg\min_{\mathbf{c}} \|\mathbf{x} - g(\mathbf{c})\|_2\]
+
+<p><strong>Square the norm.</strong> $|\cdot|_2 \ge 0$ and $t \mapsto t^2$ is increasing on $[0, \infty)$, so the minimizer is the same:</p>
+
+\[\mathbf{c}^* = \arg\min_{\mathbf{c}} \|\mathbf{x} - g(\mathbf{c})\|_2^2 = \arg\min_{\mathbf{c}} (\mathbf{x} - g(\mathbf{c}))^\top(\mathbf{x} - g(\mathbf{c}))\]
+
+<p><strong>Expand</strong> (distributivity, and $\mathbf{x}^\top g(\mathbf{c}) = g(\mathbf{c})^\top\mathbf{x}$ because a scalar is its own transpose):</p>
+
+\[= \mathbf{x}^\top\mathbf{x} - 2\mathbf{x}^\top g(\mathbf{c}) + g(\mathbf{c})^\top g(\mathbf{c})\]
+
+<p><strong>Drop</strong> $\mathbf{x}^\top\mathbf{x}$, which does not depend on $\mathbf{c}$. <strong>Substitute</strong> $g(\mathbf{c}) = \mathbf{Dc}$ and <strong>use</strong> $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$:</p>
+
+\[\mathbf{c}^* = \arg\min_{\mathbf{c}} \; -2\mathbf{x}^\top\mathbf{D}\mathbf{c} + \mathbf{c}^\top\mathbf{D}^\top\mathbf{D}\mathbf{c} = \arg\min_{\mathbf{c}} \; -2\mathbf{x}^\top\mathbf{D}\mathbf{c} + \mathbf{c}^\top\mathbf{c}\]
+
+<p><strong>Set the gradient to zero:</strong></p>
+
+\[\nabla_{\mathbf{c}}\big(-2\mathbf{x}^\top\mathbf{D}\mathbf{c} + \mathbf{c}^\top\mathbf{c}\big) = -2\mathbf{D}^\top\mathbf{x} + 2\mathbf{c} = \mathbf{0} \quad\Rightarrow\quad \boxed{\mathbf{c} = \mathbf{D}^\top\mathbf{x}}\]
+
+<p>The objective is a convex quadratic in $\mathbf{c}$ (Hessian $2\mathbf{I}$, which is PD), so this stationary point is the global minimum.</p>
+
+<p>So the encoder is a single matrix-vector product, $f(\mathbf{x}) = \mathbf{D}^\top\mathbf{x}$, and</p>
+
+\[r(\mathbf{x}) = \mathbf{D}\mathbf{D}^\top\mathbf{x}\]
+
+<p>$\mathbf{D}\mathbf{D}^\top$ is the orthogonal projection onto the column space of $\mathbf{D}$. PCA reconstruction is “project onto a subspace”.</p>
+
+<h3 id="step-2-choose-d">Step 2: choose D</h3>
+
+<p>$\mathbf{D}$ is shared across all points, so minimize the total error over the dataset, as a Frobenius norm over all reconstruction errors:</p>
+
+\[\mathbf{D}^* = \arg\min_{\mathbf{D}} \sqrt{\sum_{i,j}\Big(x_j^{(i)} - r(\mathbf{x}^{(i)})_j\Big)^2} \quad \text{subject to } \mathbf{D}^\top\mathbf{D} = \mathbf{I}_l\]
+
+<h4 id="the-case-l--1">The case $l = 1$</h4>
+
+<p>Now $\mathbf{D}$ is a single unit vector $\mathbf{d}$. Drop the square root (same argument as before):</p>
+
+\[\mathbf{d}^* = \arg\min_{\mathbf{d}} \sum_i \|\mathbf{x}^{(i)} - \mathbf{d}\mathbf{d}^\top\mathbf{x}^{(i)}\|_2^2 \quad \text{s.t. } \|\mathbf{d}\|_2 = 1\]
+
+<p>$\mathbf{d}^\top\mathbf{x}^{(i)}$ is a scalar, so it can move to the left and be transposed: $\mathbf{d}\mathbf{d}^\top\mathbf{x}^{(i)} = (\mathbf{x}^{(i)\top}\mathbf{d})\mathbf{d}$.</p>
+
+<p><strong>Matrix form.</strong> Stack the points as rows of the design matrix $\mathbf{X} \in \mathbb{R}^{m \times n}$, so $\mathbf{X}_{i,:} = \mathbf{x}^{(i)\top}$. Row $i$ of $\mathbf{X}\mathbf{d}\mathbf{d}^\top$ is $(\mathbf{x}^{(i)\top}\mathbf{d})\mathbf{d}^\top$, the transposed reconstruction of point $i$. So</p>
+
+\[\mathbf{d}^* = \arg\min_{\mathbf{d}} \|\mathbf{X} - \mathbf{X}\mathbf{d}\mathbf{d}^\top\|_F^2 \quad \text{s.t. } \mathbf{d}^\top\mathbf{d} = 1\]
+
+<p><strong>Rewrite the Frobenius norm as a trace and expand.</strong> Using $|\mathbf{M}|_F^2 = \operatorname{Tr}(\mathbf{M}^\top\mathbf{M})$:</p>
+
+\[\operatorname{Tr}\big((\mathbf{X} - \mathbf{X}\mathbf{d}\mathbf{d}^\top)^\top(\mathbf{X} - \mathbf{X}\mathbf{d}\mathbf{d}^\top)\big)\]
+
+\[= \operatorname{Tr}(\mathbf{X}^\top\mathbf{X}) - \operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top) - \operatorname{Tr}(\mathbf{d}\mathbf{d}^\top\mathbf{X}^\top\mathbf{X}) + \operatorname{Tr}(\mathbf{d}\mathbf{d}^\top\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)\]
+
+<p><strong>Simplify.</strong></p>
+
+<ul>
+  <li>Drop $\operatorname{Tr}(\mathbf{X}^\top\mathbf{X})$, which does not depend on $\mathbf{d}$.</li>
+  <li>The two middle terms are equal (cycle the trace, or transpose it), giving $-2\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)$.</li>
+  <li>Cycle the last term: $\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top\mathbf{d}\mathbf{d}^\top)$. Now apply the constraint $\mathbf{d}^\top\mathbf{d} = 1$ to get $\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)$.</li>
+</ul>
+
+<p>The constraint can only be applied <strong>after</strong> the cycling brings $\mathbf{d}^\top\mathbf{d}$ together. Before that, nothing simplifies. This is the step people get stuck on.</p>
+
+<p>The objective becomes</p>
+
+\[-2\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top) + \operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top) = -\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)\]
+
+<p>Minimizing the negative is maximizing the positive, and one more cycle turns the trace into a scalar:</p>
+
+\[\boxed{\mathbf{d}^* = \arg\max_{\mathbf{d}} \; \mathbf{d}^\top\mathbf{X}^\top\mathbf{X}\mathbf{d} \quad \text{s.t. } \mathbf{d}^\top\mathbf{d} = 1}\]
+
+<p><strong>Solve.</strong> This is exactly the quadratic form on the unit sphere from Section 7, with the symmetric PSD matrix $\mathbf{X}^\top\mathbf{X}$. The maximum is the largest eigenvalue, attained at its eigenvector. So <strong>$\mathbf{d}$ is the eigenvector of $\mathbf{X}^\top\mathbf{X}$ with the largest eigenvalue</strong>: the first principal component.</p>
+
+<p><strong>Alternative via Lagrange multipliers</strong> (good to show in an interview): $\mathcal{L} = \mathbf{d}^\top\mathbf{X}^\top\mathbf{X}\mathbf{d} - \lambda(\mathbf{d}^\top\mathbf{d} - 1)$. Setting $\nabla_{\mathbf{d}}\mathcal{L} = 0$ gives $\mathbf{X}^\top\mathbf{X}\mathbf{d} = \lambda\mathbf{d}$, so every stationary point is an eigenvector, and the objective equals $\mathbf{d}^\top(\lambda\mathbf{d}) = \lambda$. Pick the largest.</p>
+
+<h4 id="the-general-case-l--1">The general case $l &gt; 1$</h4>
+
+<p>The optimal $\mathbf{D}$ has as columns the $l$ eigenvectors of $\mathbf{X}^\top\mathbf{X}$ with the $l$ largest eigenvalues. The book leaves the proof as an exercise. A short version:</p>
+
+<p>The same expansion gives $\mathbf{D}^* = \arg\max_{\mathbf{D}} \operatorname{Tr}(\mathbf{D}^\top\mathbf{X}^\top\mathbf{X}\mathbf{D})$ subject to $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$. Write $\mathbf{X}^\top\mathbf{X} = \mathbf{Q}\boldsymbol{\Lambda}\mathbf{Q}^\top$ and $\mathbf{W} = \mathbf{Q}^\top\mathbf{D}$ (also orthonormal columns). Then</p>
+
+\[\operatorname{Tr}(\mathbf{D}^\top\mathbf{X}^\top\mathbf{X}\mathbf{D}) = \operatorname{Tr}(\mathbf{W}^\top\boldsymbol{\Lambda}\mathbf{W}) = \sum_{k=1}^{n}\lambda_k \, p_k, \qquad p_k = \sum_{j=1}^{l} W_{k,j}^2\]
+
+<p>Each $p_k \in [0, 1]$ (it is a squared length of a row of a matrix with orthonormal columns, which is at most 1), and $\sum_k p_k = |\mathbf{W}|_F^2 = l$. Maximizing $\sum_k\lambda_k p_k$ under these constraints puts $p_k = 1$ on the $l$ largest eigenvalues and $0$ elsewhere. That is achieved when the columns of $\mathbf{D}$ span the top-$l$ eigenvectors. (This is Ky Fan’s theorem. An induction proof adds one direction at a time, each orthogonal to the previous ones.)</p>
+
+<h3 id="interpretation-and-links">Interpretation and links</h3>
+
+<ul>
+  <li>If $\mathbf{X}$ is centered, $\tfrac{1}{m}\mathbf{X}^\top\mathbf{X}$ is the sample covariance. PCA directions are the directions of <strong>largest variance</strong>, and the eigenvalue is the variance along that direction. <strong>Minimizing reconstruction error and maximizing projected variance are the same problem.</strong></li>
+  <li><strong>Via SVD:</strong> if $\mathbf{X} = \mathbf{U}\mathbf{S}\mathbf{V}^\top$, the principal components are the top columns of $\mathbf{V}$, and the eigenvalues of $\mathbf{X}^\top\mathbf{X}$ are $\sigma_i^2$. In practice compute the SVD of $\mathbf{X}$ rather than forming $\mathbf{X}^\top\mathbf{X}$, which squares the condition number.</li>
+  <li>The leftover error equals the sum of the discarded eigenvalues (Eckart-Young again).</li>
+  <li>A linear autoencoder trained with squared error learns the same subspace as PCA (but not necessarily orthonormal columns).</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">default_rng</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">rng</span><span class="p">.</span><span class="nf">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span> <span class="o">@</span> <span class="n">rng</span><span class="p">.</span><span class="nf">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">X</span> <span class="o">-=</span> <span class="n">X</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>                                   <span class="c1"># center
+</span><span class="n">evals</span><span class="p">,</span> <span class="n">evecs</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">eigh</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">X</span><span class="p">)</span>
+<span class="n">D</span> <span class="o">=</span> <span class="n">evecs</span><span class="p">[:,</span> <span class="p">::</span><span class="o">-</span><span class="mi">1</span><span class="p">][:,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]</span>                        <span class="c1"># top-2 eigenvectors
+</span><span class="n">R</span> <span class="o">=</span> <span class="n">X</span> <span class="o">@</span> <span class="n">D</span> <span class="o">@</span> <span class="n">D</span><span class="p">.</span><span class="n">T</span>                                  <span class="c1"># reconstruction (rows)
+</span><span class="n">err</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">X</span> <span class="o">-</span> <span class="n">R</span><span class="p">,</span> <span class="sh">'</span><span class="s">fro</span><span class="sh">'</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">isclose</span><span class="p">(</span><span class="n">err</span><span class="p">,</span> <span class="n">evals</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">:].</span><span class="nf">sum</span><span class="p">()))</span>    <span class="c1"># True: error = discarded eigenvalues
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="13-cheat-sheet">13. Cheat sheet</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fact</th>
+      <th>Formula</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>matrix product</td>
+      <td>$C_{i,j} = \sum_k A_{i,k}B_{k,j}$</td>
+    </tr>
+    <tr>
+      <td>transpose of product</td>
+      <td>$(\mathbf{AB})^\top = \mathbf{B}^\top\mathbf{A}^\top$</td>
+    </tr>
+    <tr>
+      <td>column view</td>
+      <td>$\mathbf{Ax} = \sum_j x_j\mathbf{A}_{:,j}$</td>
+    </tr>
+    <tr>
+      <td>unique solution for all $\mathbf{b}$</td>
+      <td>$\mathbf{A}$ square with independent columns</td>
+    </tr>
+    <tr>
+      <td>$L^p$ norm</td>
+      <td>$(\sum_i \lvert x_i\rvert^p)^{1/p}$, $p \ge 1$</td>
+    </tr>
+    <tr>
+      <td>dot product</td>
+      <td>$\mathbf{x}^\top\mathbf{y} = |\mathbf{x}||\mathbf{y}|\cos\theta$</td>
+    </tr>
+    <tr>
+      <td>orthogonal matrix</td>
+      <td>$\mathbf{Q}^\top\mathbf{Q} = \mathbf{QQ}^\top = \mathbf{I}$, $\mathbf{Q}^{-1} = \mathbf{Q}^\top$</td>
+    </tr>
+    <tr>
+      <td>eigen equation</td>
+      <td>$\mathbf{Av} = \lambda\mathbf{v}$</td>
+    </tr>
+    <tr>
+      <td>eigendecomposition</td>
+      <td>$\mathbf{A} = \mathbf{V}\operatorname{diag}(\boldsymbol\lambda)\mathbf{V}^{-1}$</td>
+    </tr>
+    <tr>
+      <td>spectral theorem</td>
+      <td>$\mathbf{A} = \mathbf{A}^\top \Rightarrow \mathbf{A} = \mathbf{Q}\boldsymbol\Lambda\mathbf{Q}^\top$</td>
+    </tr>
+    <tr>
+      <td>Rayleigh bounds</td>
+      <td>$\lambda_{\min} \le \mathbf{x}^\top\mathbf{Ax} \le \lambda_{\max}$ for $|\mathbf{x}| = 1$</td>
+    </tr>
+    <tr>
+      <td>PSD</td>
+      <td>all $\lambda_i \ge 0$ $\Leftrightarrow$ $\mathbf{x}^\top\mathbf{Ax} \ge 0$</td>
+    </tr>
+    <tr>
+      <td>SVD</td>
+      <td>$\mathbf{A} = \mathbf{UDV}^\top$, $\sigma_i = \sqrt{\lambda_i(\mathbf{A}^\top\mathbf{A})}$</td>
+    </tr>
+    <tr>
+      <td>pseudoinverse</td>
+      <td>$\mathbf{A}^+ = \mathbf{VD}^+\mathbf{U}^\top$</td>
+    </tr>
+    <tr>
+      <td>trace cyclic</td>
+      <td>$\operatorname{Tr}(\mathbf{ABC}) = \operatorname{Tr}(\mathbf{CAB})$</td>
+    </tr>
+    <tr>
+      <td>Frobenius</td>
+      <td>$|\mathbf{A}|_F^2 = \operatorname{Tr}(\mathbf{AA}^\top) = \sum_i\sigma_i^2$</td>
+    </tr>
+    <tr>
+      <td>trace and det</td>
+      <td>$\operatorname{Tr}(\mathbf{A}) = \sum_i\lambda_i$, $\det(\mathbf{A}) = \prod_i\lambda_i$</td>
+    </tr>
+    <tr>
+      <td>PCA</td>
+      <td>encoder $\mathbf{D}^\top\mathbf{x}$, decoder $\mathbf{Dc}$, $\mathbf{D}$ = top-$l$ eigenvectors of $\mathbf{X}^\top\mathbf{X}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="14-self-test">14. Self-test</h2>
+
+<p>Do these on blank paper, without notes. If you get stuck, reread only the relevant section.</p>
+
+<p><strong>Quick checks</strong></p>
+
+<ol>
+  <li>Why can $\mathbf{Ax} = \mathbf{b}$ never have exactly two solutions?</li>
+  <li>Give a $2 \times 2$ matrix with $n \ge m$ whose columns do not span $\mathbb{R}^2$.</li>
+  <li>Why is the count of nonzeros not a norm? Which axiom fails?</li>
+  <li>Why does $L^1$ produce sparse solutions while squared $L^2$ does not? Answer using gradients.</li>
+  <li>For a tall $\mathbf{U}$ with orthonormal columns, which of $\mathbf{U}^\top\mathbf{U}$ and $\mathbf{U}\mathbf{U}^\top$ is the identity? What is the other one?</li>
+  <li>Give a real matrix with no real eigenvalues, and one that is not diagonalizable.</li>
+  <li>Show that $\mathbf{X}^\top\mathbf{X}$ is PSD in one line.</li>
+  <li>$\mathbf{A}$ is $3 \times 5$, $\mathbf{B}$ is $5 \times 3$. Is $\operatorname{Tr}(\mathbf{AB}) = \operatorname{Tr}(\mathbf{BA})$? Prove it.</li>
+  <li>What does $\det(\mathbf{A}) = 0$ mean geometrically?</li>
+</ol>
+
+<p><strong>Derivations</strong></p>
+
+<ol>
+  <li>Prove $\mathbf{x}^\top\mathbf{y} = \mathbf{y}^\top\mathbf{x}$ using only transpose rules.</li>
+  <li>Prove that $\mathbf{x}^\top\mathbf{Ax}$ on the unit sphere is bounded by the extreme eigenvalues of a symmetric $\mathbf{A}$.</li>
+  <li>Starting from $\mathbf{A} = \mathbf{UDV}^\top$, derive the eigendecompositions of $\mathbf{A}^\top\mathbf{A}$ and $\mathbf{AA}^\top$.</li>
+  <li>Derive the normal equations for least squares and show the solution equals $\mathbf{A}^+\mathbf{y}$ for full column rank.</li>
+  <li>Derive the PCA encoder $\mathbf{c} = \mathbf{D}^\top\mathbf{x}$ from the reconstruction objective.</li>
+  <li>Derive that the first principal component is the top eigenvector of $\mathbf{X}^\top\mathbf{X}$, using the trace route. Then redo it with Lagrange multipliers.</li>
+  <li>Prove the $l &gt; 1$ PCA result.</li>
+</ol>
+
+<p><strong>Interview-style follow-ups</strong></p>
+
+<ol>
+  <li>Why compute PCA with the SVD of $\mathbf{X}$ rather than the eigendecomposition of $\mathbf{X}^\top\mathbf{X}$?</li>
+  <li>What goes wrong if you forget to center the data before PCA?</li>
+  <li>Why is $(\mathbf{A}^\top\mathbf{A} + \alpha\mathbf{I})$ always invertible for $\alpha &gt; 0$? How does this relate to weight decay?</li>
+  <li>LoRA writes a weight update as $\mathbf{BA}$ with rank $r$. Using the SVD, what is the best possible rank-$r$ approximation of a given update $\Delta\mathbf{W}$, and what is its error?</li>
+  <li>At a critical point, the Hessian has eigenvalues ${3, 0.5, -0.1}$. What kind of point is it, and along which direction does the loss decrease?</li>
+</ol>
+
+<hr />
+
+<h2 id="15-further-references">15. Further references</h2>
+
+<ul>
+  <li>Goodfellow, Bengio, Courville. <em>Deep Learning</em>, Chapter 2. <a href="https://www.deeplearningbook.org/contents/linear_algebra.html">deeplearningbook.org</a></li>
+  <li>Petersen and Pedersen. <em>The Matrix Cookbook</em>. A dense list of identities, useful for lookup.</li>
+  <li>Shilov. <em>Linear Algebra</em> (Dover). A full treatment if you want proofs.</li>
+  <li>Strang. <em>Introduction to Linear Algebra</em>, and his MIT 18.06 lectures, for the four fundamental subspaces.</li>
+  <li>Parr and Howard. “The Matrix Calculus You Need for Deep Learning”. The natural next step after these notes.</li>
+</ul>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[These are my own study notes on the linear algebra you need before reading deep learning papers. They follow the topics in Chapter 2 of Deep Learning by Goodfellow, Bengio and Courville (online chapter).]]></summary></entry><entry><title type="html">Introduction to Adversarial ML</title><link href="https://iamsh4shank.github.io/blog/2023/part1-a_ml/" rel="alternate" type="text/html" title="Introduction to Adversarial ML" /><published>2023-04-25T17:12:00+02:00</published><updated>2023-04-25T17:12:00+02:00</updated><id>https://iamsh4shank.github.io/blog/2023/part1-a_ml</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/part1-a_ml/"><![CDATA[<p>Hi all, let’s see an interesting case, picture this: you’ve trained a machine learning model to identify images of dogs and cats accurately. It’s performing great during testing and you’re excited to deploy it in the real world. But what happens when someone tries to trick the model by feeding it with images that are slightly altered, making it misclassify them?</p>
 
 <p>With the increasing prevalence of AI-assisted tools and the upcoming deployment of AI in real-world use cases, it’s crucial that we shift our focus beyond performance metrics and prioritize the robustness of these models. One observation I’ve made is that we tend to emphasize improving accuracy or other metrics when developing ML models. For example, if you’re an ML enthusiast who has created models for classification or segmentation tasks, you’re probably measuring the model’s performance based on its accuracy or F1 score. However, we need to take into account additional factors to ensure the model doesn’t fail in real-world scenarios.</p>
 
@@ -694,7 +1801,7 @@ False predicted class probability: 0.9999942779541016
 
 </div>
 
-<p>This is the very fundamental implementation of adversarial attack, there are several attacked that we’ll learn in the upcoming blogs such as <code class="language-plaintext highlighter-rouge">FGSM, PGD, BIM, Carlini Wagner, etc</code>. You might say that the <code class="language-plaintext highlighter-rouge">Chickadee</code> looks similar to an <code class="language-plaintext highlighter-rouge">Indigo</code>, what if we want to make the  image more different or say targeted towards a particular class. So we’ll see that in next blog on how to make the targeted perturbation towards a particular class.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Get started with Security and Privacy in AI]]></summary></entry><entry><title type="html">Deploying a PyTorch ML model in an Android app</title><link href="http://localhost:4000/blog/2023/ml_android/" rel="alternate" type="text/html" title="Deploying a PyTorch ML model in an Android app" /><published>2023-01-28T16:59:00+01:00</published><updated>2023-01-28T16:59:00+01:00</updated><id>http://localhost:4000/blog/2023/ml_android</id><content type="html" xml:base="http://localhost:4000/blog/2023/ml_android/"><![CDATA[<p>Integration of a computer vision model built in PyTorch with an Android app can be a powerful way to bring the capabilities of machine learning to mobile devices. In this blog post, we will go over the steps needed to integrate a PyTorch model into an Android app and run inferences on the device. This integration will allow us the development of more advanced and intelligent mobile apps. ML can enable features such as image and speech recognition, natural language processing, and predictive analytics, which can enhance the user experience and make the app more efficient and effective. Additionally, integrating ML with Android can enable offline functionality, which is important for apps that need to work in areas with limited or no internet connectivity. Furthermore, with the growing amount of data generated by mobile devices, integrating machine learning models allows for more efficient and accurate data analysis.</p>
+<p>This is the very fundamental implementation of adversarial attack, there are several attacked that we’ll learn in the upcoming blogs such as <code class="language-plaintext highlighter-rouge">FGSM, PGD, BIM, Carlini Wagner, etc</code>. You might say that the <code class="language-plaintext highlighter-rouge">Chickadee</code> looks similar to an <code class="language-plaintext highlighter-rouge">Indigo</code>, what if we want to make the  image more different or say targeted towards a particular class. So we’ll see that in next blog on how to make the targeted perturbation towards a particular class.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Get started with Security and Privacy in AI]]></summary></entry><entry><title type="html">Deploying a PyTorch ML model in an Android app</title><link href="https://iamsh4shank.github.io/blog/2023/ml_android/" rel="alternate" type="text/html" title="Deploying a PyTorch ML model in an Android app" /><published>2023-01-28T16:59:00+01:00</published><updated>2023-01-28T16:59:00+01:00</updated><id>https://iamsh4shank.github.io/blog/2023/ml_android</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/ml_android/"><![CDATA[<p>Integration of a computer vision model built in PyTorch with an Android app can be a powerful way to bring the capabilities of machine learning to mobile devices. In this blog post, we will go over the steps needed to integrate a PyTorch model into an Android app and run inferences on the device. This integration will allow us the development of more advanced and intelligent mobile apps. ML can enable features such as image and speech recognition, natural language processing, and predictive analytics, which can enhance the user experience and make the app more efficient and effective. Additionally, integrating ML with Android can enable offline functionality, which is important for apps that need to work in areas with limited or no internet connectivity. Furthermore, with the growing amount of data generated by mobile devices, integrating machine learning models allows for more efficient and accurate data analysis.</p>
 
 <p>Today we’re going to learn how to integrate a Machine Learning model into an Android App. So the idea is - 
 We are going to create an app that let you add a picture from your gallery and further tells you which type of Tomato it is using the <a href="https://universe.roboflow.com/labeler-projects/tomato-classification-jc5kz">Tomato classification dataset</a>. A tomato classification model could be used in precision agriculture to pick tomatoes with the correct ripeness, pick certain types of tomatoes, sort tomatoes once they have been picked, serve as input for overall crop growth or crop health, and more.</p>
@@ -981,7 +2088,7 @@ Now that we have the className, next we will just show it to the screen using a 
     </div>
 </div>
 
-<p>Congratulations!! You just made your first app integrated with an ML model. Luckily this app is open source so you can look at the actual code here in the GitHub <a href="https://github.com/iamsh4shank/TomatoClassifier">repository</a>. So if you’re stuck somewhere do check out the actual implementation. Now it’s time to make some fun apps based on your need, it can be detecting objects near you using an android app, or it can be any other ML model. Once done you can ship the app and distribute it through the Google Play Store or another app distribution platform.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Integration of a computer vision model built in PyTorch with an Android app]]></summary></entry><entry><title type="html">The year with new learnings: 2021</title><link href="http://localhost:4000/blog/2021/year-review_2021/" rel="alternate" type="text/html" title="The year with new learnings: 2021" /><published>2021-12-19T16:59:00+01:00</published><updated>2021-12-19T16:59:00+01:00</updated><id>http://localhost:4000/blog/2021/year-review_2021</id><content type="html" xml:base="http://localhost:4000/blog/2021/year-review_2021/"><![CDATA[<p>Heyo everyone, so I hope you know me, if not so go and check my <a href="https://iamsh4shank.github.io/">profile</a> :D 
+<p>Congratulations!! You just made your first app integrated with an ML model. Luckily this app is open source so you can look at the actual code here in the GitHub <a href="https://github.com/iamsh4shank/TomatoClassifier">repository</a>. So if you’re stuck somewhere do check out the actual implementation. Now it’s time to make some fun apps based on your need, it can be detecting objects near you using an android app, or it can be any other ML model. Once done you can ship the app and distribute it through the Google Play Store or another app distribution platform.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Integration of a computer vision model built in PyTorch with an Android app]]></summary></entry><entry><title type="html">The year with new learnings: 2021</title><link href="https://iamsh4shank.github.io/blog/2021/year-review_2021/" rel="alternate" type="text/html" title="The year with new learnings: 2021" /><published>2021-12-19T16:59:00+01:00</published><updated>2021-12-19T16:59:00+01:00</updated><id>https://iamsh4shank.github.io/blog/2021/year-review_2021</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/year-review_2021/"><![CDATA[<p>Heyo everyone, so I hope you know me, if not so go and check my <a href="https://iamsh4shank.github.io/">profile</a> :D 
 Ok, so I wanted to write a <strong>YEAR</strong> in <strong>REVIEW</strong>, just to review my work of 2021. So honestly before 
 writing I didn’t have any idea on how to write a year in review so I checked a few online resources to 
 learn how to write the same. So this blog is going to be full of some experiments, comment if you want 
@@ -1146,7 +2253,7 @@ reading a book for learning web dev, or how to cook, how to invest money, or how
 
 <p>So now what next, ok firstly, A Very Happy New year in Advance for 2022.<br />
 Secondly, I created some plans for next year (here, next year == 2022), don’t know how much I will be able to complete, how much my plans will be efficient in shaping my future but for sure will learn something new, 
-be more regular, be more a team guy, a lot of stuff are there which I am planning now to accomplish in 2022, the upcoming year is going to be much more important to me, so I did some kind of planning and some year review in advance, that I will share it soon in next blog. Thanks for reading till here :D</p>]]></content><author><name></name></author><category term="year-review" /><category term="learnings" /><category term="experience" /><summary type="html"><![CDATA[Sharing some of my updates about the year 2021: The year of new learnings]]></summary></entry><entry><title type="html">Part 5 - Gradient Descent and Backpropagation</title><link href="http://localhost:4000/blog/2021/part5-nn-and-dl/" rel="alternate" type="text/html" title="Part 5 - Gradient Descent and Backpropagation" /><published>2021-06-01T17:59:00+02:00</published><updated>2021-06-01T17:59:00+02:00</updated><id>http://localhost:4000/blog/2021/part5-nn-and-dl</id><content type="html" xml:base="http://localhost:4000/blog/2021/part5-nn-and-dl/"><![CDATA[<p>In the past few blogs, we saw how to deal with neural networks for example how to train, predict, and adjust the knob to decrease the error. All those neural networks had only one Layer with single or multiple inputs and output nodes. Even if you remember the last blog, we discussed one real-world dataset (MNIST), we again saw one Layer NN.</p>
+be more regular, be more a team guy, a lot of stuff are there which I am planning now to accomplish in 2022, the upcoming year is going to be much more important to me, so I did some kind of planning and some year review in advance, that I will share it soon in next blog. Thanks for reading till here :D</p>]]></content><author><name></name></author><category term="year-review" /><category term="learnings" /><category term="experience" /><summary type="html"><![CDATA[Sharing some of my updates about the year 2021: The year of new learnings]]></summary></entry><entry><title type="html">Part 5 - Gradient Descent and Backpropagation</title><link href="https://iamsh4shank.github.io/blog/2021/part5-nn-and-dl/" rel="alternate" type="text/html" title="Part 5 - Gradient Descent and Backpropagation" /><published>2021-06-01T17:59:00+02:00</published><updated>2021-06-01T17:59:00+02:00</updated><id>https://iamsh4shank.github.io/blog/2021/part5-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part5-nn-and-dl/"><![CDATA[<p>In the past few blogs, we saw how to deal with neural networks for example how to train, predict, and adjust the knob to decrease the error. All those neural networks had only one Layer with single or multiple inputs and output nodes. Even if you remember the last blog, we discussed one real-world dataset (MNIST), we again saw one Layer NN.</p>
 
 <div class="text-center">
     <figure>
@@ -1354,7 +2461,7 @@ for iteration in range(40):
 <p>Here <strong>-</strong> indicates that there is a downward pressure, <strong>+</strong> indicated that there is an up pressure, and 0 indicates that there is no pressure. So if we see on average, the left weight has 2 negative and one positive so it will move the weight towards 0. Similarly, the middle weight has 2 positives which will move the middle weight towards 1. Each individual weight here is trying to compensate for the error. The whole process of training is that the learning algorithms reward the input which is correlating the output and penalize the input which is decorrelated with the downward pressure. The weighted sum of the inputs perfectly correlates between the input and output by weighting decorrelated inputs to 0. Let’s see some of the edge cases -</p>
 
 <ol>
-  <li>Overfitting - Let’s again take the first example of streetlight [ 1 0 1 ] here what if the weight were 0.5 and -0.5 for far-right and far-left weights. Then the overall prediction is going to be 0 (-0.5<em>1 + 0.5</em>1 ) in this case. Here the weight is giving the prediction as 0 i.e the output we want. But is it a correct weight configuration? No right because it will fail for other real-world examples i.e. it just learned how to predict safely not how to predict originally. This is known as overfitting. The correct way is to giving the heaviest weight to the best input where it will predict the correct output not the safe one. So we need to make our neural network generalize instead of memorizing.</li>
+  <li>Overfitting - Let’s again take the first example of streetlight [ 1 0 1 ] here what if the weight were 0.5 and -0.5 for far-right and far-left weights. Then the overall prediction is going to be 0 (-0.5 * 1 + 0.5 * 1) in this case. Here the weight is giving the prediction as 0 i.e the output we want. But is it a correct weight configuration? No right because it will fail for other real-world examples i.e. it just learned how to predict safely not how to predict originally. This is known as overfitting. The correct way is to giving the heaviest weight to the best input where it will predict the correct output not the safe one. So we need to make our neural network generalize instead of memorizing.</li>
   <li>Conflicting pressure - If we consider the far right column in our example then we could say that it contains equal no. of positive as well as negative i.e. equal no. of upward and downward pressure. But on the other hand, we know the weight pushes it to 0 which means downward pressure is greater than upward pressure. So here for predicting 1, we have a 1:1 relation of middle weight with the output but for predicting 0 we may get some issue. Further, we’ll also learn about regularization, as if a weight has equal down and up pressure, then it is of no use, i.e. it’s not helping in either direction. So regularization says that weight with really string correlation is going to contribute or stay, and everything else would be considered as noise.</li>
 </ol>
 
@@ -1466,7 +2573,7 @@ for iteration in range(60):
         print("Error:" + str(layer_2_error))
 </code></pre>
 
-<p>So in the next blog, we’ll learn more about correlation and Relu…</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Dive deeper into why we use backpropagation and deep Neural Networks to solve the correlation problem]]></summary></entry><entry><title type="html">Part 4 - Gradient Descent in multiple weights</title><link href="http://localhost:4000/blog/2021/part4-nn-and-dl/" rel="alternate" type="text/html" title="Part 4 - Gradient Descent in multiple weights" /><published>2021-05-30T17:59:00+02:00</published><updated>2021-05-30T17:59:00+02:00</updated><id>http://localhost:4000/blog/2021/part4-nn-and-dl</id><content type="html" xml:base="http://localhost:4000/blog/2021/part4-nn-and-dl/"><![CDATA[<p>As in <a href="https://iamsh4shank.github.io/blog/part-3-introduction-to-nn-gd">part 3</a>, we saw how to update weights using Gradient descent, in this part, we’ll start and reveal how to use the same technique to update a network that contains multiple weights. Let’s see how to learn multiple weights at a time.</p>
+<p>So in the next blog, we’ll learn more about correlation and Relu…</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Dive deeper into why we use backpropagation and deep Neural Networks to solve the correlation problem]]></summary></entry><entry><title type="html">Part 4 - Gradient Descent in multiple weights</title><link href="https://iamsh4shank.github.io/blog/2021/part4-nn-and-dl/" rel="alternate" type="text/html" title="Part 4 - Gradient Descent in multiple weights" /><published>2021-05-30T17:59:00+02:00</published><updated>2021-05-30T17:59:00+02:00</updated><id>https://iamsh4shank.github.io/blog/2021/part4-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part4-nn-and-dl/"><![CDATA[<p>As in <a href="https://iamsh4shank.github.io/blog/part-3-introduction-to-nn-gd">part 3</a>, we saw how to update weights using Gradient descent, in this part, we’ll start and reveal how to use the same technique to update a network that contains multiple weights. Let’s see how to learn multiple weights at a time.</p>
 
 <div class="text-center">
     <figure>
@@ -1833,7 +2940,7 @@ for i in range(len(weights)):
 
 </div>
 
-<p>So in next blog we’ll introduce Backward propagation….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Learn how to use GD for a Neural Network which has multiple weights]]></summary></entry><entry><title type="html">Part 3 - Introduction to neural learning and Gradient Descent</title><link href="http://localhost:4000/blog/2021/part3-nn-and-dl/" rel="alternate" type="text/html" title="Part 3 - Introduction to neural learning and Gradient Descent" /><published>2021-05-24T17:59:00+02:00</published><updated>2021-05-24T17:59:00+02:00</updated><id>http://localhost:4000/blog/2021/part3-nn-and-dl</id><content type="html" xml:base="http://localhost:4000/blog/2021/part3-nn-and-dl/"><![CDATA[<p>As we know the basic paradigm of DL i.e. Predict, compare, and Learn, and we already saw a few basics of prediction in <a href="https://iamsh4shank.github.io/blog/part-2-classificaiton-and-simple-nn">part 2</a> so let’s get started with <strong>compare</strong>.</p>
+<p>So in next blog we’ll introduce Backward propagation….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Learn how to use GD for a Neural Network which has multiple weights]]></summary></entry><entry><title type="html">Part 3 - Introduction to neural learning and Gradient Descent</title><link href="https://iamsh4shank.github.io/blog/2021/part3-nn-and-dl/" rel="alternate" type="text/html" title="Part 3 - Introduction to neural learning and Gradient Descent" /><published>2021-05-24T17:59:00+02:00</published><updated>2021-05-24T17:59:00+02:00</updated><id>https://iamsh4shank.github.io/blog/2021/part3-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part3-nn-and-dl/"><![CDATA[<p>As we know the basic paradigm of DL i.e. Predict, compare, and Learn, and we already saw a few basics of prediction in <a href="https://iamsh4shank.github.io/blog/part-2-classificaiton-and-simple-nn">part 2</a> so let’s get started with <strong>compare</strong>.</p>
 
 <p>Imagine a blindfolded person who wants to climb up a mountain or go down a mountain, then he needs to tak ebig steps initally and then he need to reduce hos step size so that he don’t overshoot his final point. Some similar thing happens with Gradient. Check this blog to know more about Gradient.</p>
 
@@ -1948,7 +3055,7 @@ for i in range(len(weights)):
 
 </div>
 
-<p>Not only the amount we also need to decide the direction where we want to go. It’s also inefficient because it calculates the prediction thrice for each weight update and arbitrary step_amount (down_weight, same <em>weight, up_</em>weight)</p>
+<p>Not only the amount we also need to decide the direction where we want to go. It’s also inefficient because it calculates the prediction thrice for each weight update and arbitrary step_amount (<code class="language-plaintext highlighter-rouge">down_weight</code>, <code class="language-plaintext highlighter-rouge">same_weight</code>, <code class="language-plaintext highlighter-rouge">up_weight</code>)</p>
 
 <h2 id="calculating-both-direction-and-amount-from-error">Calculating both direction and amount from error</h2>
 <p>Let’s get first discuss this -</p>
@@ -2064,7 +3171,7 @@ then all of a sudden weight changes directions! When input is negative, moving w
 
 <p>Finding the appropriate alpha is the state of art in neural networks, it’s often done by guessing. We watch the error and based on that we define whether to increase or decrease alpha. If the learning is very slow then we need to increase the alpha and if there is some overshoot issue then we can decrease the alpha.</p>
 
-<p>So in next blog we’ll see more about Gradient Descent and backward propagation….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Let's dive into gradient descent and learn about forward propagation]]></summary></entry><entry><title type="html">Part 2 - Neural Networks and Deep Learning</title><link href="http://localhost:4000/blog/2021/part2-nn-and-dl/" rel="alternate" type="text/html" title="Part 2 - Neural Networks and Deep Learning" /><published>2021-04-27T17:59:00+02:00</published><updated>2021-04-27T17:59:00+02:00</updated><id>http://localhost:4000/blog/2021/part2-nn-and-dl</id><content type="html" xml:base="http://localhost:4000/blog/2021/part2-nn-and-dl/"><![CDATA[<p>Let’s start our basic discussion from classificaiton of Deep Learning and Machine Learning on the basis of various learning algorithm.</p>
+<p>So in next blog we’ll see more about Gradient Descent and backward propagation….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Let's dive into gradient descent and learn about forward propagation]]></summary></entry><entry><title type="html">Part 2 - Neural Networks and Deep Learning</title><link href="https://iamsh4shank.github.io/blog/2021/part2-nn-and-dl/" rel="alternate" type="text/html" title="Part 2 - Neural Networks and Deep Learning" /><published>2021-04-27T17:59:00+02:00</published><updated>2021-04-27T17:59:00+02:00</updated><id>https://iamsh4shank.github.io/blog/2021/part2-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part2-nn-and-dl/"><![CDATA[<p>Let’s start our basic discussion from classificaiton of Deep Learning and Machine Learning on the basis of various learning algorithm.</p>
 
 <div class="text-center">
     <figure>
@@ -2421,7 +3528,7 @@ pred = neural_network(input,weights)
 print(pred)
 </code></pre>
 
-<p>So in next blog we’ll see more about Gradient Descent….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Let's dive basic ML problem classification and simple Neural Network]]></summary></entry><entry><title type="html">Part 1 - Neural Networks and Deep Learning</title><link href="http://localhost:4000/blog/2021/part1-nn-and-dl/" rel="alternate" type="text/html" title="Part 1 - Neural Networks and Deep Learning" /><published>2021-01-13T16:12:00+01:00</published><updated>2021-01-13T16:12:00+01:00</updated><id>http://localhost:4000/blog/2021/part1-nn-and-dl</id><content type="html" xml:base="http://localhost:4000/blog/2021/part1-nn-and-dl/"><![CDATA[<h2 id="why-deep-learning--">Why Deep Learning -</h2>
+<p>So in next blog we’ll see more about Gradient Descent….</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Let's dive basic ML problem classification and simple Neural Network]]></summary></entry><entry><title type="html">Part 1 - Neural Networks and Deep Learning</title><link href="https://iamsh4shank.github.io/blog/2021/part1-nn-and-dl/" rel="alternate" type="text/html" title="Part 1 - Neural Networks and Deep Learning" /><published>2021-01-13T16:12:00+01:00</published><updated>2021-01-13T16:12:00+01:00</updated><id>https://iamsh4shank.github.io/blog/2021/part1-nn-and-dl</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2021/part1-nn-and-dl/"><![CDATA[<h2 id="why-deep-learning--">Why Deep Learning -</h2>
 <p>In the present era, as we know the whole game is changed, now if you search for a product on some e-commerce website then it fills all your mobile phone with ads related to that product. Not just this Tesla is trending now, WHY? It’s because of their self-driving cars. Now you can fill your home with all those smart devices, so what just talk to them :P</p>
 
 <div class="text-center">
@@ -2537,122 +3644,4 @@ Assume that we need to predict the taxi fare price based on some parameters like
 
 <p>But now because of the evolution of Neural Networks, the amount of data is also an important parameter that has its impact on performance. For example, we are using a Large NN (NN with high numbers of layers) then they have a good relationship between the amount of Data and Performance, same goes with shallow NN (NN with less no. of the layer) but less as compared to Deep NNs.</p>
 
-<p>Also, if the amount of data is really less it completely depends on our algorithm i.e. maybe SVM could perform better as compared to NN or vice versa. But for the large amount of data DL is the best way to make predictions. So in DL we can tune performance with the help of Data, Computation, or Algorithms. Nowadays there are various like Jupyter Notebook, Google Colab, etc they provide GPU support to enable fast computation.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Introduction to Deep Learning and Neural Networks]]></summary></entry><entry><title type="html">GSoC 2020 Work Report for Android Client app</title><link href="http://localhost:4000/blog/2020/gsoc_report/" rel="alternate" type="text/html" title="GSoC 2020 Work Report for Android Client app" /><published>2020-09-02T18:40:16+02:00</published><updated>2020-09-02T18:40:16+02:00</updated><id>http://localhost:4000/blog/2020/gsoc_report</id><content type="html" xml:base="http://localhost:4000/blog/2020/gsoc_report/"><![CDATA[<p><strong>Organisation:</strong> The Mifos Initiative</p>
-
-<p><strong>Project Name:</strong> Android Field Operations App Version 7</p>
-
-<p><strong>Project GitHub repository link:</strong> <a href="https://github.com/openMF/android-client/tree/master">master branch</a></p>
-
-<p><strong>Commits made during GSoC:</strong> <a href="https://github.com/openMF/android-client/pulls/robustTechie">Pull Requests</a></p>
-
-<h2 id="contents">Contents</h2>
-<ul>
-  <li><a href="#overview-of-project">Overview of project</a></li>
-  <li><a href="#project-implementations">Project Implementations</a></li>
-  <li><a href="#future-improvements">Future Improvements</a></li>
-  <li><a href="#gsoc-expierence-with-the-mifos-initiative">GSoC expierence with The Mifos Initiative</a></li>
-</ul>
-
-<h2 id="overview-of-project">Overview of Project:</h2>
-<p>Android Field operation application based on Mifos X is a robust core banking platform that is developed for field officers using which they process transactions, keep track of their client’s data, center records, group details, different types of accounts (loan, savings and recurring) of the client, run reports of clients, etc. Its sole purpose is to make field operations easier and effortless. This application also provides an offline feature that allows officers to connect with clients and provide them financial support in remote areas as well.</p>
-
-<p>During this GSoC, I will work on extending support of Kotlin in the app, improving offline availability, extending testing coverage, integrating with external systems via Payment Hub EE, tighter integration with our notifications framework, improved client data collection via forms, and enhanced GIS tracking features.</p>
-
-<h2 id="project-implementations">Project Implementations</h2>
-<p><strong>1. Added Bottom Navigation and Floating Action Button(FAB) in Dashboard</strong> <a href="https://github.com/openMF/android-client/pull/1521">PR link</a></p>
-
-<p>For increasing user experience, using bottom navigation will be more
-preferred over side navigation to reach the top-level destinations. Also, the tab bar fairly easily communicates the current location in the app and properly uses visual cues (icons, labels, and colors) to enable the user to understand their current location at a glance. So, it will contain 4 frequent destinations i.e. dashboard, client, center, and group lists.</p>
-
-<p>FAB is a good way to prioritize the most important actions the user should take. Here in our app, it will provide quick access to create a new client, center, and group on just one click.</p>
-
-<p><strong>2. Language support through Locale</strong> <a href="https://github.com/openMF/android-client/pull/1522">PR link</a>
-Added the multi-language support in the application which will allow the user to access the application in various languages like Spanish, Hindi, English, Chinese, French, etc. Localization support is very useful for increasing user engagement in the app.</p>
-
-<p><strong>3. UI enhancement</strong> <a href="https://github.com/openMF/android-client/pull/1523">PR link</a>
-An excellent User Interface will create an instant attraction to the app while a superb User Experience will put a lasting impact on the users’ minds. The basic UI of this application can be modified by providing thecorrect padding, color formatting, proper alignment (of buttons, spinner, text
-view, edit view, etc), optimizing some predefined UI, elimination of unnecessary functionalities, enhancing toast notifications, etc.</p>
-<table>
-     <tr>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418612-9c456b00-b58e-11ea-9240-0fb36cf281f5.jpg" /><br /><center><b>Login Page</b></center></td>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418604-9b143e00-b58e-11ea-9068-a2c4244eea5b.jpg" /><br /><center><b>Dashboard Page</b></center></td>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418613-9cde0180-b58e-11ea-83dd-1525eb5144c6.jpg" /><br /><center><b>Client Details</b></center></td>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85418615-9d769800-b58e-11ea-8993-f1f200bd43aa.jpg" /><br /><center><b>Individual Col. sheet</b></center></td>
-     </tr>
-  </table>
-
-<p><strong>4. Instant Search feature in search fragment</strong> <a href="https://github.com/openMF/android-client/pull/1524">PR link</a></p>
-
-<p>It will allow the user to get the search results at the instant he types the client’s name.</p>
-
-<p><strong>5.  Dark Mode support</strong> <a href="https://github.com/openMF/android-client/pull/1525">PR link</a></p>
-
-<p>Dark Mode design reduces the light emitted by device screens while maintaining the minimum color contrast ratios required for readability. It saves energy, mainly if the device uses an OLED or AMOLED screen. With the majority of the screen dark, the screen glare will be reduced. While the dark text on a white background is the best in terms of readability, Dark Mode (which has light text on a dark background) is better for reducing eye strain in low light conditions.</p>
-
-<table>
-     <tr>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792302-e2e2c300-b750-11ea-805d-26e5d384dfba.jpg" /><br /><center><b>Dashboard Page</b></center></td>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792314-e5ddb380-b750-11ea-86d4-f426e8ee0812.jpg" /><br /><center><b>Checker Inbox</b></center></td>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792313-e5451d00-b750-11ea-9ba8-d28fc20f3ebe.jpg" /><br /><center><b>Settings</b></center></td>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/85792428-1aea0600-b751-11ea-8dde-b4b4994575ef.gif" /><br /><center><b></b></center></td>
-     </tr>
-  </table>
-
-<p><strong>6.  Notifications support</strong> PR link- <a href="https://github.com/openMF/android-client/pull/1526">path tracker</a> and <a href="https://github.com/openMF/android-client/pull/1527">offline mode</a></p>
-
-<p>From 8.0 and above a new concept of Notification Channels came into action for notifications framework. Notification Channels provide us with the ability to group the notifications that our application sends into manageable groups. The notification feature can be used to further enhance the UX, for example if the user is offline and they create new clients, groups or centers, they shall receive a notification when they are back online after the offline sync is done.</p>
-
-<table>
-     <tr>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/86897179-b487bf00-c124-11ea-961e-17618965f7f5.gif" /><br /><center><b>Path tracking</b></center></td>
-          <td><img height="400" width="200" src="https://user-images.githubusercontent.com/52889867/86948759-40bcd500-c16b-11ea-9c7d-15dcef18c197.gif" /><br /><center><b>Offline mode</b></center></td>
-     </tr>
-  </table>
-
-<p><strong>7.  Change Passcode feature</strong> <a href="https://github.com/openMF/android-client/pull/1528">PR link</a></p>
-
-<p>It will allow the user to change or reset the passcode without logging in again. As previously if the user had set he passcode once so he needs to log in once again to change it which will decrease the UX and also make the login workflow long.</p>
-
-<p><strong>8.  About App feature</strong> <a href="https://github.com/openMF/android-client/pull/1530">PR link</a></p>
-
-<p>This section was previously missing in the application. It allows to user to know more about the application and it also contains a few links related to the contributors, GitHub, license, and their Twitter account.</p>
-
-<p><strong>9.  Identifier status type</strong> <a href="https://github.com/openMF/android-client/pull/1536">PR link</a></p>
-
-<p>As client identifiers are classified into two types: “Active” and “Inactive”, but previously these details are not visible on the identifier list which made two same identifiers with different status type difficult to classify. So I added a new row to show the status as “Active or Inactive” in the identifier details section.</p>
-
-<p><strong>10.  KYC/client onboarding feature</strong> <a href="https://github.com/openMF/android-client/pull/1541">PR link</a></p>
-
-<p>KYC-Know Your Customer is a process by which financial institutions obtain information about the identity and address of the customers. This process helps to ensure that the services of the financial institutions are not misused. The KYC procedure is to be completed by the institutions while opening accounts and also it should be periodically updated. So now it contains a three-level KYC system to store the information based on the levels.</p>
-
-<p><strong>11.  Extending support of Kotlin:</strong> 
-Migrated the prexisiting Java code to Kotlin and also tested the new codes so that this migration doesn’t affect the exising functionalities. So why Kotlin? Because Kotlin is a new language that has adapted and corrected mistakes over the time, it generates the same bytecode as what Java does. So Kotlin can seamlessly call Java code and vice-versa. Also, null type is integrated into the language’s type system itself. So it is not necessary to keep wrapping codes with null checks around it to avoid NPE. Kotlin is not limited just for android development. Kotlin Native opens possibilities for Kotlin to support almost any platform.
-<strong>PR links -</strong></p>
-
-<ol>
-  <li>Create new client (<a href="https://github.com/openMF/android-client/pull/1533">#1533</a>)</li>
-  <li>Groups related fragment (<a href="https://github.com/openMF/android-client/pull/1535">#1535</a>)</li>
-  <li>Surveys related fragments and activities (<a href="https://github.com/openMF/android-client/pull/1539">#1539</a>)</li>
-  <li>Centers feature (<a href="https://github.com/openMF/android-client/pull/1540">#1540</a>)</li>
-  <li>Savings account-related fragment(<a href="https://github.com/openMF/android-client/pull/1542">#1542</a>)</li>
-  <li>Loan Account related fragment(<a href="https://github.com/openMF/android-client/pull/1543">#1543</a>)</li>
-  <li>Client signature, data tables, notes, and documents related fragment (<a href="https://github.com/openMF/android-client/pull/1544">#1544</a>)</li>
-  <li>Collection and Individual Collection Sheet (<a href="https://github.com/openMF/android-client/pull/1545">#1545</a>)</li>
-  <li>Client related fragment (<a href="https://github.com/openMF/android-client/pull/1550">#1550</a>)</li>
-</ol>
-
-<h3 id="future-improvements">Future Improvements</h3>
-
-<ol>
-  <li>
-    <p><strong>SMS push notifications</strong><br />
-As of now Fineract 1.x doesn’t support Firebase Cloud Messaging service for sending push notifications( Triggered, Scheduled, and Direct), so this feature can be easily implemented once the FCM integration is done.</p>
-  </li>
-  <li>
-    <p><strong>GIS support</strong> 
-There is no proper workflow of GIS that is developed yet, as of now it is used for tracking the path of the client which can be improved. The field officer can easily access the nearby client’s location and track the path based on that. And it can also be integrated with a notification framework so that whenever he is near to any client then he will get a notification for that.</p>
-  </li>
-</ol>
-
-<h3 id="gsoc-expierence-with-the-mifos-initiative">GSoC expierence with The Mifos Initiative</h3>
-<p>I had a great experience throughout this three-month-long program. The community(<a href="https://mifos.org/"> The Mifos Initiative </a>) and my mentors (<a href="https://www.linkedin.com/in/abhilash-g-55160a139/"> Abhilash Gunasegaran </a> and <a href="https://www.linkedin.com/in/tarunmudgal/"> Tarun Mudgal</a>) were very supportive in this three-month-long journey.  I also want to thanks Ed Cable for his great support. The weekly check-ins were awesome, it provided me a good community bonding chance and also helped me to solve some problems which I faced in between. GSoC helped me a lot to learn and grow in a lot of aspects. I am looking forward to contributing to this organization in the future and would also like to help the new contributors to start their contributions in the community.</p>]]></content><author><name></name></author><category term="learnings" /><category term="readings" /><category term="code" /><category term="experience" /><summary type="html"><![CDATA[Contributed to android application built on top of the MifosX platform - a robust core banking platform]]></summary></entry></feed>
+<p>Also, if the amount of data is really less it completely depends on our algorithm i.e. maybe SVM could perform better as compared to NN or vice versa. But for the large amount of data DL is the best way to make predictions. So in DL we can tune performance with the help of Data, Computation, or Algorithms. Nowadays there are various like Jupyter Notebook, Google Colab, etc they provide GPU support to enable fast computation.</p>]]></content><author><name></name></author><category term="learnings" /><category term="machine-learning" /><category term="research" /><summary type="html"><![CDATA[Introduction to Deep Learning and Neural Networks]]></summary></entry></feed>

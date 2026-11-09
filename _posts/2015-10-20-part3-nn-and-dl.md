@@ -58,7 +58,7 @@ Characteristics of Hot and Cold learning **-**
     {% include figure.html path="assets/img/part3_nn_dl/3_4.png" width=600 class="img-fluid rounded z-depth-1" %}
 </div>
 
-Not only the amount we also need to decide the direction where we want to go. It's also inefficient because it calculates the prediction thrice for each weight update and arbitrary step_amount (down_weight, same *weight, up_*weight)
+Not only the amount we also need to decide the direction where we want to go. It's also inefficient because it calculates the prediction thrice for each weight update and arbitrary step_amount (`down_weight`, `same_weight`, `up_weight`)
 
 ## Calculating both direction and amount from error
 Let's get first discuss this - 

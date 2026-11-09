@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="/assets/img/android-chrome-512x512.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/blog/2021/year-review_2021/">
+    <link rel="canonical" href="https://iamsh4shank.github.io/blog/2021/year-review_2021/">
     
     <!-- Dark Mode -->
     
@@ -41,16 +41,6 @@
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
-    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-       <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({
-           tex2jax: {
-             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-             processEscapes: true
-           }
-         });
-       </script>
-       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     
 
   </head>
@@ -120,7 +110,7 @@
               <!-- CV (hidden on personal) -->
               
               <li class="nav-item ">
-                <a class="nav-link" href="https://iamsh4shank.github.io/docs/cv.pdf" rel="external nofollow noopener" target="_blank">cv
+                <a class="nav-link" href="https://iamsh4shank.github.io/docs/cv.pdf">cv
                 </a>
               </li>
               
@@ -182,7 +172,7 @@
   </header>
 
   <article class="post-content">
-    <p>Heyo everyone, so I hope you know me, if not so go and check my <a href="https://iamsh4shank.github.io/" rel="external nofollow noopener" target="_blank">profile</a> :D 
+    <p>Heyo everyone, so I hope you know me, if not so go and check my <a href="https://iamsh4shank.github.io/">profile</a> :D 
 Ok, so I wanted to write a <strong>YEAR</strong> in <strong>REVIEW</strong>, just to review my work of 2021. So honestly before 
 writing I didn’t have any idea on how to write a year in review so I checked a few online resources to 
 learn how to write the same. So this blog is going to be full of some experiments, comment if you want 
@@ -377,6 +367,12 @@ be more regular, be more a team guy, a lot of stuff are there which I am plannin
   
 
   <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/la/">Linear Algebra for Deep Learning</a>
+  </li>
+
+  
+
+  <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/part1-a_ml/">Introduction to Adversarial ML</a>
   </li>
 
@@ -384,12 +380,6 @@ be more regular, be more a team guy, a lot of stuff are there which I am plannin
 
   <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/ml_android/">Deploying a PyTorch ML model in an Android app</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/part5-nn-and-dl/">Part 5 - Gradient Descent and Backpropagation</a>
   </li>
 
 </div>
@@ -431,7 +421,14 @@ be more regular, be more a team guy, a lot of stuff are there which I am plannin
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
       }
     };
   </script>
