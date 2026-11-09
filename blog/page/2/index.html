@@ -41,16 +41,6 @@
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
-    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-       <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({
-           tex2jax: {
-             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-             processEscapes: true
-           }
-         });
-       </script>
-       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     
 
   </head>
@@ -207,6 +197,50 @@
   
 
   <ul class="post-list">
+    
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2021/part5-nn-and-dl/">Part 5 - Gradient Descent and Backpropagation</a>
+        
+      </h3>
+      <p>Dive deeper into why we use backpropagation and deep Neural Networks to solve the correlation problem</p>
+      <p class="post-meta">
+        16 min read &nbsp; &middot; &nbsp;
+        June 1, 2021
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2021">
+          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+
+          
+          &nbsp; &middot; &nbsp;
+            
+            <a href="/blog/tag/machine-learning">
+              <i class="fas fa-hashtag fa-sm"></i> machine-learning</a> &nbsp;
+              
+            <a href="/blog/tag/research">
+              <i class="fas fa-hashtag fa-sm"></i> research</a> &nbsp;
+              
+          
+
+          
+          &nbsp; &middot; &nbsp;
+            
+            <a href="/blog/category/learnings">
+              <i class="fas fa-tag fa-sm"></i> learnings</a> &nbsp;
+              
+          
+    </p>
+    </li>
+
     
     
 
@@ -384,53 +418,6 @@
     </li>
 
     
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/gsoc_report/">GSoC 2020 Work Report for Android Client app</a>
-        
-      </h3>
-      <p>Contributed to android application built on top of the MifosX platform - a robust core banking platform</p>
-      <p class="post-meta">
-        8 min read &nbsp; &middot; &nbsp;
-        September 2, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/readings">
-              <i class="fas fa-hashtag fa-sm"></i> readings</a> &nbsp;
-              
-            <a href="/blog/tag/code">
-              <i class="fas fa-hashtag fa-sm"></i> code</a> &nbsp;
-              
-            <a href="/blog/tag/experience">
-              <i class="fas fa-hashtag fa-sm"></i> experience</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/learnings">
-              <i class="fas fa-tag fa-sm"></i> learnings</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
   </ul>
 
   <nav aria-label="Blog page naviation">
@@ -485,7 +472,14 @@
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
       }
     };
   </script>

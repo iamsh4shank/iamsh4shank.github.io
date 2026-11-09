@@ -42,16 +42,6 @@
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
-    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-       <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({
-           tex2jax: {
-             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-             processEscapes: true
-           }
-         });
-       </script>
-       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     
 
   </head>
@@ -216,7 +206,14 @@ features to handle transliteration, contextual num2words, and so on. I also gene
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
       }
     };
   </script>

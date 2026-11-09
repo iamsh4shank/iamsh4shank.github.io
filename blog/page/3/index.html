@@ -41,16 +41,6 @@
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
-    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-       <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({
-           tex2jax: {
-             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-             processEscapes: true
-           }
-         });
-       </script>
-       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     
 
   </head>
@@ -218,6 +208,53 @@
     <li>
       <h3>
         
+          <a class="post-title" href="/blog/2020/gsoc_report/">GSoC 2020 Work Report for Android Client app</a>
+        
+      </h3>
+      <p>Contributed to android application built on top of the MifosX platform - a robust core banking platform</p>
+      <p class="post-meta">
+        8 min read &nbsp; &middot; &nbsp;
+        September 2, 2020
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2020">
+          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
+
+          
+          &nbsp; &middot; &nbsp;
+            
+            <a href="/blog/tag/readings">
+              <i class="fas fa-hashtag fa-sm"></i> readings</a> &nbsp;
+              
+            <a href="/blog/tag/code">
+              <i class="fas fa-hashtag fa-sm"></i> code</a> &nbsp;
+              
+            <a href="/blog/tag/experience">
+              <i class="fas fa-hashtag fa-sm"></i> experience</a> &nbsp;
+              
+          
+
+          
+          &nbsp; &middot; &nbsp;
+            
+            <a href="/blog/category/learnings">
+              <i class="fas fa-tag fa-sm"></i> learnings</a> &nbsp;
+              
+          
+    </p>
+    </li>
+
+    
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
           
             <a class="post-title" href="https://medium.com/@iamsh4shank/first-of-my-gsoc-project-ec24a5db5cd5?source=rss-895d9cc81551------2" target="_blank">First of my GSoC project</a>
             <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
@@ -338,7 +375,14 @@
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
       }
     };
   </script>

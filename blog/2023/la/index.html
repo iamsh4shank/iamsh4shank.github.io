@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Linear Algebra for Deep Learning | Shashank  Priyadarshi</title>
+    <meta name="author" content="Shashank  Priyadarshi">
+    <meta name="description" content="These are my own study notes on the linear algebra you need before reading deep learning papers. They follow the topics in Chapter 2 of Deep Learning by Goodfellow, Bengio and Courville (online chapter).">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/android-chrome-512x512.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://iamsh4shank.github.io/blog/2023/la/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class=" fixed-top-nav ">
+
+    <!-- Personal Lifestyle Floating Animation -->
+
+
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          
+          
+
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Shashank </span>Priyadarshi</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          <!-- Mode Toggle: Work / Personal (always visible, outside collapse) -->
+          <!-- Mode Toggle: Work / Personal icon switcher -->
+
+
+
+<div class="mode-toggle">
+  
+    <a href="/blog/" class="mode-toggle__option active" title="Work Mode">
+      <i class="fas fa-briefcase"></i>
+    </a>
+    <a href="/personal/blog/" class="mode-toggle__option " title="Personal Mode">
+      <i class="fas fa-heart"></i>
+    </a>
+  
+</div>
+
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              
+              
+
+              <!-- About -->
+              
+                <li class="nav-item ">
+                  <a class="nav-link" href="/">about</a>
+                </li>
+              
+
+              
+              <!-- Blog -->
+              
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+                </li>
+              
+
+              <!-- CV (hidden on personal) -->
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="https://iamsh4shank.github.io/docs/cv.pdf">cv
+                </a>
+              </li>
+              
+              
+
+              <!-- Other pages (hidden on personal) -->
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/experience/">experience</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Linear Algebra for Deep Learning</h1>
+    <p class="post-meta">October 20, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/machine-learning">
+          <i class="fas fa-hashtag fa-sm"></i> machine-learning</a>  
+          <a href="/blog/tag/research">
+          <i class="fas fa-hashtag fa-sm"></i> research</a>  
+          
+        ·  
+        <a href="/blog/category/learnings">
+          <i class="fas fa-tag fa-sm"></i> learnings</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="linear-algebra-for-deep-learning-revision-notes">Linear Algebra for Deep Learning: Revision Notes</h1>
+
+<p>These are my own study notes on the linear algebra you need before reading deep learning papers. They follow the topics in Chapter 2 of <em>Deep Learning</em> by Goodfellow, Bengio and Courville (<a href="https://www.deeplearningbook.org/contents/linear_algebra.html" rel="external nofollow noopener" target="_blank">online chapter</a>). I wrote everything in my own words and added derivations, small numeric examples, NumPy checks and self-test questions. Read the original chapter too. It is free and short.</p>
+
+<p><strong>How to use these notes.</strong> Read a section once. Then close the page and derive the boxed results on blank paper. The self-test at the end lists what you should be able to do without notes.</p>
+
+<hr>
+
+<h2 id="table-of-contents">Table of contents</h2>
+
+<ol>
+  <li><a href="#1-objects-scalars-vectors-matrices-tensors">Objects: scalars, vectors, matrices, tensors</a></li>
+  <li><a href="#2-products-of-matrices-and-vectors">Products of matrices and vectors</a></li>
+  <li><a href="#3-identity-and-inverse">Identity and inverse</a></li>
+  <li><a href="#4-linear-dependence-span-and-solving-ax--b">Linear dependence, span and solving Ax = b</a></li>
+  <li><a href="#5-norms">Norms</a></li>
+  <li><a href="#6-special-matrices-and-vectors">Special matrices and vectors</a></li>
+  <li><a href="#7-eigendecomposition">Eigendecomposition</a></li>
+  <li><a href="#8-singular-value-decomposition-svd">Singular value decomposition</a></li>
+  <li><a href="#9-the-moore-penrose-pseudoinverse">The Moore-Penrose pseudoinverse</a></li>
+  <li><a href="#10-trace">Trace</a></li>
+  <li><a href="#11-determinant">Determinant</a></li>
+  <li><a href="#12-worked-example-deriving-pca">Worked example: deriving PCA</a></li>
+  <li><a href="#13-cheat-sheet">Cheat sheet</a></li>
+  <li><a href="#14-self-test">Self-test</a></li>
+  <li><a href="#15-further-references">Further references</a></li>
+</ol>
+
+<hr>
+
+<h2 id="1-objects-scalars-vectors-matrices-tensors">1. Objects: scalars, vectors, matrices, tensors</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Object</th>
+      <th>Notation</th>
+      <th>Example type</th>
+      <th>Indexing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scalar</td>
+      <td>italic lowercase, $a$</td>
+      <td>$a \in \mathbb{R}$, $n \in \mathbb{N}$</td>
+      <td>none</td>
+    </tr>
+    <tr>
+      <td>Vector</td>
+      <td>bold lowercase, $\mathbf{x}$</td>
+      <td>$\mathbf{x} \in \mathbb{R}^n$</td>
+      <td>$x_i$</td>
+    </tr>
+    <tr>
+      <td>Matrix</td>
+      <td>bold uppercase, $\mathbf{A}$</td>
+      <td>$\mathbf{A} \in \mathbb{R}^{m \times n}$</td>
+      <td>$A_{i,j}$</td>
+    </tr>
+    <tr>
+      <td>Tensor</td>
+      <td>bold sans-serif, $\mathsf{A}$</td>
+      <td>$\mathsf{A} \in \mathbb{R}^{m \times n \times p}$</td>
+      <td>$A_{i,j,k}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Things worth remembering:</p>
+
+<ul>
+  <li>
+<strong>Vectors are columns by default.</strong> $\mathbf{x} \in \mathbb{R}^n$ is an $n \times 1$ matrix. A row vector is written $\mathbf{x}^\top$.</li>
+  <li>
+<strong>Index sets.</strong> For $S = {1, 3}$, $\mathbf{x}_S = (x_1, x_3)$. A minus sign means “all except”: $\mathbf{x}_{-1}$ drops $x_1$, and $\mathbf{x}_{-S}$ drops every index in $S$.</li>
+  <li>
+<strong>Rows and columns.</strong> $\mathbf{A}_{i,:}$ is row $i$. $\mathbf{A}_{:,j}$ is column $j$. For an expression such as $f(\mathbf{A})$, write the entry as $f(\mathbf{A})_{i,j}$.</li>
+  <li>
+<strong>Tensors</strong> are just arrays with more than two axes. A batch of RGB images is a 4-axis tensor of shape (batch, channels, height, width).</li>
+</ul>
+
+<h3 id="transpose">Transpose</h3>
+
+\[(\mathbf{A}^\top)_{i,j} = A_{j,i}\]
+
+<p>Picture it as a mirror image across the main diagonal (top left to bottom right). An $m \times n$ matrix becomes $n \times m$. A scalar is its own transpose: $a^\top = a$. This small fact is used in many proofs below.</p>
+
+<h3 id="element-wise-operations-and-broadcasting">Element-wise operations and broadcasting</h3>
+
+<ul>
+  <li>Matrices of the same shape add entry by entry: $C_{i,j} = A_{i,j} + B_{i,j}$.</li>
+  <li>Scalars act on every entry: $(a\mathbf{B} + c)_{i,j} = a B_{i,j} + c$.</li>
+  <li>
+<strong>Broadcasting</strong> (a deep learning convention, not standard math): adding a vector to a matrix adds it to every row.
+\(\mathbf{C} = \mathbf{A} + \mathbf{b} \quad\Longleftrightarrow\quad C_{i,j} = A_{i,j} + b_j\)
+This is exactly what happens with a bias term: $\mathbf{H} = \mathbf{X}\mathbf{W} + \mathbf{b}$, where each row of $\mathbf{X}$ is one example.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">zeros</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">2.</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">A</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>   <span class="c1"># every row becomes [1, 2]
+</span></code></pre></div></div>
+
+<hr>
+
+<h2 id="2-products-of-matrices-and-vectors">2. Products of matrices and vectors</h2>
+
+<h3 id="matrix-product">Matrix product</h3>
+
+<p>For $\mathbf{A} \in \mathbb{R}^{m \times n}$ and $\mathbf{B} \in \mathbb{R}^{n \times p}$:</p>
+
+\[\boxed{C_{i,j} = \sum_{k=1}^{n} A_{i,k} B_{k,j}}, \qquad \mathbf{C} = \mathbf{A}\mathbf{B} \in \mathbb{R}^{m \times p}\]
+
+<p>The inner dimensions must match. Entry $(i, j)$ is the dot product of row $i$ of $\mathbf{A}$ with column $j$ of $\mathbf{B}$.</p>
+
+<p><strong>Cost.</strong> Computing $\mathbf{AB}$ naively takes $m \cdot n \cdot p$ multiply-adds. This is the number to use when counting FLOPs of a linear layer (often reported as $2mnp$ FLOPs, counting multiply and add separately).</p>
+
+<h3 id="hadamard-product">Hadamard product</h3>
+
+\[(\mathbf{A} \odot \mathbf{B})_{i,j} = A_{i,j} B_{i,j}\]
+
+<p>Element-wise, same shapes. Do not confuse it with the matrix product. In NumPy, <code class="language-plaintext highlighter-rouge">A * B</code> is Hadamard and <code class="language-plaintext highlighter-rouge">A @ B</code> is the matrix product.</p>
+
+<h3 id="dot-product">Dot product</h3>
+
+\[\mathbf{x}^\top \mathbf{y} = \sum_i x_i y_i\]
+
+<p>It is a matrix product of a $1 \times n$ and an $n \times 1$ matrix, so the result is $1 \times 1$, a scalar.</p>
+
+<h3 id="algebraic-properties">Algebraic properties</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Holds?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Distributive: $\mathbf{A}(\mathbf{B} + \mathbf{C}) = \mathbf{AB} + \mathbf{AC}$</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>Associative: $\mathbf{A}(\mathbf{BC}) = (\mathbf{AB})\mathbf{C}$</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>Commutative: $\mathbf{AB} = \mathbf{BA}$</td>
+      <td>
+<strong>no</strong>, in general</td>
+    </tr>
+    <tr>
+      <td>Dot product commutes: $\mathbf{x}^\top\mathbf{y} = \mathbf{y}^\top\mathbf{x}$</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>Transpose of a product: $(\mathbf{AB})^\top = \mathbf{B}^\top \mathbf{A}^\top$</td>
+      <td>yes (order reverses)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Proof that the dot product commutes</strong>, using only the transpose rules:</p>
+
+\[\mathbf{x}^\top\mathbf{y} = (\mathbf{x}^\top\mathbf{y})^\top = \mathbf{y}^\top (\mathbf{x}^\top)^\top = \mathbf{y}^\top\mathbf{x}\]
+
+<p>The first step uses “a scalar equals its transpose”. The second uses the product rule for transposes.</p>
+
+<p><strong>Associativity matters for speed.</strong> For $\mathbf{x} \in \mathbb{R}^n$ and $\mathbf{A}, \mathbf{B} \in \mathbb{R}^{n \times n}$, computing $\mathbf{A}(\mathbf{B}\mathbf{x})$ costs $O(n^2)$, while $(\mathbf{AB})\mathbf{x}$ costs $O(n^3)$. Same answer, very different cost. This is why LoRA computes $\mathbf{B}(\mathbf{A}\mathbf{x})$ instead of forming $\mathbf{BA}$ during training.</p>
+
+<h3 id="linear-systems">Linear systems</h3>
+
+<p>A system of $m$ linear equations in $n$ unknowns:</p>
+
+\[\mathbf{A}\mathbf{x} = \mathbf{b}, \qquad \mathbf{A} \in \mathbb{R}^{m \times n},\ \mathbf{x} \in \mathbb{R}^n,\ \mathbf{b} \in \mathbb{R}^m\]
+
+<p>Row $i$ reads $\mathbf{A}_{i,:}\mathbf{x} = b_i$, that is $A_{i,1}x_1 + \dots + A_{i,n}x_n = b_i$.</p>
+
+<hr>
+
+<h2 id="3-identity-and-inverse">3. Identity and inverse</h2>
+
+<p><strong>Identity.</strong> $\mathbf{I}_n \in \mathbb{R}^{n \times n}$ has ones on the diagonal and zeros elsewhere. For every $\mathbf{x} \in \mathbb{R}^n$, $\mathbf{I}_n\mathbf{x} = \mathbf{x}$.</p>
+
+<p><strong>Inverse.</strong> $\mathbf{A}^{-1}$ is the matrix with</p>
+
+\[\mathbf{A}^{-1}\mathbf{A} = \mathbf{I}_n\]
+
+<p>If it exists, then</p>
+
+\[\mathbf{A}\mathbf{x} = \mathbf{b} \;\Rightarrow\; \mathbf{A}^{-1}\mathbf{A}\mathbf{x} = \mathbf{A}^{-1}\mathbf{b} \;\Rightarrow\; \mathbf{x} = \mathbf{A}^{-1}\mathbf{b}\]
+
+<p><strong>Practical warning.</strong> The inverse is mostly a tool for reasoning. In code, never compute <code class="language-plaintext highlighter-rouge">inv(A) @ b</code>. Use <code class="language-plaintext highlighter-rouge">np.linalg.solve(A, b)</code> (LU factorization) or a least-squares routine. Forming the inverse explicitly is slower and loses more precision, especially when $\mathbf{A}$ is ill-conditioned.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([[</span><span class="mf">3.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">],</span> <span class="p">[</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">2.</span><span class="p">]]);</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">9.</span><span class="p">,</span> <span class="mf">8.</span><span class="p">])</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>        <span class="c1"># preferred
+</span><span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="nf">allclose</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">x</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>  <span class="c1"># [2. 3.] True
+</span></code></pre></div></div>
+
+<hr>
+
+<h2 id="4-linear-dependence-span-and-solving-ax--b">4. Linear dependence, span and solving Ax = b</h2>
+
+<h3 id="how-many-solutions-can-there-be">How many solutions can there be?</h3>
+
+<p>Exactly zero, one, or infinitely many. Never exactly two.</p>
+
+<p><strong>Proof.</strong> Suppose $\mathbf{x}$ and $\mathbf{y}$ are two different solutions. For any $\alpha \in \mathbb{R}$, let $\mathbf{z} = \alpha\mathbf{x} + (1 - \alpha)\mathbf{y}$. Then</p>
+
+\[\mathbf{A}\mathbf{z} = \alpha\mathbf{A}\mathbf{x} + (1-\alpha)\mathbf{A}\mathbf{y} = \alpha\mathbf{b} + (1-\alpha)\mathbf{b} = \mathbf{b}\]
+
+<p>Each $\alpha$ gives a different point on the line through $\mathbf{x}$ and $\mathbf{y}$, so there are infinitely many solutions.</p>
+
+<h3 id="the-column-picture">The column picture</h3>
+
+<p>The most useful way to read $\mathbf{A}\mathbf{x}$:</p>
+
+\[\mathbf{A}\mathbf{x} = \sum_{j=1}^{n} x_j \,\mathbf{A}_{:,j}\]
+
+<p>$\mathbf{A}\mathbf{x}$ is a <strong>linear combination</strong> of the columns of $\mathbf{A}$, with weights given by $\mathbf{x}$. Each $x_j$ says “how far to move along column $j$”.</p>
+
+<ul>
+  <li>The <strong>span</strong> of a set of vectors is every linear combination of them.</li>
+  <li>The <strong>column space</strong> (or <strong>range</strong>) of $\mathbf{A}$ is the span of its columns.</li>
+  <li>$\mathbf{A}\mathbf{x} = \mathbf{b}$ has a solution <strong>if and only if</strong> $\mathbf{b}$ is in the column space of $\mathbf{A}$.</li>
+</ul>
+
+<h3 id="when-is-there-a-solution-for-every-b">When is there a solution for every b?</h3>
+
+<p>We need the column space to be all of $\mathbb{R}^m$.</p>
+
+<ul>
+  <li>
+<strong>Necessary:</strong> $n \ge m$ (at least as many columns as dimensions of $\mathbf{b}$). With fewer columns, the column space is at most an $n$-dimensional subspace of $\mathbb{R}^m$. Example: a $3 \times 2$ matrix maps into a plane inside $\mathbb{R}^3$, so most $\mathbf{b}$ are unreachable.</li>
+  <li>
+<strong>Not sufficient:</strong> columns can be redundant. The matrix
+\(\begin{pmatrix} 1 &amp; 1 \\ 2 &amp; 2 \end{pmatrix}\)
+has two columns but both point the same way. Its column space is a line, not $\mathbb{R}^2$.</li>
+</ul>
+
+<h3 id="linear-independence">Linear independence</h3>
+
+<p>A set of vectors is <strong>linearly independent</strong> if no vector in it is a linear combination of the others. Equivalently, $\sum_j c_j \mathbf{v}_j = \mathbf{0}$ forces all $c_j = 0$.</p>
+
+<p>So the precise condition is: <strong>the columns of $\mathbf{A}$ must contain a set of exactly $m$ linearly independent vectors.</strong> (A set of $m$-dimensional vectors cannot have more than $m$ independent members.)</p>
+
+<p>The number of linearly independent columns is the <strong>rank</strong> of $\mathbf{A}$. Solvable for every $\mathbf{b}$ means $\operatorname{rank}(\mathbf{A}) = m$.</p>
+
+<h3 id="when-is-the-solution-unique">When is the solution unique?</h3>
+
+<p>Uniqueness needs at most $m$ columns. Otherwise there are extra directions that can be traded against each other (a nonzero null space), giving infinitely many solutions.</p>
+
+<p>Putting both conditions together: <strong>solvable for every $\mathbf{b}$ with a unique solution</strong> requires $\mathbf{A}$ to be <strong>square</strong> ($m = n$) with all columns linearly independent. Such a matrix is invertible.</p>
+
+<p>A square matrix with linearly dependent columns is <strong>singular</strong>. A singular or non-square $\mathbf{A}$ can still give solutions for some $\mathbf{b}$, but not via matrix inversion.</p>
+
+<p><strong>Left and right inverses.</strong> So far we used $\mathbf{A}^{-1}\mathbf{A} = \mathbf{I}$ (left inverse). One can also ask for $\mathbf{A}\mathbf{A}^{-1} = \mathbf{I}$ (right inverse). For square matrices the two are the same matrix.</p>
+
+<h3 id="summary-table">Summary table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Shape of $\mathbf{A}$ ($m \times n$)</th>
+      <th>Full rank</th>
+      <th>Number of solutions to $\mathbf{Ax} = \mathbf{b}$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>square, $m = n$</td>
+      <td>yes</td>
+      <td>exactly one, for every $\mathbf{b}$</td>
+    </tr>
+    <tr>
+      <td>wide, $m &lt; n$</td>
+      <td>rank $m$</td>
+      <td>infinitely many, for every $\mathbf{b}$</td>
+    </tr>
+    <tr>
+      <td>tall, $m &gt; n$</td>
+      <td>rank $n$</td>
+      <td>zero or one, depending on $\mathbf{b}$</td>
+    </tr>
+    <tr>
+      <td>any</td>
+      <td>rank deficient</td>
+      <td>zero or infinitely many</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="5-norms">5. Norms</h2>
+
+<p>A norm measures the size of a vector. Formally, $f$ is a norm if for all $\mathbf{x}, \mathbf{y}$ and scalars $\alpha$:</p>
+
+<ol>
+  <li>$f(\mathbf{x}) = 0 \Rightarrow \mathbf{x} = \mathbf{0}$</li>
+  <li>$f(\mathbf{x} + \mathbf{y}) \le f(\mathbf{x}) + f(\mathbf{y})$ (triangle inequality)</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>$f(\alpha\mathbf{x}) =</td>
+          <td>\alpha</td>
+          <td>f(\mathbf{x})$ (absolute homogeneity)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ol>
+
+<p>Non-negativity, $f(\mathbf{x}) \ge 0$, follows from these.</p>
+
+<h3 id="the-lp-family">The $L^p$ family</h3>
+
+\[\|\mathbf{x}\|_p = \Big(\sum_i |x_i|^p\Big)^{1/p}, \qquad p \ge 1\]
+
+<p>For $p &lt; 1$ the triangle inequality fails, so it is not a norm.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Norm</th>
+      <th>Formula</th>
+      <th>Key property</th>
+      <th>Where it shows up</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$L^2$ (Euclidean)</td>
+      <td>$\sqrt{\sum_i x_i^2}$</td>
+      <td>rotation invariant; the default, often written $|\mathbf{x}|$</td>
+      <td>distances, weight decay</td>
+    </tr>
+    <tr>
+      <td>squared $L^2$</td>
+      <td>$\mathbf{x}^\top\mathbf{x}$</td>
+      <td>$\partial/\partial x_i = 2x_i$, depends only on $x_i$</td>
+      <td>MSE loss, weight decay</td>
+    </tr>
+    <tr>
+      <td>$L^1$</td>
+      <td>$\sum_i \lvert x_i \rvert$</td>
+      <td>same slope everywhere</td>
+      <td>sparsity, lasso</td>
+    </tr>
+    <tr>
+      <td>$L^\infty$ (max norm)</td>
+      <td>$\max_i \lvert x_i \rvert$</td>
+      <td>largest entry</td>
+      <td>$L^\infty$ adversarial attacks (PGD with $\epsilon$-ball)</td>
+    </tr>
+    <tr>
+      <td>Frobenius (matrices)</td>
+      <td>$\sqrt{\sum_{i,j} A_{i,j}^2}$</td>
+      <td>$L^2$ of the flattened matrix</td>
+      <td>reconstruction error, low-rank approximation</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="why-squared-l2-versus-l1">Why squared $L^2$ versus $L^1$?</h3>
+
+<ul>
+  <li>
+<strong>Squared $L^2$</strong> is easy to work with: its gradient is $2\mathbf{x}$, and each partial derivative depends only on its own coordinate. But near zero it grows very slowly. A coordinate of $0.01$ contributes $10^{-4}$. So it barely pushes small values all the way to zero.</li>
+  <li>
+<strong>$L^1$</strong> grows at the same rate everywhere. Moving a coordinate from $0.01$ to $0$ reduces it by exactly $0.01$, the same as moving from $5.01$ to $5$. So it does push small values to exactly zero. Use it when the difference between “exactly zero” and “small but nonzero” matters.</li>
+</ul>
+
+<p><strong>Gradient view.</strong> $\nabla \tfrac{1}{2}|\mathbf{x}|_2^2 = \mathbf{x}$ (shrinks proportionally), while the subgradient of $|\mathbf{x}|_1$ is $\operatorname{sign}(\mathbf{x})$ (constant push toward zero).</p>
+
+<h3 id="the-l0-norm-is-not-a-norm">The “L0 norm” is not a norm</h3>
+
+<p>Counting the nonzero entries is often called the $L^0$ norm. It is not a norm: scaling $\mathbf{x}$ by $\alpha \ne 0$ does not change the count, so homogeneity fails. Because the count is non-differentiable and combinatorial, $L^1$ is usually used as a convex substitute. (Magnitude pruning and SparseGPT impose an $L^0$ budget directly, by choosing which weights to zero.)</p>
+
+<h3 id="dot-product-and-angle">Dot product and angle</h3>
+
+\[\mathbf{x}^\top\mathbf{y} = \|\mathbf{x}\|_2 \|\mathbf{y}\|_2 \cos\theta\]
+
+<p>Normalize both vectors and the dot product is the cosine similarity. This is the score in CLIP, SimCLR and most contrastive losses.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+<strong>Cauchy-Schwarz</strong> follows directly: $</td>
+      <td>\mathbf{x}^\top\mathbf{y}</td>
+      <td>\le |\mathbf{x}|_2|\mathbf{y}|_2$, because $</td>
+      <td>\cos\theta</td>
+      <td>\le 1$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">3.</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">inf</span><span class="p">))</span>
+<span class="c1"># 7.0 5.0 4.0
+</span></code></pre></div></div>
+
+<hr>
+
+<h2 id="6-special-matrices-and-vectors">6. Special matrices and vectors</h2>
+
+<h3 id="diagonal-matrices">Diagonal matrices</h3>
+
+<p>$\mathbf{D}$ is diagonal if $D_{i,j} = 0$ whenever $i \ne j$. $\operatorname{diag}(\mathbf{v})$ is the square diagonal matrix with $\mathbf{v}$ on the diagonal.</p>
+
+<ul>
+  <li>
+<strong>Cheap multiplication:</strong> $\operatorname{diag}(\mathbf{v})\mathbf{x} = \mathbf{v} \odot \mathbf{x}$. That is $O(n)$, not $O(n^2)$.</li>
+  <li>
+<strong>Cheap inverse:</strong> exists iff every $v_i \ne 0$, and then $\operatorname{diag}(\mathbf{v})^{-1} = \operatorname{diag}\big((1/v_1, \dots, 1/v_n)^\top\big)$.</li>
+  <li>Restricting a model to diagonal matrices is a common trick to reduce cost (diagonal covariance in VAEs, Adam’s per-parameter scaling, LayerNorm’s scale vector).</li>
+</ul>
+
+<p><strong>Rectangular diagonal matrices</strong> also exist. For $\mathbf{D} \in \mathbb{R}^{m \times n}$:</p>
+
+<ul>
+  <li>if $m &gt; n$ (tall), $\mathbf{Dx}$ scales each entry and then appends zeros;</li>
+  <li>if $m &lt; n$ (wide), $\mathbf{Dx}$ scales the first $m$ entries and drops the rest.</li>
+</ul>
+
+<p>They have no inverse but still multiply cheaply. They appear in the SVD.</p>
+
+<h3 id="symmetric-matrices">Symmetric matrices</h3>
+
+<p>$\mathbf{A} = \mathbf{A}^\top$. They arise when entries come from a function that does not care about argument order, for example a distance matrix $A_{i,j} = d(\mathbf{x}^{(i)}, \mathbf{x}^{(j)})$, a covariance matrix, a Gram matrix $\mathbf{X}^\top\mathbf{X}$ or a Hessian.</p>
+
+<h3 id="unit-orthogonal-and-orthonormal-vectors">Unit, orthogonal and orthonormal vectors</h3>
+
+<ul>
+  <li>
+<strong>Unit vector:</strong> $|\mathbf{x}|_2 = 1$.</li>
+  <li>
+<strong>Orthogonal:</strong> $\mathbf{x}^\top\mathbf{y} = 0$. If both are nonzero, they are at 90 degrees. In $\mathbb{R}^n$ at most $n$ nonzero vectors can be mutually orthogonal.</li>
+  <li>
+<strong>Orthonormal:</strong> orthogonal and unit norm.</li>
+</ul>
+
+<h3 id="orthogonal-matrices">Orthogonal matrices</h3>
+
+<p>A <strong>square</strong> matrix whose rows are mutually orthonormal and whose columns are mutually orthonormal:</p>
+
+\[\boxed{\mathbf{Q}^\top\mathbf{Q} = \mathbf{Q}\mathbf{Q}^\top = \mathbf{I}} \quad\Rightarrow\quad \mathbf{Q}^{-1} = \mathbf{Q}^\top\]
+
+<p>The inverse costs nothing: just transpose.</p>
+
+<p>Facts worth knowing (beyond the chapter):</p>
+
+<ul>
+  <li>Orthogonal matrices preserve lengths and angles: $|\mathbf{Q}\mathbf{x}|_2^2 = \mathbf{x}^\top\mathbf{Q}^\top\mathbf{Q}\mathbf{x} = |\mathbf{x}|_2^2$. They are rotations and reflections.</li>
+  <li>$\det(\mathbf{Q}) = \pm 1$.</li>
+  <li>
+<strong>Naming trap:</strong> “orthogonal matrix” means ortho<strong>normal</strong> columns. A matrix whose columns are orthogonal but not unit length has no special name.</li>
+  <li>
+<strong>Non-square case:</strong> a tall $\mathbf{U} \in \mathbb{R}^{n \times l}$ with orthonormal columns satisfies $\mathbf{U}^\top\mathbf{U} = \mathbf{I}_l$ but <strong>not</strong> $\mathbf{U}\mathbf{U}^\top = \mathbf{I}_n$. Instead $\mathbf{U}\mathbf{U}^\top$ is the projection onto the span of the columns. This is exactly the PCA decoder matrix in Section 12.</li>
+</ul>
+
+<hr>
+
+<h2 id="7-eigendecomposition">7. Eigendecomposition</h2>
+
+<p><strong>Why decompose?</strong> Writing 12 as $2 \times 2 \times 3$ tells you things the decimal representation hides (divisible by 3, not by 5). Decomposing a matrix similarly reveals properties that do not depend on how we happen to write it down.</p>
+
+<h3 id="eigenvectors-and-eigenvalues">Eigenvectors and eigenvalues</h3>
+
+<p>A nonzero vector $\mathbf{v}$ is an <strong>eigenvector</strong> of square $\mathbf{A}$ with <strong>eigenvalue</strong> $\lambda$ if</p>
+
+\[\boxed{\mathbf{A}\mathbf{v} = \lambda\mathbf{v}}\]
+
+<p>$\mathbf{A}$ only stretches $\mathbf{v}$; it does not change its direction (a negative $\lambda$ flips it).</p>
+
+<ul>
+  <li>
+<strong>Left eigenvectors</strong> satisfy $\mathbf{v}^\top\mathbf{A} = \lambda\mathbf{v}^\top$. “Eigenvector” alone means right eigenvector.</li>
+  <li>If $\mathbf{v}$ is an eigenvector, so is $s\mathbf{v}$ for any $s \ne 0$, with the same $\lambda$. Convention: use unit eigenvectors.</li>
+  <li>
+<strong>Finding them</strong> (not in the chapter, but asked in interviews): $\mathbf{A}\mathbf{v} = \lambda\mathbf{v}$ with $\mathbf{v} \ne \mathbf{0}$ means $(\mathbf{A} - \lambda\mathbf{I})$ is singular, so $\det(\mathbf{A} - \lambda\mathbf{I}) = 0$. This polynomial in $\lambda$ is the characteristic polynomial.</li>
+</ul>
+
+<p><strong>Worked example.</strong></p>
+
+\[\mathbf{A} = \begin{pmatrix} 2 &amp; 1 \\ 1 &amp; 2 \end{pmatrix}, \quad \det\begin{pmatrix} 2-\lambda &amp; 1 \\ 1 &amp; 2-\lambda \end{pmatrix} = (2-\lambda)^2 - 1 = 0 \Rightarrow \lambda \in \{3, 1\}\]
+
+<p>For $\lambda = 3$: $\mathbf{v} = \tfrac{1}{\sqrt 2}(1, 1)^\top$. For $\lambda = 1$: $\mathbf{v} = \tfrac{1}{\sqrt 2}(1, -1)^\top$. They are orthogonal, as expected for a symmetric matrix.</p>
+
+<h3 id="the-decomposition">The decomposition</h3>
+
+<p>If $\mathbf{A} \in \mathbb{R}^{n \times n}$ has $n$ linearly independent eigenvectors $\mathbf{v}^{(1)}, \dots, \mathbf{v}^{(n)}$, stack them as columns of $\mathbf{V}$ and the eigenvalues in $\boldsymbol{\lambda}$. Then</p>
+
+\[\mathbf{A} = \mathbf{V}\operatorname{diag}(\boldsymbol{\lambda})\mathbf{V}^{-1}\]
+
+<p><strong>Why:</strong> $\mathbf{A}\mathbf{V} = \mathbf{V}\operatorname{diag}(\boldsymbol{\lambda})$ is just the $n$ eigenvector equations side by side. Multiply both sides on the right by $\mathbf{V}^{-1}$.</p>
+
+<p>Caveats:</p>
+
+<ul>
+  <li>Not every matrix has one. Example: $\begin{pmatrix} 0 &amp; 1 \ 0 &amp; 0 \end{pmatrix}$ has only eigenvalue $0$ and only one independent eigenvector.</li>
+  <li>Real matrices can have complex eigenvalues. Example: a 90 degree rotation $\begin{pmatrix} 0 &amp; -1 \ 1 &amp; 0 \end{pmatrix}$ has $\lambda = \pm i$. No real direction stays fixed under a rotation.</li>
+</ul>
+
+<h3 id="real-symmetric-matrices-the-spectral-theorem">Real symmetric matrices: the spectral theorem</h3>
+
+<p>Every real symmetric matrix can be decomposed using only real numbers and an orthogonal matrix:</p>
+
+\[\boxed{\mathbf{A} = \mathbf{Q}\boldsymbol{\Lambda}\mathbf{Q}^\top}\]
+
+<p>$\mathbf{Q}$ is orthogonal (columns are orthonormal eigenvectors) and $\boldsymbol{\Lambda}$ is diagonal (eigenvalues). Column $i$ of $\mathbf{Q}$ goes with $\Lambda_{i,i}$.</p>
+
+<p><strong>Geometric picture.</strong> Write $\mathbf{A}\mathbf{x} = \mathbf{Q}\boldsymbol{\Lambda}(\mathbf{Q}^\top\mathbf{x})$:</p>
+
+<ol>
+  <li>$\mathbf{Q}^\top\mathbf{x}$: express $\mathbf{x}$ in the eigenvector basis.</li>
+  <li>$\boldsymbol{\Lambda}$: scale coordinate $i$ by $\lambda_i$.</li>
+  <li>$\mathbf{Q}$: go back to the original basis.</li>
+</ol>
+
+<table>
+  <tbody>
+    <tr>
+      <td>So $\mathbf{A}$ stretches space by $\lambda_i$ along each $\mathbf{q}^{(i)}$. The unit circle becomes an ellipse whose axes are the eigenvectors, with half-lengths $</td>
+      <td>\lambda_i</td>
+      <td>$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Equivalently, $\mathbf{A} = \sum_i \lambda_i \mathbf{q}^{(i)}\mathbf{q}^{(i)\top}$: a weighted sum of rank-one projections.</p>
+
+<p><strong>Uniqueness.</strong> If two or more eigenvectors share an eigenvalue, any orthonormal basis of their span works too, so $\mathbf{Q}$ is not unique. Convention: sort eigenvalues in descending order. Under that convention, the decomposition is unique if all eigenvalues are distinct (up to the sign of each eigenvector).</p>
+
+<h3 id="what-eigenvalues-tell-you">What eigenvalues tell you</h3>
+
+<ul>
+  <li>
+<strong>Singular iff some eigenvalue is zero.</strong> (A zero eigenvalue means $\mathbf{A}\mathbf{v} = \mathbf{0}$ for some $\mathbf{v} \ne \mathbf{0}$, so information is lost.)</li>
+  <li>
+<strong>Inverse of a symmetric invertible matrix:</strong> $\mathbf{A}^{-1} = \mathbf{Q}\boldsymbol{\Lambda}^{-1}\mathbf{Q}^\top$. Same eigenvectors, reciprocal eigenvalues.</li>
+  <li>
+<strong>Powers:</strong> $\mathbf{A}^k = \mathbf{Q}\boldsymbol{\Lambda}^k\mathbf{Q}^\top$.</li>
+</ul>
+
+<h3 id="optimizing-a-quadratic-form-on-the-unit-sphere">Optimizing a quadratic form on the unit sphere</h3>
+
+<p>For real symmetric $\mathbf{A}$, consider</p>
+
+\[f(\mathbf{x}) = \mathbf{x}^\top\mathbf{A}\mathbf{x} \quad \text{subject to } \|\mathbf{x}\|_2 = 1\]
+
+<p><strong>Result:</strong> the maximum of $f$ is $\lambda_{\max}$ and the minimum is $\lambda_{\min}$, attained at the corresponding eigenvectors. If $\mathbf{x}$ is any eigenvector, $f(\mathbf{x})$ equals its eigenvalue.</p>
+
+<p><strong>Proof</strong> (derive this yourself). Let $\mathbf{y} = \mathbf{Q}^\top\mathbf{x}$. Since $\mathbf{Q}$ is orthogonal, $|\mathbf{y}|_2 = 1$. Then</p>
+
+\[f(\mathbf{x}) = \mathbf{x}^\top\mathbf{Q}\boldsymbol{\Lambda}\mathbf{Q}^\top\mathbf{x} = \mathbf{y}^\top\boldsymbol{\Lambda}\mathbf{y} = \sum_i \lambda_i y_i^2\]
+
+<p>The weights $y_i^2$ are non-negative and sum to 1, so $f$ is a weighted average of the eigenvalues. A weighted average lies between the smallest and largest value, with equality when all weight sits on one eigenvalue, that is when $\mathbf{y}$ is a standard basis vector, that is when $\mathbf{x}$ is an eigenvector. $\blacksquare$</p>
+
+<p>The ratio $\mathbf{x}^\top\mathbf{A}\mathbf{x} / \mathbf{x}^\top\mathbf{x}$ is the <strong>Rayleigh quotient</strong>. This result is the core of PCA (Section 12) and of curvature arguments in optimization: for a Hessian $\mathbf{H}$, $\mathbf{d}^\top\mathbf{H}\mathbf{d}$ is the curvature along unit direction $\mathbf{d}$, and the extremes are the extreme eigenvalues.</p>
+
+<h3 id="definiteness">Definiteness</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Eigenvalues</th>
+      <th>Quadratic form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>positive definite (PD)</td>
+      <td>all $&gt; 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} &gt; 0$ for all $\mathbf{x} \ne \mathbf{0}$</td>
+    </tr>
+    <tr>
+      <td>positive semidefinite (PSD)</td>
+      <td>all $\ge 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} \ge 0$ for all $\mathbf{x}$</td>
+    </tr>
+    <tr>
+      <td>negative definite</td>
+      <td>all $&lt; 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} &lt; 0$ for all $\mathbf{x} \ne \mathbf{0}$</td>
+    </tr>
+    <tr>
+      <td>negative semidefinite</td>
+      <td>all $\le 0$</td>
+      <td>$\mathbf{x}^\top\mathbf{A}\mathbf{x} \le 0$ for all $\mathbf{x}$</td>
+    </tr>
+    <tr>
+      <td>indefinite</td>
+      <td>mixed signs</td>
+      <td>both signs occur</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The eigenvalue and quadratic-form columns are equivalent, by the weighted-average argument above.</p>
+
+<p><strong>Where this matters:</strong></p>
+
+<ul>
+  <li>Any Gram matrix $\mathbf{X}^\top\mathbf{X}$ is PSD, because $\mathbf{v}^\top\mathbf{X}^\top\mathbf{X}\mathbf{v} = |\mathbf{X}\mathbf{v}|_2^2 \ge 0$. So covariance matrices are PSD.</li>
+  <li>A Hessian that is PD at a critical point means a strict local minimum. Indefinite means a saddle point.</li>
+  <li>$\mathbf{X}^\top\mathbf{X} + \alpha\mathbf{I}$ with $\alpha &gt; 0$ is PD (eigenvalues shift up by $\alpha$), hence invertible. This is why ridge regression always has a unique solution.</li>
+</ul>
+
+<hr>
+
+<h2 id="8-singular-value-decomposition-svd">8. Singular value decomposition (SVD)</h2>
+
+<p>The eigendecomposition only works for some square matrices. The SVD works for <strong>every real matrix</strong>, square or not.</p>
+
+\[\boxed{\mathbf{A} = \mathbf{U}\mathbf{D}\mathbf{V}^\top}, \qquad \mathbf{A} \in \mathbb{R}^{m \times n}\]
+
+<table>
+  <thead>
+    <tr>
+      <th>Factor</th>
+      <th>Shape</th>
+      <th>Property</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$\mathbf{U}$</td>
+      <td>$m \times m$</td>
+      <td>orthogonal</td>
+      <td>columns are <strong>left-singular vectors</strong>
+</td>
+    </tr>
+    <tr>
+      <td>$\mathbf{D}$</td>
+      <td>$m \times n$</td>
+      <td>diagonal (rectangular), entries $\ge 0$</td>
+      <td>diagonal entries are <strong>singular values</strong> $\sigma_i$</td>
+    </tr>
+    <tr>
+      <td>$\mathbf{V}$</td>
+      <td>$n \times n$</td>
+      <td>orthogonal</td>
+      <td>columns are <strong>right-singular vectors</strong>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Geometric picture.</strong> $\mathbf{A}\mathbf{x} = \mathbf{U}(\mathbf{D}(\mathbf{V}^\top\mathbf{x}))$: rotate or reflect in the input space, scale each axis by $\sigma_i$ (and change dimension), rotate or reflect in the output space. Every linear map is “rotate, stretch, rotate”.</p>
+
+<h3 id="connection-to-eigendecomposition">Connection to eigendecomposition</h3>
+
+\[\mathbf{A}^\top\mathbf{A} = \mathbf{V}\mathbf{D}^\top\mathbf{U}^\top\mathbf{U}\mathbf{D}\mathbf{V}^\top = \mathbf{V}(\mathbf{D}^\top\mathbf{D})\mathbf{V}^\top\]
+
+\[\mathbf{A}\mathbf{A}^\top = \mathbf{U}(\mathbf{D}\mathbf{D}^\top)\mathbf{U}^\top\]
+
+<p>Both are eigendecompositions of symmetric PSD matrices. Read off:</p>
+
+<ul>
+  <li>right-singular vectors ($\mathbf{V}$) are eigenvectors of $\mathbf{A}^\top\mathbf{A}$;</li>
+  <li>left-singular vectors ($\mathbf{U}$) are eigenvectors of $\mathbf{A}\mathbf{A}^\top$;</li>
+  <li>the nonzero singular values are the square roots of the nonzero eigenvalues of $\mathbf{A}^\top\mathbf{A}$ (equivalently of $\mathbf{A}\mathbf{A}^\top$): $\sigma_i = \sqrt{\lambda_i}$.</li>
+</ul>
+
+<h3 id="useful-extras-beyond-the-chapter">Useful extras (beyond the chapter)</h3>
+
+<ul>
+  <li>
+<strong>Rank</strong> = number of nonzero singular values.</li>
+  <li>
+<strong>Rank-one expansion:</strong> $\mathbf{A} = \sum_{i=1}^{r} \sigma_i \mathbf{u}^{(i)}\mathbf{v}^{(i)\top}$.</li>
+  <li>
+<strong>Best low-rank approximation (Eckart-Young):</strong> keeping the top $k$ terms gives the rank-$k$ matrix closest to $\mathbf{A}$ in Frobenius (and spectral) norm. The error is $\sqrt{\sum_{i&gt;k}\sigma_i^2}$ in Frobenius norm. This is the reason low-rank adapters (LoRA) and low-rank compression make sense when singular values decay fast.</li>
+  <li>$|\mathbf{A}|_F^2 = \sum_i \sigma_i^2$ and the spectral norm $|\mathbf{A}|_2 = \sigma_{\max}$.</li>
+  <li>
+<strong>Condition number</strong> $\sigma_{\max}/\sigma_{\min}$: large means solving $\mathbf{Ax} = \mathbf{b}$ amplifies errors.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">U</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">Vt</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">svd</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>                     <span class="c1"># full: U 5x5, Vt 3x3
+</span><span class="n">eig</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">eigvalsh</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">A</span><span class="p">)[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>         <span class="c1"># descending
+</span><span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">allclose</span><span class="p">(</span><span class="n">s</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">eig</span><span class="p">))</span>                   <span class="c1"># True
+</span></code></pre></div></div>
+
+<hr>
+
+<h2 id="9-the-moore-penrose-pseudoinverse">9. The Moore-Penrose pseudoinverse</h2>
+
+<p><strong>Problem.</strong> For non-square $\mathbf{A}$ there is no inverse. We would still like a matrix $\mathbf{B}$ so that $\mathbf{x} = \mathbf{B}\mathbf{y}$ solves $\mathbf{A}\mathbf{x} = \mathbf{y}$ as well as possible.</p>
+
+<ul>
+  <li>
+<strong>Tall</strong> $\mathbf{A}$ (more rows than columns, more equations than unknowns): usually no exact solution.</li>
+  <li>
+<strong>Wide</strong> $\mathbf{A}$ (more columns than rows): usually infinitely many solutions.</li>
+</ul>
+
+<h3 id="definition">Definition</h3>
+
+\[\mathbf{A}^+ = \lim_{\alpha \searrow 0} (\mathbf{A}^\top\mathbf{A} + \alpha\mathbf{I})^{-1}\mathbf{A}^\top\]
+
+<p>Read it as “ridge regression with vanishing regularization”. The $\alpha\mathbf{I}$ makes the matrix invertible (Section 7), and the limit removes the bias.</p>
+
+<h3 id="how-it-is-actually-computed">How it is actually computed</h3>
+
+\[\boxed{\mathbf{A}^+ = \mathbf{V}\mathbf{D}^+\mathbf{U}^\top}\]
+
+<p>where $\mathbf{D}^+$ is built from $\mathbf{D}$ by taking the reciprocal of each nonzero diagonal entry and then transposing (so $\mathbf{D}^+$ is $n \times m$). Zero singular values stay zero.</p>
+
+<p><strong>Sanity check.</strong> If $\mathbf{A}$ is square and invertible, then $\mathbf{D}^+ = \mathbf{D}^{-1}$ and $\mathbf{V}\mathbf{D}^{-1}\mathbf{U}^\top = (\mathbf{U}\mathbf{D}\mathbf{V}^\top)^{-1} = \mathbf{A}^{-1}$.</p>
+
+<h3 id="what-it-gives-you">What it gives you</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>$\mathbf{x} = \mathbf{A}^+\mathbf{y}$ is</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>wide, consistent (many solutions)</td>
+      <td>the solution with <strong>smallest</strong> $|\mathbf{x}|_2$</td>
+    </tr>
+    <tr>
+      <td>tall, inconsistent (no solution)</td>
+      <td>the $\mathbf{x}$ minimizing $|\mathbf{A}\mathbf{x} - \mathbf{y}|_2$ (least squares)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Least squares link.</strong> When $\mathbf{A}$ has full column rank, $\mathbf{A}^+ = (\mathbf{A}^\top\mathbf{A})^{-1}\mathbf{A}^\top$. Derivation: minimize $|\mathbf{Ax} - \mathbf{y}|_2^2$, set the gradient $2\mathbf{A}^\top(\mathbf{Ax} - \mathbf{y})$ to zero, get the normal equations $\mathbf{A}^\top\mathbf{A}\mathbf{x} = \mathbf{A}^\top\mathbf{y}$.</p>
+
+<p><strong>Minimum norm link.</strong> When $\mathbf{A}$ has full row rank, $\mathbf{A}^+ = \mathbf{A}^\top(\mathbf{A}\mathbf{A}^\top)^{-1}$. The solution lies in the row space of $\mathbf{A}$, so it has no component in the null space. Any other solution adds a null-space component, which can only increase the norm (Pythagoras). This is also the classic explanation for why gradient descent from zero on an overparameterized linear regression converges to the minimum-norm interpolator.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">);</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>   <span class="c1"># wide
+</span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">pinv</span><span class="p">(</span><span class="n">A</span><span class="p">)</span> <span class="o">@</span> <span class="n">y</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">allclose</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>                        <span class="c1"># True, exact solution
+</span></code></pre></div></div>
+
+<hr>
+
+<h2 id="10-trace">10. Trace</h2>
+
+\[\operatorname{Tr}(\mathbf{A}) = \sum_i A_{i,i}\]
+
+<p>The trace is useful because it lets you write sums and norms as matrix expressions, which are easier to manipulate.</p>
+
+<h3 id="properties">Properties</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Formula</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frobenius norm</td>
+      <td>$|\mathbf{A}|_F = \sqrt{\operatorname{Tr}(\mathbf{A}\mathbf{A}^\top)}$</td>
+    </tr>
+    <tr>
+      <td>transpose invariance</td>
+      <td>$\operatorname{Tr}(\mathbf{A}) = \operatorname{Tr}(\mathbf{A}^\top)$</td>
+    </tr>
+    <tr>
+      <td>linearity (extra)</td>
+      <td>$\operatorname{Tr}(\mathbf{A} + \mathbf{B}) = \operatorname{Tr}(\mathbf{A}) + \operatorname{Tr}(\mathbf{B})$, $\operatorname{Tr}(c\mathbf{A}) = c\operatorname{Tr}(\mathbf{A})$</td>
+    </tr>
+    <tr>
+      <td>cyclic invariance</td>
+      <td>$\operatorname{Tr}(\mathbf{ABC}) = \operatorname{Tr}(\mathbf{CAB}) = \operatorname{Tr}(\mathbf{BCA})$</td>
+    </tr>
+    <tr>
+      <td>scalar</td>
+      <td>$a = \operatorname{Tr}(a)$</td>
+    </tr>
+    <tr>
+      <td>eigenvalues (extra)</td>
+      <td>$\operatorname{Tr}(\mathbf{A}) = \sum_i \lambda_i$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Cyclic invariance in general:</strong></p>
+
+\[\operatorname{Tr}\Big(\prod_{i=1}^{n}\mathbf{F}^{(i)}\Big) = \operatorname{Tr}\Big(\mathbf{F}^{(n)}\prod_{i=1}^{n-1}\mathbf{F}^{(i)}\Big)\]
+
+<p>You may move the <strong>last</strong> factor to the <strong>front</strong> (cycle), but you may not swap arbitrary factors: $\operatorname{Tr}(\mathbf{ABC}) \ne \operatorname{Tr}(\mathbf{ACB})$ in general.</p>
+
+<p><strong>It holds even when shapes change.</strong> For $\mathbf{A} \in \mathbb{R}^{m \times n}$, $\mathbf{B} \in \mathbb{R}^{n \times m}$: $\mathbf{AB}$ is $m \times m$ and $\mathbf{BA}$ is $n \times n$, yet</p>
+
+\[\operatorname{Tr}(\mathbf{AB}) = \sum_i\sum_j A_{i,j}B_{j,i} = \operatorname{Tr}(\mathbf{BA})\]
+
+<p>The double sum is the proof: both traces sum the same products.</p>
+
+<p><strong>The trace trick</strong> (very common): a scalar quadratic form can be rewritten as a trace and cycled.</p>
+
+\[\mathbf{x}^\top\mathbf{A}\mathbf{x} = \operatorname{Tr}(\mathbf{x}^\top\mathbf{A}\mathbf{x}) = \operatorname{Tr}(\mathbf{A}\mathbf{x}\mathbf{x}^\top)\]
+
+<p>This is how you take expectations of quadratic forms, $\mathbb{E}[\mathbf{x}^\top\mathbf{A}\mathbf{x}] = \operatorname{Tr}(\mathbf{A}\,\mathbb{E}[\mathbf{x}\mathbf{x}^\top])$, and how you derive the Gaussian MLE for the covariance.</p>
+
+<hr>
+
+<h2 id="11-determinant">11. Determinant</h2>
+
+<p>$\det(\mathbf{A})$ maps a square matrix to a real number.</p>
+
+\[\boxed{\det(\mathbf{A}) = \prod_i \lambda_i}\]
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+<strong>Geometric meaning.</strong> $</td>
+      <td>\det(\mathbf{A})</td>
+      <td>$ is the factor by which $\mathbf{A}$ scales volume. Take the unit cube, apply $\mathbf{A}$, and measure the volume of the resulting parallelepiped.</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>$\det = 0$: at least one direction is squashed flat, all volume is lost, and the map cannot be undone (singular).</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>$</td>
+          <td>\det</td>
+          <td>= 1$: volume is preserved (rotations, reflections, shears).</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>The sign tells you whether orientation is flipped.</li>
+</ul>
+
+<p>Extras worth knowing:</p>
+
+<ul>
+  <li>$\det(\mathbf{AB}) = \det(\mathbf{A})\det(\mathbf{B})$, $\det(\mathbf{A}^\top) = \det(\mathbf{A})$, $\det(\mathbf{A}^{-1}) = 1/\det(\mathbf{A})$.</li>
+  <li>$2 \times 2$: $\det\begin{pmatrix} a &amp; b \ c &amp; d\end{pmatrix} = ad - bc$.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>The determinant appears in the Gaussian density normalizer $</td>
+          <td>2\pi\boldsymbol{\Sigma}</td>
+          <td>^{-1/2}$ and in the change-of-variables formula behind normalizing flows, $\log p_X(\mathbf{x}) = \log p_Z(f(\mathbf{x})) + \log</td>
+          <td>\det \mathbf{J}_f(\mathbf{x})</td>
+          <td>$.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Use <code class="language-plaintext highlighter-rouge">np.linalg.slogdet</code>, not <code class="language-plaintext highlighter-rouge">det</code>, for anything large: determinants overflow or underflow quickly.</li>
+</ul>
+
+<hr>
+
+<h2 id="12-worked-example-deriving-pca">12. Worked example: deriving PCA</h2>
+
+<p>This section uses nearly everything above. Derive it on paper at least twice.</p>
+
+<h3 id="setup">Setup</h3>
+
+<p>We have $m$ points ${\mathbf{x}^{(1)}, \dots, \mathbf{x}^{(m)}}$ in $\mathbb{R}^n$. We want lossy compression: store a code $\mathbf{c}^{(i)} \in \mathbb{R}^l$ with $l &lt; n$ for each point.</p>
+
+<ul>
+  <li>Encoder: $f(\mathbf{x}) = \mathbf{c}$.</li>
+  <li>Decoder: $g(\mathbf{c}) \approx \mathbf{x}$.</li>
+  <li>Reconstruction: $r(\mathbf{x}) = g(f(\mathbf{x}))$.</li>
+</ul>
+
+<h3 id="design-choices">Design choices</h3>
+
+<ol>
+  <li>
+<strong>Linear decoder:</strong> $g(\mathbf{c}) = \mathbf{D}\mathbf{c}$ with $\mathbf{D} \in \mathbb{R}^{n \times l}$.</li>
+  <li>
+<strong>Orthogonal columns</strong> of $\mathbf{D}$. (Note: $\mathbf{D}$ is not square, so it is not an “orthogonal matrix”, but $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$.)</li>
+  <li>
+<strong>Unit-norm columns.</strong> Without this the problem has no unique solution: scale a column of $\mathbf{D}$ by $s$ and the matching code entries by $1/s$, and the reconstruction is unchanged.</li>
+</ol>
+
+<p>So the constraint is $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$.</p>
+
+<p>We assume the data is <strong>centered</strong> (mean subtracted). Without centering, the method finds directions of largest second moment about the origin, not largest variance.</p>
+
+<h3 id="step-1-the-optimal-code-for-a-fixed-d">Step 1: the optimal code for a fixed D</h3>
+
+<p>Choose the code that minimizes reconstruction error:</p>
+
+\[\mathbf{c}^* = \arg\min_{\mathbf{c}} \|\mathbf{x} - g(\mathbf{c})\|_2\]
+
+<p><strong>Square the norm.</strong> $|\cdot|_2 \ge 0$ and $t \mapsto t^2$ is increasing on $[0, \infty)$, so the minimizer is the same:</p>
+
+\[\mathbf{c}^* = \arg\min_{\mathbf{c}} \|\mathbf{x} - g(\mathbf{c})\|_2^2 = \arg\min_{\mathbf{c}} (\mathbf{x} - g(\mathbf{c}))^\top(\mathbf{x} - g(\mathbf{c}))\]
+
+<p><strong>Expand</strong> (distributivity, and $\mathbf{x}^\top g(\mathbf{c}) = g(\mathbf{c})^\top\mathbf{x}$ because a scalar is its own transpose):</p>
+
+\[= \mathbf{x}^\top\mathbf{x} - 2\mathbf{x}^\top g(\mathbf{c}) + g(\mathbf{c})^\top g(\mathbf{c})\]
+
+<p><strong>Drop</strong> $\mathbf{x}^\top\mathbf{x}$, which does not depend on $\mathbf{c}$. <strong>Substitute</strong> $g(\mathbf{c}) = \mathbf{Dc}$ and <strong>use</strong> $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$:</p>
+
+\[\mathbf{c}^* = \arg\min_{\mathbf{c}} \; -2\mathbf{x}^\top\mathbf{D}\mathbf{c} + \mathbf{c}^\top\mathbf{D}^\top\mathbf{D}\mathbf{c} = \arg\min_{\mathbf{c}} \; -2\mathbf{x}^\top\mathbf{D}\mathbf{c} + \mathbf{c}^\top\mathbf{c}\]
+
+<p><strong>Set the gradient to zero:</strong></p>
+
+\[\nabla_{\mathbf{c}}\big(-2\mathbf{x}^\top\mathbf{D}\mathbf{c} + \mathbf{c}^\top\mathbf{c}\big) = -2\mathbf{D}^\top\mathbf{x} + 2\mathbf{c} = \mathbf{0} \quad\Rightarrow\quad \boxed{\mathbf{c} = \mathbf{D}^\top\mathbf{x}}\]
+
+<p>The objective is a convex quadratic in $\mathbf{c}$ (Hessian $2\mathbf{I}$, which is PD), so this stationary point is the global minimum.</p>
+
+<p>So the encoder is a single matrix-vector product, $f(\mathbf{x}) = \mathbf{D}^\top\mathbf{x}$, and</p>
+
+\[r(\mathbf{x}) = \mathbf{D}\mathbf{D}^\top\mathbf{x}\]
+
+<p>$\mathbf{D}\mathbf{D}^\top$ is the orthogonal projection onto the column space of $\mathbf{D}$. PCA reconstruction is “project onto a subspace”.</p>
+
+<h3 id="step-2-choose-d">Step 2: choose D</h3>
+
+<p>$\mathbf{D}$ is shared across all points, so minimize the total error over the dataset, as a Frobenius norm over all reconstruction errors:</p>
+
+\[\mathbf{D}^* = \arg\min_{\mathbf{D}} \sqrt{\sum_{i,j}\Big(x_j^{(i)} - r(\mathbf{x}^{(i)})_j\Big)^2} \quad \text{subject to } \mathbf{D}^\top\mathbf{D} = \mathbf{I}_l\]
+
+<h4 id="the-case-l--1">The case $l = 1$</h4>
+
+<p>Now $\mathbf{D}$ is a single unit vector $\mathbf{d}$. Drop the square root (same argument as before):</p>
+
+\[\mathbf{d}^* = \arg\min_{\mathbf{d}} \sum_i \|\mathbf{x}^{(i)} - \mathbf{d}\mathbf{d}^\top\mathbf{x}^{(i)}\|_2^2 \quad \text{s.t. } \|\mathbf{d}\|_2 = 1\]
+
+<p>$\mathbf{d}^\top\mathbf{x}^{(i)}$ is a scalar, so it can move to the left and be transposed: $\mathbf{d}\mathbf{d}^\top\mathbf{x}^{(i)} = (\mathbf{x}^{(i)\top}\mathbf{d})\mathbf{d}$.</p>
+
+<p><strong>Matrix form.</strong> Stack the points as rows of the design matrix $\mathbf{X} \in \mathbb{R}^{m \times n}$, so $\mathbf{X}_{i,:} = \mathbf{x}^{(i)\top}$. Row $i$ of $\mathbf{X}\mathbf{d}\mathbf{d}^\top$ is $(\mathbf{x}^{(i)\top}\mathbf{d})\mathbf{d}^\top$, the transposed reconstruction of point $i$. So</p>
+
+\[\mathbf{d}^* = \arg\min_{\mathbf{d}} \|\mathbf{X} - \mathbf{X}\mathbf{d}\mathbf{d}^\top\|_F^2 \quad \text{s.t. } \mathbf{d}^\top\mathbf{d} = 1\]
+
+<p><strong>Rewrite the Frobenius norm as a trace and expand.</strong> Using $|\mathbf{M}|_F^2 = \operatorname{Tr}(\mathbf{M}^\top\mathbf{M})$:</p>
+
+\[\operatorname{Tr}\big((\mathbf{X} - \mathbf{X}\mathbf{d}\mathbf{d}^\top)^\top(\mathbf{X} - \mathbf{X}\mathbf{d}\mathbf{d}^\top)\big)\]
+
+\[= \operatorname{Tr}(\mathbf{X}^\top\mathbf{X}) - \operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top) - \operatorname{Tr}(\mathbf{d}\mathbf{d}^\top\mathbf{X}^\top\mathbf{X}) + \operatorname{Tr}(\mathbf{d}\mathbf{d}^\top\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)\]
+
+<p><strong>Simplify.</strong></p>
+
+<ul>
+  <li>Drop $\operatorname{Tr}(\mathbf{X}^\top\mathbf{X})$, which does not depend on $\mathbf{d}$.</li>
+  <li>The two middle terms are equal (cycle the trace, or transpose it), giving $-2\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)$.</li>
+  <li>Cycle the last term: $\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top\mathbf{d}\mathbf{d}^\top)$. Now apply the constraint $\mathbf{d}^\top\mathbf{d} = 1$ to get $\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)$.</li>
+</ul>
+
+<p>The constraint can only be applied <strong>after</strong> the cycling brings $\mathbf{d}^\top\mathbf{d}$ together. Before that, nothing simplifies. This is the step people get stuck on.</p>
+
+<p>The objective becomes</p>
+
+\[-2\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top) + \operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top) = -\operatorname{Tr}(\mathbf{X}^\top\mathbf{X}\mathbf{d}\mathbf{d}^\top)\]
+
+<p>Minimizing the negative is maximizing the positive, and one more cycle turns the trace into a scalar:</p>
+
+\[\boxed{\mathbf{d}^* = \arg\max_{\mathbf{d}} \; \mathbf{d}^\top\mathbf{X}^\top\mathbf{X}\mathbf{d} \quad \text{s.t. } \mathbf{d}^\top\mathbf{d} = 1}\]
+
+<p><strong>Solve.</strong> This is exactly the quadratic form on the unit sphere from Section 7, with the symmetric PSD matrix $\mathbf{X}^\top\mathbf{X}$. The maximum is the largest eigenvalue, attained at its eigenvector. So <strong>$\mathbf{d}$ is the eigenvector of $\mathbf{X}^\top\mathbf{X}$ with the largest eigenvalue</strong>: the first principal component.</p>
+
+<p><strong>Alternative via Lagrange multipliers</strong> (good to show in an interview): $\mathcal{L} = \mathbf{d}^\top\mathbf{X}^\top\mathbf{X}\mathbf{d} - \lambda(\mathbf{d}^\top\mathbf{d} - 1)$. Setting $\nabla_{\mathbf{d}}\mathcal{L} = 0$ gives $\mathbf{X}^\top\mathbf{X}\mathbf{d} = \lambda\mathbf{d}$, so every stationary point is an eigenvector, and the objective equals $\mathbf{d}^\top(\lambda\mathbf{d}) = \lambda$. Pick the largest.</p>
+
+<h4 id="the-general-case-l--1">The general case $l &gt; 1$</h4>
+
+<p>The optimal $\mathbf{D}$ has as columns the $l$ eigenvectors of $\mathbf{X}^\top\mathbf{X}$ with the $l$ largest eigenvalues. The book leaves the proof as an exercise. A short version:</p>
+
+<p>The same expansion gives $\mathbf{D}^* = \arg\max_{\mathbf{D}} \operatorname{Tr}(\mathbf{D}^\top\mathbf{X}^\top\mathbf{X}\mathbf{D})$ subject to $\mathbf{D}^\top\mathbf{D} = \mathbf{I}_l$. Write $\mathbf{X}^\top\mathbf{X} = \mathbf{Q}\boldsymbol{\Lambda}\mathbf{Q}^\top$ and $\mathbf{W} = \mathbf{Q}^\top\mathbf{D}$ (also orthonormal columns). Then</p>
+
+\[\operatorname{Tr}(\mathbf{D}^\top\mathbf{X}^\top\mathbf{X}\mathbf{D}) = \operatorname{Tr}(\mathbf{W}^\top\boldsymbol{\Lambda}\mathbf{W}) = \sum_{k=1}^{n}\lambda_k \, p_k, \qquad p_k = \sum_{j=1}^{l} W_{k,j}^2\]
+
+<p>Each $p_k \in [0, 1]$ (it is a squared length of a row of a matrix with orthonormal columns, which is at most 1), and $\sum_k p_k = |\mathbf{W}|_F^2 = l$. Maximizing $\sum_k\lambda_k p_k$ under these constraints puts $p_k = 1$ on the $l$ largest eigenvalues and $0$ elsewhere. That is achieved when the columns of $\mathbf{D}$ span the top-$l$ eigenvectors. (This is Ky Fan’s theorem. An induction proof adds one direction at a time, each orthogonal to the previous ones.)</p>
+
+<h3 id="interpretation-and-links">Interpretation and links</h3>
+
+<ul>
+  <li>If $\mathbf{X}$ is centered, $\tfrac{1}{m}\mathbf{X}^\top\mathbf{X}$ is the sample covariance. PCA directions are the directions of <strong>largest variance</strong>, and the eigenvalue is the variance along that direction. <strong>Minimizing reconstruction error and maximizing projected variance are the same problem.</strong>
+</li>
+  <li>
+<strong>Via SVD:</strong> if $\mathbf{X} = \mathbf{U}\mathbf{S}\mathbf{V}^\top$, the principal components are the top columns of $\mathbf{V}$, and the eigenvalues of $\mathbf{X}^\top\mathbf{X}$ are $\sigma_i^2$. In practice compute the SVD of $\mathbf{X}$ rather than forming $\mathbf{X}^\top\mathbf{X}$, which squares the condition number.</li>
+  <li>The leftover error equals the sum of the discarded eigenvalues (Eckart-Young again).</li>
+  <li>A linear autoencoder trained with squared error learns the same subspace as PCA (but not necessarily orthonormal columns).</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">default_rng</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">rng</span><span class="p">.</span><span class="nf">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span> <span class="o">@</span> <span class="n">rng</span><span class="p">.</span><span class="nf">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">X</span> <span class="o">-=</span> <span class="n">X</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>                                   <span class="c1"># center
+</span><span class="n">evals</span><span class="p">,</span> <span class="n">evecs</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">eigh</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">X</span><span class="p">)</span>
+<span class="n">D</span> <span class="o">=</span> <span class="n">evecs</span><span class="p">[:,</span> <span class="p">::</span><span class="o">-</span><span class="mi">1</span><span class="p">][:,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]</span>                        <span class="c1"># top-2 eigenvectors
+</span><span class="n">R</span> <span class="o">=</span> <span class="n">X</span> <span class="o">@</span> <span class="n">D</span> <span class="o">@</span> <span class="n">D</span><span class="p">.</span><span class="n">T</span>                                  <span class="c1"># reconstruction (rows)
+</span><span class="n">err</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linalg</span><span class="p">.</span><span class="nf">norm</span><span class="p">(</span><span class="n">X</span> <span class="o">-</span> <span class="n">R</span><span class="p">,</span> <span class="sh">'</span><span class="s">fro</span><span class="sh">'</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="nf">isclose</span><span class="p">(</span><span class="n">err</span><span class="p">,</span> <span class="n">evals</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">:].</span><span class="nf">sum</span><span class="p">()))</span>    <span class="c1"># True: error = discarded eigenvalues
+</span></code></pre></div></div>
+
+<hr>
+
+<h2 id="13-cheat-sheet">13. Cheat sheet</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fact</th>
+      <th>Formula</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>matrix product</td>
+      <td>$C_{i,j} = \sum_k A_{i,k}B_{k,j}$</td>
+    </tr>
+    <tr>
+      <td>transpose of product</td>
+      <td>$(\mathbf{AB})^\top = \mathbf{B}^\top\mathbf{A}^\top$</td>
+    </tr>
+    <tr>
+      <td>column view</td>
+      <td>$\mathbf{Ax} = \sum_j x_j\mathbf{A}_{:,j}$</td>
+    </tr>
+    <tr>
+      <td>unique solution for all $\mathbf{b}$</td>
+      <td>$\mathbf{A}$ square with independent columns</td>
+    </tr>
+    <tr>
+      <td>$L^p$ norm</td>
+      <td>$(\sum_i \lvert x_i\rvert^p)^{1/p}$, $p \ge 1$</td>
+    </tr>
+    <tr>
+      <td>dot product</td>
+      <td>$\mathbf{x}^\top\mathbf{y} = |\mathbf{x}||\mathbf{y}|\cos\theta$</td>
+    </tr>
+    <tr>
+      <td>orthogonal matrix</td>
+      <td>$\mathbf{Q}^\top\mathbf{Q} = \mathbf{QQ}^\top = \mathbf{I}$, $\mathbf{Q}^{-1} = \mathbf{Q}^\top$</td>
+    </tr>
+    <tr>
+      <td>eigen equation</td>
+      <td>$\mathbf{Av} = \lambda\mathbf{v}$</td>
+    </tr>
+    <tr>
+      <td>eigendecomposition</td>
+      <td>$\mathbf{A} = \mathbf{V}\operatorname{diag}(\boldsymbol\lambda)\mathbf{V}^{-1}$</td>
+    </tr>
+    <tr>
+      <td>spectral theorem</td>
+      <td>$\mathbf{A} = \mathbf{A}^\top \Rightarrow \mathbf{A} = \mathbf{Q}\boldsymbol\Lambda\mathbf{Q}^\top$</td>
+    </tr>
+    <tr>
+      <td>Rayleigh bounds</td>
+      <td>$\lambda_{\min} \le \mathbf{x}^\top\mathbf{Ax} \le \lambda_{\max}$ for $|\mathbf{x}| = 1$</td>
+    </tr>
+    <tr>
+      <td>PSD</td>
+      <td>all $\lambda_i \ge 0$ $\Leftrightarrow$ $\mathbf{x}^\top\mathbf{Ax} \ge 0$</td>
+    </tr>
+    <tr>
+      <td>SVD</td>
+      <td>$\mathbf{A} = \mathbf{UDV}^\top$, $\sigma_i = \sqrt{\lambda_i(\mathbf{A}^\top\mathbf{A})}$</td>
+    </tr>
+    <tr>
+      <td>pseudoinverse</td>
+      <td>$\mathbf{A}^+ = \mathbf{VD}^+\mathbf{U}^\top$</td>
+    </tr>
+    <tr>
+      <td>trace cyclic</td>
+      <td>$\operatorname{Tr}(\mathbf{ABC}) = \operatorname{Tr}(\mathbf{CAB})$</td>
+    </tr>
+    <tr>
+      <td>Frobenius</td>
+      <td>$|\mathbf{A}|_F^2 = \operatorname{Tr}(\mathbf{AA}^\top) = \sum_i\sigma_i^2$</td>
+    </tr>
+    <tr>
+      <td>trace and det</td>
+      <td>$\operatorname{Tr}(\mathbf{A}) = \sum_i\lambda_i$, $\det(\mathbf{A}) = \prod_i\lambda_i$</td>
+    </tr>
+    <tr>
+      <td>PCA</td>
+      <td>encoder $\mathbf{D}^\top\mathbf{x}$, decoder $\mathbf{Dc}$, $\mathbf{D}$ = top-$l$ eigenvectors of $\mathbf{X}^\top\mathbf{X}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="14-self-test">14. Self-test</h2>
+
+<p>Do these on blank paper, without notes. If you get stuck, reread only the relevant section.</p>
+
+<p><strong>Quick checks</strong></p>
+
+<ol>
+  <li>Why can $\mathbf{Ax} = \mathbf{b}$ never have exactly two solutions?</li>
+  <li>Give a $2 \times 2$ matrix with $n \ge m$ whose columns do not span $\mathbb{R}^2$.</li>
+  <li>Why is the count of nonzeros not a norm? Which axiom fails?</li>
+  <li>Why does $L^1$ produce sparse solutions while squared $L^2$ does not? Answer using gradients.</li>
+  <li>For a tall $\mathbf{U}$ with orthonormal columns, which of $\mathbf{U}^\top\mathbf{U}$ and $\mathbf{U}\mathbf{U}^\top$ is the identity? What is the other one?</li>
+  <li>Give a real matrix with no real eigenvalues, and one that is not diagonalizable.</li>
+  <li>Show that $\mathbf{X}^\top\mathbf{X}$ is PSD in one line.</li>
+  <li>$\mathbf{A}$ is $3 \times 5$, $\mathbf{B}$ is $5 \times 3$. Is $\operatorname{Tr}(\mathbf{AB}) = \operatorname{Tr}(\mathbf{BA})$? Prove it.</li>
+  <li>What does $\det(\mathbf{A}) = 0$ mean geometrically?</li>
+</ol>
+
+<p><strong>Derivations</strong></p>
+
+<ol>
+  <li>Prove $\mathbf{x}^\top\mathbf{y} = \mathbf{y}^\top\mathbf{x}$ using only transpose rules.</li>
+  <li>Prove that $\mathbf{x}^\top\mathbf{Ax}$ on the unit sphere is bounded by the extreme eigenvalues of a symmetric $\mathbf{A}$.</li>
+  <li>Starting from $\mathbf{A} = \mathbf{UDV}^\top$, derive the eigendecompositions of $\mathbf{A}^\top\mathbf{A}$ and $\mathbf{AA}^\top$.</li>
+  <li>Derive the normal equations for least squares and show the solution equals $\mathbf{A}^+\mathbf{y}$ for full column rank.</li>
+  <li>Derive the PCA encoder $\mathbf{c} = \mathbf{D}^\top\mathbf{x}$ from the reconstruction objective.</li>
+  <li>Derive that the first principal component is the top eigenvector of $\mathbf{X}^\top\mathbf{X}$, using the trace route. Then redo it with Lagrange multipliers.</li>
+  <li>Prove the $l &gt; 1$ PCA result.</li>
+</ol>
+
+<p><strong>Interview-style follow-ups</strong></p>
+
+<ol>
+  <li>Why compute PCA with the SVD of $\mathbf{X}$ rather than the eigendecomposition of $\mathbf{X}^\top\mathbf{X}$?</li>
+  <li>What goes wrong if you forget to center the data before PCA?</li>
+  <li>Why is $(\mathbf{A}^\top\mathbf{A} + \alpha\mathbf{I})$ always invertible for $\alpha &gt; 0$? How does this relate to weight decay?</li>
+  <li>LoRA writes a weight update as $\mathbf{BA}$ with rank $r$. Using the SVD, what is the best possible rank-$r$ approximation of a given update $\Delta\mathbf{W}$, and what is its error?</li>
+  <li>At a critical point, the Hessian has eigenvalues ${3, 0.5, -0.1}$. What kind of point is it, and along which direction does the loss decrease?</li>
+</ol>
+
+<hr>
+
+<h2 id="15-further-references">15. Further references</h2>
+
+<ul>
+  <li>Goodfellow, Bengio, Courville. <em>Deep Learning</em>, Chapter 2. <a href="https://www.deeplearningbook.org/contents/linear_algebra.html" rel="external nofollow noopener" target="_blank">deeplearningbook.org</a>
+</li>
+  <li>Petersen and Pedersen. <em>The Matrix Cookbook</em>. A dense list of identities, useful for lookup.</li>
+  <li>Shilov. <em>Linear Algebra</em> (Dover). A full treatment if you want proofs.</li>
+  <li>Strang. <em>Introduction to Linear Algebra</em>, and his MIT 18.06 lectures, for the four fundamental subspaces.</li>
+  <li>Parr and Howard. “The Matrix Calculus You Need for Deep Learning”. The natural next step after these notes.</li>
+</ul>
+
+  </article>
+
+
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2020/first-of-my-gsoc-project/">First of my GSoC project</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/year-review_2023/">Redefining Normal: A Year of Changes and Challenges in 2023</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/part1-a_ml/">Introduction to Adversarial ML</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/ml_android/">Deploying a PyTorch ML model in an Android app</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/year-review_2021/">The year with new learnings: 2021</a>
+  </li>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2026 Shashank  Priyadarshi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>

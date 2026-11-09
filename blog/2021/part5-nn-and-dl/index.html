@@ -41,16 +41,6 @@
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
-    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-       <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({
-           tex2jax: {
-             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-             processEscapes: true
-           }
-         });
-       </script>
-       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     
 
   </head>
@@ -390,7 +380,7 @@ for iteration in range(40):
 <p>Here <strong>-</strong> indicates that there is a downward pressure, <strong>+</strong> indicated that there is an up pressure, and 0 indicates that there is no pressure. So if we see on average, the left weight has 2 negative and one positive so it will move the weight towards 0. Similarly, the middle weight has 2 positives which will move the middle weight towards 1. Each individual weight here is trying to compensate for the error. The whole process of training is that the learning algorithms reward the input which is correlating the output and penalize the input which is decorrelated with the downward pressure. The weighted sum of the inputs perfectly correlates between the input and output by weighting decorrelated inputs to 0. Let’s see some of the edge cases -</p>
 
 <ol>
-  <li>Overfitting - Let’s again take the first example of streetlight [ 1 0 1 ] here what if the weight were 0.5 and -0.5 for far-right and far-left weights. Then the overall prediction is going to be 0 (-0.5<em>1 + 0.5</em>1 ) in this case. Here the weight is giving the prediction as 0 i.e the output we want. But is it a correct weight configuration? No right because it will fail for other real-world examples i.e. it just learned how to predict safely not how to predict originally. This is known as overfitting. The correct way is to giving the heaviest weight to the best input where it will predict the correct output not the safe one. So we need to make our neural network generalize instead of memorizing.</li>
+  <li>Overfitting - Let’s again take the first example of streetlight [ 1 0 1 ] here what if the weight were 0.5 and -0.5 for far-right and far-left weights. Then the overall prediction is going to be 0 (-0.5 * 1 + 0.5 * 1) in this case. Here the weight is giving the prediction as 0 i.e the output we want. But is it a correct weight configuration? No right because it will fail for other real-world examples i.e. it just learned how to predict safely not how to predict originally. This is known as overfitting. The correct way is to giving the heaviest weight to the best input where it will predict the correct output not the safe one. So we need to make our neural network generalize instead of memorizing.</li>
   <li>Conflicting pressure - If we consider the far right column in our example then we could say that it contains equal no. of positive as well as negative i.e. equal no. of upward and downward pressure. But on the other hand, we know the weight pushes it to 0 which means downward pressure is greater than upward pressure. So here for predicting 1, we have a 1:1 relation of middle weight with the output but for predicting 0 we may get some issue. Further, we’ll also learn about regularization, as if a weight has equal down and up pressure, then it is of no use, i.e. it’s not helping in either direction. So regularization says that weight with really string correlation is going to contribute or stay, and everything else would be considered as noise.</li>
 </ol>
 
@@ -532,6 +522,12 @@ for iteration in range(60):
   
 
   <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/la/">Linear Algebra for Deep Learning</a>
+  </li>
+
+  
+
+  <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/part1-a_ml/">Introduction to Adversarial ML</a>
   </li>
 
@@ -539,12 +535,6 @@ for iteration in range(60):
 
   <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/ml_android/">Deploying a PyTorch ML model in an Android app</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/year-review_2021/">The year with new learnings: 2021</a>
   </li>
 
 </div>
@@ -586,7 +576,14 @@ for iteration in range(60):
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
       }
     };
   </script>
