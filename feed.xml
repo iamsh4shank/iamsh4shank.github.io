@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://iamsh4shank.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iamsh4shank.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-11-09T13:53:09+00:00</updated><id>https://iamsh4shank.github.io/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://iamsh4shank.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iamsh4shank.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-11-09T13:53:32+00:00</updated><id>https://iamsh4shank.github.io/feed.xml</id><title type="html">blank</title><subtitle>A researcher, developer, and a traveler.
 </subtitle><entry><title type="html">Redefining Normal: A Year of Changes and Challenges in 2023</title><link href="https://iamsh4shank.github.io/blog/2023/year-review_2023/" rel="alternate" type="text/html" title="Redefining Normal: A Year of Changes and Challenges in 2023" /><published>2023-12-10T15:59:00+00:00</published><updated>2023-12-10T15:59:00+00:00</updated><id>https://iamsh4shank.github.io/blog/2023/year-review_2023</id><content type="html" xml:base="https://iamsh4shank.github.io/blog/2023/year-review_2023/"><![CDATA[<p>On one fine evening I was thinking what all happened in my year and I realised that it’s funny how the passage of time can bring about so much change, presenting us with unforeseen challenges and forcing us to make decisions that shape the course of our lives.</p>
 
 <p>This year, like any other, has been a mosaic of experiences, each piece contributing to the larger picture of who I am becoming. As I sit here, typing on my keyboard and thoughts flowing freely, I’m struck by the realization that this year has been a subtle yet profound teacher, offering lessons in resilience, adaptability, and the art of decision-making.</p>
@@ -392,8 +392,6 @@ regular job.</p>
 
 <p>These are my own study notes on the linear algebra you need before reading deep learning papers. They follow the topics in Chapter 2 of <em>Deep Learning</em> by Goodfellow, Bengio and Courville (<a href="https://www.deeplearningbook.org/contents/linear_algebra.html">online chapter</a>). I wrote everything in my own words and added derivations, small numeric examples, NumPy checks and self-test questions. Read the original chapter too. It is free and short.</p>
 
-<p><strong>How to use these notes.</strong> Read a section once. Then close the page and derive the boxed results on blank paper. The self-test at the end lists what you should be able to do without notes.</p>
-
 <hr />
 
 <h2 id="table-of-contents">Table of contents</h2>
@@ -412,8 +410,7 @@ regular job.</p>
   <li><a href="#11-determinant">Determinant</a></li>
   <li><a href="#12-worked-example-deriving-pca">Worked example: deriving PCA</a></li>
   <li><a href="#13-cheat-sheet">Cheat sheet</a></li>
-  <li><a href="#14-self-test">Self-test</a></li>
-  <li><a href="#15-further-references">Further references</a></li>
+  <li><a href="#14-further-references">Further references</a></li>
 </ol>
 
 <hr />
@@ -1443,51 +1440,45 @@ has two columns but both point the same way. Its column space is a line, not $\m
   </tbody>
 </table>
 
-<hr />
+<!-- ---
 
-<h2 id="14-self-test">14. Self-test</h2>
+## 14. Self-test
 
-<p>Do these on blank paper, without notes. If you get stuck, reread only the relevant section.</p>
+Do these on blank paper, without notes. If you get stuck, reread only the relevant section.
 
-<p><strong>Quick checks</strong></p>
+**Quick checks**
 
-<ol>
-  <li>Why can $\mathbf{Ax} = \mathbf{b}$ never have exactly two solutions?</li>
-  <li>Give a $2 \times 2$ matrix with $n \ge m$ whose columns do not span $\mathbb{R}^2$.</li>
-  <li>Why is the count of nonzeros not a norm? Which axiom fails?</li>
-  <li>Why does $L^1$ produce sparse solutions while squared $L^2$ does not? Answer using gradients.</li>
-  <li>For a tall $\mathbf{U}$ with orthonormal columns, which of $\mathbf{U}^\top\mathbf{U}$ and $\mathbf{U}\mathbf{U}^\top$ is the identity? What is the other one?</li>
-  <li>Give a real matrix with no real eigenvalues, and one that is not diagonalizable.</li>
-  <li>Show that $\mathbf{X}^\top\mathbf{X}$ is PSD in one line.</li>
-  <li>$\mathbf{A}$ is $3 \times 5$, $\mathbf{B}$ is $5 \times 3$. Is $\operatorname{Tr}(\mathbf{AB}) = \operatorname{Tr}(\mathbf{BA})$? Prove it.</li>
-  <li>What does $\det(\mathbf{A}) = 0$ mean geometrically?</li>
-</ol>
+1. Why can $\mathbf{Ax} = \mathbf{b}$ never have exactly two solutions?
+2. Give a $2 \times 2$ matrix with $n \ge m$ whose columns do not span $\mathbb{R}^2$.
+3. Why is the count of nonzeros not a norm? Which axiom fails?
+4. Why does $L^1$ produce sparse solutions while squared $L^2$ does not? Answer using gradients.
+5. For a tall $\mathbf{U}$ with orthonormal columns, which of $\mathbf{U}^\top\mathbf{U}$ and $\mathbf{U}\mathbf{U}^\top$ is the identity? What is the other one?
+6. Give a real matrix with no real eigenvalues, and one that is not diagonalizable.
+7. Show that $\mathbf{X}^\top\mathbf{X}$ is PSD in one line.
+8. $\mathbf{A}$ is $3 \times 5$, $\mathbf{B}$ is $5 \times 3$. Is $\operatorname{Tr}(\mathbf{AB}) = \operatorname{Tr}(\mathbf{BA})$? Prove it.
+9. What does $\det(\mathbf{A}) = 0$ mean geometrically?
 
-<p><strong>Derivations</strong></p>
+**Derivations**
 
-<ol>
-  <li>Prove $\mathbf{x}^\top\mathbf{y} = \mathbf{y}^\top\mathbf{x}$ using only transpose rules.</li>
-  <li>Prove that $\mathbf{x}^\top\mathbf{Ax}$ on the unit sphere is bounded by the extreme eigenvalues of a symmetric $\mathbf{A}$.</li>
-  <li>Starting from $\mathbf{A} = \mathbf{UDV}^\top$, derive the eigendecompositions of $\mathbf{A}^\top\mathbf{A}$ and $\mathbf{AA}^\top$.</li>
-  <li>Derive the normal equations for least squares and show the solution equals $\mathbf{A}^+\mathbf{y}$ for full column rank.</li>
-  <li>Derive the PCA encoder $\mathbf{c} = \mathbf{D}^\top\mathbf{x}$ from the reconstruction objective.</li>
-  <li>Derive that the first principal component is the top eigenvector of $\mathbf{X}^\top\mathbf{X}$, using the trace route. Then redo it with Lagrange multipliers.</li>
-  <li>Prove the $l &gt; 1$ PCA result.</li>
-</ol>
+10. Prove $\mathbf{x}^\top\mathbf{y} = \mathbf{y}^\top\mathbf{x}$ using only transpose rules.
+11. Prove that $\mathbf{x}^\top\mathbf{Ax}$ on the unit sphere is bounded by the extreme eigenvalues of a symmetric $\mathbf{A}$.
+12. Starting from $\mathbf{A} = \mathbf{UDV}^\top$, derive the eigendecompositions of $\mathbf{A}^\top\mathbf{A}$ and $\mathbf{AA}^\top$.
+13. Derive the normal equations for least squares and show the solution equals $\mathbf{A}^+\mathbf{y}$ for full column rank.
+14. Derive the PCA encoder $\mathbf{c} = \mathbf{D}^\top\mathbf{x}$ from the reconstruction objective.
+15. Derive that the first principal component is the top eigenvector of $\mathbf{X}^\top\mathbf{X}$, using the trace route. Then redo it with Lagrange multipliers.
+16. Prove the $l > 1$ PCA result.
 
-<p><strong>Interview-style follow-ups</strong></p>
+**Interview-style follow-ups**
 
-<ol>
-  <li>Why compute PCA with the SVD of $\mathbf{X}$ rather than the eigendecomposition of $\mathbf{X}^\top\mathbf{X}$?</li>
-  <li>What goes wrong if you forget to center the data before PCA?</li>
-  <li>Why is $(\mathbf{A}^\top\mathbf{A} + \alpha\mathbf{I})$ always invertible for $\alpha &gt; 0$? How does this relate to weight decay?</li>
-  <li>LoRA writes a weight update as $\mathbf{BA}$ with rank $r$. Using the SVD, what is the best possible rank-$r$ approximation of a given update $\Delta\mathbf{W}$, and what is its error?</li>
-  <li>At a critical point, the Hessian has eigenvalues ${3, 0.5, -0.1}$. What kind of point is it, and along which direction does the loss decrease?</li>
-</ol>
+17. Why compute PCA with the SVD of $\mathbf{X}$ rather than the eigendecomposition of $\mathbf{X}^\top\mathbf{X}$?
+18. What goes wrong if you forget to center the data before PCA?
+19. Why is $(\mathbf{A}^\top\mathbf{A} + \alpha\mathbf{I})$ always invertible for $\alpha > 0$? How does this relate to weight decay?
+20. LoRA writes a weight update as $\mathbf{BA}$ with rank $r$. Using the SVD, what is the best possible rank-$r$ approximation of a given update $\Delta\mathbf{W}$, and what is its error?
+21. At a critical point, the Hessian has eigenvalues $\{3, 0.5, -0.1\}$. What kind of point is it, and along which direction does the loss decrease? -->
 
 <hr />
 
-<h2 id="15-further-references">15. Further references</h2>
+<h2 id="14-further-references">14. Further references</h2>
 
 <ul>
   <li>Goodfellow, Bengio, Courville. <em>Deep Learning</em>, Chapter 2. <a href="https://www.deeplearningbook.org/contents/linear_algebra.html">deeplearningbook.org</a></li>
